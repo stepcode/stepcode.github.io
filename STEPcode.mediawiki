@@ -1,8 +1,9 @@
-'''MediaWiki has been successfully installed.'''
+'''STEPcode'''
 
-Consult the [//meta.wikimedia.org/wiki/Help:Contents User's Guide] for information on using the wiki software.
+The STEPcode project is a collection of open source libraries, tools, and resources for ISO 10303,
+the STandard for the Exchange of Product (STEP) model data. 
+Formerly known as the STEP Class Library (SCL), the project has evolved from its origins at NIST into a
+diverse open source community helping improve the accesibility, adoption, and promotion of STEP amongst CAx developers.
 
-== Getting started ==
-* [//www.mediawiki.org/wiki/Manual:Configuration_settings Configuration settings list]
-* [//www.mediawiki.org/wiki/Manual:FAQ MediaWiki FAQ]
-* [https://lists.wikimedia.org/mailman/listinfo/mediawiki-announce MediaWiki release mailing list]
+This project provides a robust implementation of an EXPRESS schema parser for STEP's Part 21 files
+with bindings provided in C, C++, and Python.
