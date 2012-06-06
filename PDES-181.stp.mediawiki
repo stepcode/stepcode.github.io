@@ -230,7 +230,7 @@ ERROR:  ENTITY #223 Layered_Interconnect_Module_Design_View
 ERROR in EXCHANGE FILE: incomplete instance #223.
 </pre>
 
-== Missing and required ==
+=== Missing and required ===
 This is only a few of the errors.
 
 <pre>

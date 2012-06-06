@@ -215,8 +215,7 @@ There were hundreds of errors reported; I only copied the first few.
         data lost looking for end of attribute: 'interconnect module'
     ERROR in EXCHANGE FILE: incomplete instance #223.
 
-Missing and required
---------------------
+### Missing and required
 
 This is only a few of the errors.
 
