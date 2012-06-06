@@ -28,3 +28,15 @@ Source Code
 -----------
 
 The source is available on [GitHub](http://github.com/stepcode/stepcode)
+
+Schemas
+-------
+
+There is a [schema\_list list of schemas] that STEPcode has been tested
+with.
+
+External Resources
+------------------
+
+A [external\_resources list of external resources] related to
+STEP/EXPRESS.

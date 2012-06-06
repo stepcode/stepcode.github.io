@@ -11,3 +11,9 @@ Currently, STEPcode provides a robust implementation of an EXPRESS schema parser
 
 == Source Code ==
 The source is available on [http://github.com/stepcode/stepcode GitHub]
+
+== Schemas ==
+There is a [schema_list list of schemas] that STEPcode has been tested with.
+
+== External Resources ==
+A [external_resources list of external resources] related to STEP/EXPRESS.
