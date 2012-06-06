@@ -152,7 +152,7 @@ ERROR: instance #7621 Illegal complex entity.
 Entity combination does not represent a legal complex entity.
 </pre>
 
-== Incomplete instance ==
+=== Incomplete instance ===
 There were hundreds of errors reported; I only copied the first few.
 <pre>
 ERROR:  ENTITY #1 Functional_Unit

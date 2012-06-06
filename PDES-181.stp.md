@@ -137,8 +137,7 @@ Errors reported by AP210e2 p21read
     ERROR: instance #7621 Illegal complex entity.
     Entity combination does not represent a legal complex entity.
 
-Incomplete instance
--------------------
+### Incomplete instance
 
 There were hundreds of errors reported; I only copied the first few.
 
