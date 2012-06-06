@@ -2,7 +2,11 @@
 title: STEPcode
 ---
 
-**STEPcode**
+STEPcode
+========
+
+Introduction
+------------
 
 The STEPcode project is a collection of open source libraries, tools,
 and resources for ISO 10303, the STandard for the Exchange of Product
@@ -19,3 +23,8 @@ Currently, STEPcode provides a robust implementation of an EXPRESS
 schema parser for STEP's Part 21 files with bindings provided in C, C++,
 and Python. STEPcode is used in other open source projects such as
 BRL-CAD (www.brl-cad.org), and the BSD license allows commercial use.
+
+Source Code
+-----------
+
+The source is available on [GitHub](http://github.com/stepcode/stepcode)
