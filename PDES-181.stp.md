@@ -16,6 +16,8 @@ Errors reported by AP210e2 [p21read](p21read "wikilink")
 
 ### Illegal complex entity
 
+It turns out that all of the complex entity errors are identical.
+
     ERROR: Could not create instance of the following complex entity:
     area_with_outer_boundary
     complex_area
@@ -27,121 +29,31 @@ Errors reported by AP210e2 [p21read](p21read "wikilink")
     representation_item
 
     ERROR: instance #4214 Illegal complex entity.
-    Entity combination does not represent a legal complex entity.
 
-    ERROR: Could not create instance of the following complex entity:
-    area_with_outer_boundary
-    complex_area
-    compound_representation_item
-    geometric_representation_item
-    half_space_2d
-    primitive_2d
-    primitive_2d_with_inner_boundary
-    representation_item
 
     ERROR: instance #4856 Illegal complex entity.
-    Entity combination does not represent a legal complex entity.
 
-    ERROR: Could not create instance of the following complex entity:
-    area_with_outer_boundary
-    complex_area
-    compound_representation_item
-    geometric_representation_item
-    half_space_2d
-    primitive_2d
-    primitive_2d_with_inner_boundary
-    representation_item
 
     ERROR: instance #5239 Illegal complex entity.
-    Entity combination does not represent a legal complex entity.
 
-    ERROR: Could not create instance of the following complex entity:
-    area_with_outer_boundary
-    complex_area
-    compound_representation_item
-    geometric_representation_item
-    half_space_2d
-    primitive_2d
-    primitive_2d_with_inner_boundary
-    representation_item
 
     ERROR: instance #5440 Illegal complex entity.
-    Entity combination does not represent a legal complex entity.
 
-    ERROR: Could not create instance of the following complex entity:
-    area_with_outer_boundary
-    complex_area
-    compound_representation_item
-    geometric_representation_item
-    half_space_2d
-    primitive_2d
-    primitive_2d_with_inner_boundary
-    representation_item
 
     ERROR: instance #5462 Illegal complex entity.
-    Entity combination does not represent a legal complex entity.
 
-    ERROR: Could not create instance of the following complex entity:
-    area_with_outer_boundary
-    complex_area
-    compound_representation_item
-    geometric_representation_item
-    half_space_2d
-    primitive_2d
-    primitive_2d_with_inner_boundary
-    representation_item
 
     ERROR: instance #6578 Illegal complex entity.
-    Entity combination does not represent a legal complex entity.
 
-    ERROR: Could not create instance of the following complex entity:
-    area_with_outer_boundary
-    complex_area
-    compound_representation_item
-    geometric_representation_item
-    half_space_2d
-    primitive_2d
-    primitive_2d_with_inner_boundary
-    representation_item
 
     ERROR: instance #7099 Illegal complex entity.
-    Entity combination does not represent a legal complex entity.
 
-    ERROR: Could not create instance of the following complex entity:
-    area_with_outer_boundary
-    complex_area
-    compound_representation_item
-    geometric_representation_item
-    half_space_2d
-    primitive_2d
-    primitive_2d_with_inner_boundary
-    representation_item
 
     ERROR: instance #7234 Illegal complex entity.
-    Entity combination does not represent a legal complex entity.
 
-    ERROR: Could not create instance of the following complex entity:
-    area_with_outer_boundary
-    complex_area
-    compound_representation_item
-    geometric_representation_item
-    half_space_2d
-    primitive_2d
-    primitive_2d_with_inner_boundary
-    representation_item
 
     ERROR: instance #7267 Illegal complex entity.
-    Entity combination does not represent a legal complex entity.
 
-    ERROR: Could not create instance of the following complex entity:
-    area_with_outer_boundary
-    complex_area
-    compound_representation_item
-    geometric_representation_item
-    half_space_2d
-    primitive_2d
-    primitive_2d_with_inner_boundary
-    representation_item
 
     ERROR: instance #7621 Illegal complex entity.
     Entity combination does not represent a legal complex entity.
