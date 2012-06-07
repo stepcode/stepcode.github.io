@@ -62,6 +62,8 @@ It turns out that all of the complex entity errors are identical.
 
 There were hundreds of errors reported; I only copied the first few.
 
+*'\#1=FUNCTIONAL\_UNIT('5',\$,\#3,\#4,*,\$,\*);'''
+
     ERROR:  ENTITY #1 Functional_Unit
       id :    WARNING: attribute id of type identifierMissing asterisk for derived attribute.
         Found invalid '5' value...

@@ -52,6 +52,9 @@ Entity combination does not represent a legal complex entity.
 
 === Incomplete instance ===
 There were hundreds of errors reported; I only copied the first few.
+
+'''#1=FUNCTIONAL_UNIT('5',$,#3,#4,'',$,*);'''
+
 <pre>
 ERROR:  ENTITY #1 Functional_Unit
   id :    WARNING: attribute id of type identifierMissing asterisk for derived attribute.
@@ -61,7 +64,9 @@ ERROR:  ENTITY #1 Functional_Unit
     Found invalid ' value...
     data lost looking for end of attribute: ''
 ERROR in EXCHANGE FILE: incomplete instance #1.
+</pre>
 
+<pre>
 ERROR:  ENTITY #6 Layered_Assembly_Module_Usage_View
   id :    WARNING: attribute id of type identifierMissing asterisk for derived attribute.
     Found invalid '2' value...
