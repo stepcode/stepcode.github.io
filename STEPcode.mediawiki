@@ -22,5 +22,8 @@ Unfortunately, it is not possible to view test from more than one day at once; y
 == Schemas ==
 There is a [[list of schemas]] that STEPcode has been tested with.
 
+== To Do ==
+A [[list of tasks]] that involve improving the wiki or STEPcode's source code.
+
 == External Resources ==
 A [[list of external resources]] related to STEP/EXPRESS.

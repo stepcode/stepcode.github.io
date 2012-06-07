@@ -45,6 +45,12 @@ Schemas
 There is a [list of schemas](list of schemas "wikilink") that STEPcode
 has been tested with.
 
+To Do
+-----
+
+A [list of tasks](list of tasks "wikilink") that involve improving the
+wiki or STEPcode's source code.
+
 External Resources
 ------------------
 
