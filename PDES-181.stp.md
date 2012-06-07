@@ -147,6 +147,8 @@ There were hundreds of errors reported; I only copied the first few.
 
 ### Missing and required
 
+-   This error report is under investigation by the AP 210 project.
+
 This is only a few of the errors.
 
 *'\#12970=PRODUCT\_SPECIFIC\_PARAMETER\_VALUE\_ASSIGNMENT(\$,\$,*,\$,(\#501));'''

@@ -137,6 +137,8 @@ ERROR in EXCHANGE FILE: incomplete instance #223.
 </pre>
 
 === Missing and required ===
+* This error report is under investigation by the AP 210 project.
+
 This is only a few of the errors.
 
 '''#12970=PRODUCT_SPECIFIC_PARAMETER_VALUE_ASSIGNMENT($,$,'',$,(#501));'''
