@@ -34,7 +34,10 @@ The source is available on [GitHub](http://github.com/stepcode/stepcode)
 ### Testing
 
 We use a CDash/CTest
-[dashboard](http://my.cdash.org/index.php?project=StepClassLibrary)
+[dashboard](http://my.cdash.org/index.php?project=StepClassLibrary).
+
+Unfortunately, it is not possible to view test from more than one day at
+once; you must use the **Previous** link for that.
 
 Schemas
 -------

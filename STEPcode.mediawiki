@@ -15,7 +15,9 @@ Currently, STEPcode provides a robust implementation of an EXPRESS schema parser
 The source is available on [http://github.com/stepcode/stepcode GitHub]
 
 === Testing ===
-We use a CDash/CTest [http://my.cdash.org/index.php?project=StepClassLibrary dashboard]
+We use a CDash/CTest [http://my.cdash.org/index.php?project=StepClassLibrary dashboard]. 
+
+Unfortunately, it is not possible to view test from more than one day at once; you must use the '''Previous''' link for that.
 
 == Schemas ==
 There is a [[list of schemas]] that STEPcode has been tested with.
