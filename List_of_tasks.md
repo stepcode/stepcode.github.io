@@ -6,6 +6,10 @@ On the wiki
 -----------
 
 -   Document the data structures in *libexpress*, *fedex\_plus*
+-   Copy content from github wiki?
+-   More external links
+-   Logo, background
+-   etc etc etc
 
 Improvements to STEPcode's source
 ---------------------------------
