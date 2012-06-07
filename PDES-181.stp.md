@@ -19,7 +19,7 @@ Errors reported by AP210e2 [p21read](p21read "wikilink")
 It turns out that all of the complex entity errors are identical.
 
 -   This error report has been accepted by the AP 210 project team as a
-    schema error \*
+    schema error.
 
 <!-- -->
 
