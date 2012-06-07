@@ -18,6 +18,11 @@ Errors reported by AP210e2 [p21read](p21read "wikilink")
 
 It turns out that all of the complex entity errors are identical.
 
+-   This error report has been accepted by the AP 210 project team as a
+    schema error \*
+
+<!-- -->
+
     ERROR: Could not create instance of the following complex entity:
     area_with_outer_boundary
     complex_area

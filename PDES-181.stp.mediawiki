@@ -8,6 +8,8 @@ This file is available [http://www.wikistep.org/index.php/PDES-181 on wikistep].
 === Illegal complex entity ===
 It turns out that all of the complex entity errors are identical.
 
+* This error report has been accepted by the AP 210 project team as a schema error *
+
 <pre>
 ERROR: Could not create instance of the following complex entity:
 area_with_outer_boundary
