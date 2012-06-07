@@ -2,6 +2,9 @@
 title: List of schemas
 ---
 
+This list is **incomplete**. See also [schema
+matrix](http://github.com/stepcode/stepcode/wiki/Schema-build-matrix)
+
 [AP203-WSEDS](AP203-WSEDS "wikilink")
 
 [AP203 Amendment 1](AP203 Amendment 1 "wikilink")
