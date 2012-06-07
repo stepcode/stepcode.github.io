@@ -142,8 +142,30 @@ There were hundreds of errors reported; I only copied the first few.
 
 This is only a few of the errors.
 
+*'\#12970=PRODUCT\_SPECIFIC\_PARAMETER\_VALUE\_ASSIGNMENT(\$,\$,*,\$,(\#501));'''
+
     ERROR:  ENTITY #12970 Product_Specific_Parameter_Value_Assignment
       name :   missing and required. For compatibility, replacing with ''.
+
+EXPRESS:
+
+`   `**`ENTITY` `product_specific_parameter_value_assignment`**  
+`       SUBTYPE OF (characterized_object, product_related_product_category);`  
+`   END_ENTITY;`
+
+`   `**`ENTITY` `product_related_product_category`**  
+`       SUBTYPE OF (product_category);`  
+`       products : SET [1:?] OF product;`  
+`   END_ENTITY;`
+
+`   `**`ENTITY` `product_category;`**  
+`       name : label;`  
+`       description : OPTIONAL text;`  
+`   DERIVE`  
+`       id : identifier := get_id_value(SELF);`  
+`   WHERE`  
+`       WR1 : SIZEOF(USEDIN(SELF, 'AP210_ELECTRONIC_ASSEMBLY_INTERCONNECT_AND_PACKAGING_DESIGN_MIM_LF.' + 'ID_ATTRIBUTE.IDENTIFIED_ITEM')) <= 1;`  
+`   END_ENTITY;`
 
     ERROR:  ENTITY #12976 Parameter_Assignment
       name :    WARNING: attribute name of type labelMissing asterisk for derived attribute.
