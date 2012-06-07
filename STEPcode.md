@@ -24,10 +24,17 @@ schema parser for STEP's Part 21 files with bindings provided in C, C++,
 and Python. STEPcode is used in other open source projects such as
 BRL-CAD (www.brl-cad.org), and the BSD license allows commercial use.
 
-Source Code
------------
+Project Links
+-------------
+
+### Source Code
 
 The source is available on [GitHub](http://github.com/stepcode/stepcode)
+
+### Testing
+
+We use a CDash/CTest
+[dashboard](http://my.cdash.org/index.php?project=StepClassLibrary)
 
 Schemas
 -------
