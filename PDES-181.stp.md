@@ -67,6 +67,8 @@ It turns out that all of the complex entity errors are identical.
 
 There were hundreds of errors reported; I only copied the first few.
 
+-   This error report is under investigation by the AP 210 project.
+
 *'\#1=FUNCTIONAL\_UNIT('5',\$,\#3,\#4,*,\$,\*);'''
 
     ERROR:  ENTITY #1 Functional_Unit

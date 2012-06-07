@@ -54,6 +54,7 @@ Entity combination does not represent a legal complex entity.
 
 === Incomplete instance ===
 There were hundreds of errors reported; I only copied the first few.
+* This error report is under investigation by the AP 210 project.
 
 '''#1=FUNCTIONAL_UNIT('5',$,#3,#4,'',$,*);'''
 
