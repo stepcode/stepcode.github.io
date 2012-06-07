@@ -151,7 +151,7 @@ There were hundreds of errors reported; I only copied the first few.
 
 This is only a few of the errors.
 
-*'\#12970=PRODUCT\_SPECIFIC\_PARAMETER\_VALUE\_ASSIGNMENT(\$,\$,*,\$,(\#501));'''
+<b>\#12970=PRODUCT\_SPECIFIC\_PARAMETER\_VALUE\_ASSIGNMENT(\$,\$,'',\$,(\#501));</b>
 
     ERROR:  ENTITY #12970 Product_Specific_Parameter_Value_Assignment
       name :   missing and required. For compatibility, replacing with ''.

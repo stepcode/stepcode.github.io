@@ -141,7 +141,7 @@ ERROR in EXCHANGE FILE: incomplete instance #223.
 
 This is only a few of the errors.
 
-'''#12970=PRODUCT_SPECIFIC_PARAMETER_VALUE_ASSIGNMENT($,$,'',$,(#501));'''
+<b><nowiki>#12970=PRODUCT_SPECIFIC_PARAMETER_VALUE_ASSIGNMENT($,$,'',$,(#501));</nowiki></b>
 
 <pre>
 ERROR:  ENTITY #12970 Product_Specific_Parameter_Value_Assignment
