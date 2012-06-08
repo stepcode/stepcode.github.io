@@ -9,6 +9,7 @@ On the wiki
 -   Copy content from github wiki?
 -   More external links
 -   Logo, background
+-   syntax highlighting for C, C++, Python, EXPRESS, Part 21
 -   etc etc etc
 
 Improvements to STEPcode's source
