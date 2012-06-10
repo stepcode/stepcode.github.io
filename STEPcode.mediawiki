@@ -35,6 +35,9 @@ We use a CDash/CTest [http://my.cdash.org/index.php?project=StepClassLibrary das
 
 Unfortunately, it is not possible to view test from more than one day at once; you must use the '''Previous''' link for that.
 
+=== Documentation ===
+[http://stepcode.org/doxygen/ Doxygen] for v0.6
+
 == Schemas ==
 There is a [[list of schemas]] that STEPcode has been tested with.
 

@@ -70,6 +70,10 @@ We use a CDash/CTest
 Unfortunately, it is not possible to view test from more than one day at
 once; you must use the **Previous** link for that.
 
+### Documentation
+
+[Doxygen](http://stepcode.org/doxygen/) for v0.6
+
 Schemas
 -------
 
