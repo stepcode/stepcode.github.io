@@ -1,7 +1,5 @@
 = STEPcode =
 
-= STEPcode =
-
 == Introduction ==
 The '''STEPcode''' project is a collection of open source libraries, tools, and resources that revolve around the technologies of ISO 10303, a.k.a. STEP. Parts of the STEP specification are reused in other standards, so STEPcode is not limited to ISO10303.
 

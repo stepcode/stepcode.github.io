@@ -5,9 +5,6 @@ title: STEPcode
 STEPcode
 ========
 
-STEPcode
-========
-
 Introduction
 ------------
 
