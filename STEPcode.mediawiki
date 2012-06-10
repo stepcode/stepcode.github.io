@@ -1,13 +1,31 @@
 = STEPcode =
 
-== Introduction ==
-The STEPcode project is a collection of open source libraries, tools, and resources for ISO 10303,
-the STandard for the Exchange of Product (STEP) model data, and other schemas based on the 10303-11 EXPRESS information modeling language such as the Industry Foundation Classes (IFC) used for Building Information Modeling (BIM). 
+= STEPcode =
 
+== Introduction ==
+The '''STEPcode''' project is a collection of open source libraries, tools, and resources that revolve around the technologies of ISO 10303, a.k.a. STEP. Parts of the STEP specification are reused in other standards, so STEPcode is not limited to ISO10303.
+
+STEPcode provides a robust implementation of
+* an EXPRESS schema parser with bindings provided in C, C++, and Python
+* additional libraries that allow STEP Part 21 files to be read and written
+* various utilities
+
+The [[http://github.com/stepcode/stepcode/blob/master/COPYING BSD license]] allows commercial use. In addition, STEPcode is used in other open source projects such as [[http://www.brl-cad.org BRL-CAD]].
+
+=== STEP ===
+ISO 10303 is commonly referred to as '''STEP''', the '''ST'''andard for the '''E'''xchange of '''P'''roduct model data. It can be used as a data exchange format in areas such as mechanical and assembly design, electromechanical design, machine tool control, and finite element analysis.
+
+=== Other Standards ===
+All of the following standards use Parts 11 and 21 of ISO10303, which are the EXPRESS information modeling language and the ASCII data exchange format. Some also use Part 28, XML data exchange.
+
+* The Industry Foundation Classes ('''IFC''') are used for Building Information Modeling (BIM)
+* ISO 15926 is used in the Oil & Gas industry
+* STEP-TAS is used in the thermal analysis of aerospace equipment
+* ISO 13584, ''Industrial automation systems and integration - Parts library''
+
+=== History ===
 Based originally on the NIST STEP Class Library (SCL), the STEPcode project has evolved into a
 diverse open source community helping improve the accessibility, adoption, and long-term availability of STEP related technologies for CAx developers.
-
-Currently, STEPcode provides a robust implementation of an EXPRESS schema parser for STEP's Part 21 files with bindings provided in C, C++, and Python.  STEPcode is used in other open source projects such as BRL-CAD (www.brl-cad.org), and the BSD license allows commercial use.
 
 == Project Links ==
 
