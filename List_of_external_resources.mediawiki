@@ -5,11 +5,15 @@
 [http://en.wikipedia.org/wiki/ISO_10303 Wikipedia]
 
 
-== Other open source projects related to STEP and/or EXPRESS ==
-
 == Projects that use STEPcode / SCL ==
 
 === Open source users ===
 [http://brlcad.org BRL-CAD]
 
 === Commercial users ===
+
+
+== Other open source projects related to STEP and/or EXPRESS ==
+
+== Free, closed-source programs related to STEP / EXPRESS ==
+* [http://ciks.cbt.nist.gov/cgi-bin/ctv/sfa_request.cgi STEP File Analyzer]
