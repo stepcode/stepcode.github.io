@@ -1,16 +1,16 @@
-== External information about standards that use EXPRESS schemas ==
-'''i.e. STEP, IFC, etc'''
-
-[http://wikistep.org/index.php/Main_Page WikiSTEP]
-
-[http://en.wikipedia.org/wiki/ISO_10303 Wikipedia]
-
 == Projects that use STEPcode / SCL ==
 
 === Open source users ===
 [http://brlcad.org BRL-CAD]
 
 === Commercial users ===
+
+== External information about standards that use EXPRESS schemas ==
+'''i.e. STEP, IFC, etc'''
+
+[http://wikistep.org/index.php/Main_Page WikiSTEP]
+
+[http://en.wikipedia.org/wiki/ISO_10303 Wikipedia]
 
 
 == Other open source projects related to STEP and/or EXPRESS ==
