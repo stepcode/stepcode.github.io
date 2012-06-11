@@ -2,8 +2,8 @@
 '''i.e. STEP, IFC, etc'''
 
 [http://wikistep.org/index.php/Main_Page WikiSTEP]
-[http://en.wikipedia.org/wiki/ISO_10303 Wikipedia]
 
+[http://en.wikipedia.org/wiki/ISO_10303 Wikipedia]
 
 == Projects that use STEPcode / SCL ==
 
