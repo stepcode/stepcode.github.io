@@ -1,3 +1,4 @@
+[[Category:Code discussion]]
 Demonstrating use of mediawiki [http://www.mediawiki.org/wiki/Extension:Code code extension] / GeSHi.
 
 === Usage ===
