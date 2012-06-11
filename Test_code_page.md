@@ -15,9 +15,11 @@ Copied from that page
     lang='s'       This is the language type that explains how to highlight the code. Default is 'text'.
                    See GeSHi for full list of supported syntaxes
     linenumbers    Turn on line numbers for each line in your code
-    download       Turn on the "Download Code" link for this block of your code
+    download       Turn on the "Download Code" link for this block of your code '''NOTE:''' this strips newlines
     tabwidth='n'   How many spaces does a TAB represent
     fileurl='s'    Instead of processing the code provided between the tags, process the code at specified URL
+
+### C demo with line numbers, download, tab width
 
 `
     switch( statement->type ) {
