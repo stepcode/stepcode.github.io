@@ -58,28 +58,26 @@ technologies for CAx developers.
 Project Links
 -------------
 
-### Source Code
+### [Source Code: GitHub](http://github.com/stepcode/stepcode)
 
-The source is available on [GitHub](http://github.com/stepcode/stepcode)
+-   Any discussion of the code on this wiki should have a
+    [[Category:Code discussion]] tag so that it shows up in
+    [:Category:Code discussion](:Category:Code discussion "wikilink")
 
-### Developers Mailing List
+### [<http://groups.google.com/forum/?fromgroups>\#!forum/scl-dev Developers Mailing List]
 
-We have a Google Group for a
-[<http://groups.google.com/forum/?fromgroups>\#!forum/scl-dev developers
-mailing list]
+### [Testing - CDash dashboard](http://my.cdash.org/index.php?project=StepClassLibrary)
 
-### Testing
-
-We use a CDash/CTest
-[dashboard](http://my.cdash.org/index.php?project=StepClassLibrary).
-
-Unfortunately, it is not possible to view test from more than one day at
-once; you must use the **Previous** link for that. Testing is sporadic,
-and is generally only done for branches that are under review.
+-   Unfortunately, it is not possible to view test from more than one
+    day at once; you must use the **Previous** link for that. Testing is
+    sporadic, and is generally only done for branches that are under
+    review.
 
 ### Documentation
 
-[Doxygen](http://stepcode.org/doxygen/) for v0.6
+-   **[Doxygen](http://stepcode.org/doxygen/)** for v0.6
+-   See also [:Category:Code
+    discussion](:Category:Code discussion "wikilink")
 
 Schemas
 -------

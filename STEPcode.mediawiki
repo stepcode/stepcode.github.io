@@ -27,19 +27,15 @@ diverse open source community helping improve the accessibility, adoption, and l
 
 == Project Links ==
 
-=== Source Code ===
-The source is available on [http://github.com/stepcode/stepcode GitHub]
-
-=== Developers Mailing List ===
-We have a Google Group for a [http://groups.google.com/forum/?fromgroups#!forum/scl-dev developers mailing list]
-
-=== Testing ===
-We use a CDash/CTest [http://my.cdash.org/index.php?project=StepClassLibrary dashboard]. 
-
-Unfortunately, it is not possible to view test from more than one day at once; you must use the '''Previous''' link for that. Testing is sporadic, and is generally only done for branches that are under review.
+=== [http://github.com/stepcode/stepcode Source Code: GitHub] ===
+* Any discussion of the code on this wiki should have a <nowiki>[[Category:Code discussion]]</nowiki> tag so that it shows up in [[:Category:Code discussion]]
+=== [http://groups.google.com/forum/?fromgroups#!forum/scl-dev Developers Mailing List] ===
+=== [http://my.cdash.org/index.php?project=StepClassLibrary Testing - CDash dashboard] ===
+* Unfortunately, it is not possible to view test from more than one day at once; you must use the '''Previous''' link for that. Testing is sporadic, and is generally only done for branches that are under review.
 
 === Documentation ===
-[http://stepcode.org/doxygen/ Doxygen] for v0.6
+* '''[http://stepcode.org/doxygen/ Doxygen]''' for v0.6
+* See also [[:Category:Code discussion]]
 
 == Schemas ==
 There is a [[list of schemas]] that STEPcode has been tested with.
