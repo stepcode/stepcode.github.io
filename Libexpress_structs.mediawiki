@@ -36,14 +36,61 @@ struct Statement_ {
 };
 </code>
 === Alias ===
+<code lang='c'> struct Alias_ {
+    struct Scope_ * scope;
+    struct Variable_ * variable;
+    Linked_List statements;     /**< list of statements */
+};
+</code>
 === Assignment ===
+<code lang='c'> struct Assignment_ {
+    Expression lhs;
+    Expression rhs;
+};
+</code>
 === Case_Statement ===
+<code lang='c'>
+struct Case_Statement_ {
+    Expression selector;
+    Linked_List cases;
+};
+</code>
 === Compound_Statement ===
+<code lang='c'>
+struct Compound_Statement_ {
+    Linked_List statements;
+};
+</code>
 === Conditional ===
+<code lang='c'>
+struct Conditional_ {
+    Expression test;
+    Linked_List code;       /**< list of statements */
+    Linked_List otherwise;      /**< list of statements */
+};
+</code>
 === Loop ===
+<code lang='c'>
+struct Loop_ {
+    struct Scope_ * scope;      /**< scope for increment control */
+    Expression while_expr;
+    Expression until_expr;
+    Linked_List statements;     /**< list of statements */
+};
+</code>
 === Procedure_Call ===
+<code lang='c'>
+struct Procedure_Call_ {
+    struct Scope_ * procedure;
+    Linked_List parameters; /**< list of expressions */
+};
+</code>
 === Return_Statement ===
-=== Statement ===
+<code lang='c'>
+struct Return_Statement_ {
+    Expression value;
+};
+</code>
 
 == Scope_ * ==
 === Increment ===

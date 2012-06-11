@@ -42,21 +42,75 @@ struct Statement_ {
 
 ### Alias
 
+` struct Alias_ {
+    struct Scope_ * scope;
+    struct Variable_ * variable;
+    Linked_List statements;     /**< list of statements */
+};
+`
+
 ### Assignment
+
+` struct Assignment_ {
+    Expression lhs;
+    Expression rhs;
+};
+`
 
 ### Case\_Statement
 
+`
+struct Case_Statement_ {
+    Expression selector;
+    Linked_List cases;
+};
+`
+
 ### Compound\_Statement
+
+`
+struct Compound_Statement_ {
+    Linked_List statements;
+};
+`
 
 ### Conditional
 
+`
+struct Conditional_ {
+    Expression test;
+    Linked_List code;       /**< list of statements */
+    Linked_List otherwise;      /**< list of statements */
+};
+`
+
 ### Loop
+
+`
+struct Loop_ {
+    struct Scope_ * scope;      /**< scope for increment control */
+    Expression while_expr;
+    Expression until_expr;
+    Linked_List statements;     /**< list of statements */
+};
+`
 
 ### Procedure\_Call
 
+`
+struct Procedure_Call_ {
+    struct Scope_ * procedure;
+    Linked_List parameters; /**< list of expressions */
+};
+`
+
 ### Return\_Statement
 
-### Statement
+`
+struct Return_Statement_ {
+    Expression value;
+};
+`
 
 Scope\_ \*
 ----------
