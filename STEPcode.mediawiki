@@ -31,7 +31,7 @@ diverse open source community helping improve the accessibility, adoption, and l
 The source is available on [http://github.com/stepcode/stepcode GitHub]
 
 === Developers Mailing List ===
-We have a Google Group for a developers mailing list [https://groups.google.com/forum/?fromgroups#!forum/scl-dev] 
+We have a Google Group for a [http://groups.google.com/forum/?fromgroups#!forum/scl-dev developers mailing list]
 
 === Testing ===
 We use a CDash/CTest [http://my.cdash.org/index.php?project=StepClassLibrary dashboard]. 

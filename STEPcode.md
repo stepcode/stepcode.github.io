@@ -64,8 +64,9 @@ The source is available on [GitHub](http://github.com/stepcode/stepcode)
 
 ### Developers Mailing List
 
-We have a Google Group for a developers mailing list
-[<https://groups.google.com/forum/?fromgroups>\#!forum/scl-dev]
+We have a Google Group for a
+[<http://groups.google.com/forum/?fromgroups>\#!forum/scl-dev developers
+mailing list]
 
 ### Testing
 
