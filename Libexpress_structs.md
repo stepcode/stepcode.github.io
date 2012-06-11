@@ -1,0 +1,66 @@
+---
+title: Libexpress structs
+---
+
+`
+typedef struct Statement_ * Alias;
+typedef struct Statement_ * Assignment;
+typedef struct Statement_ * Case_Statement;
+typedef struct Statement_ * Compound_Statement;
+typedef struct Statement_ * Conditional;
+typedef struct Statement_ * Loop;
+typedef struct Statement_ * Procedure_Call;
+typedef struct Statement_ * Return_Statement;
+typedef struct Statement_*  Statement;
+
+typedef struct Scope_*      Increment;
+`
+
+[Statement\_ \*](http://stepcode.org/doxygen/struct_statement__.html)
+---------------------------------------------------------------------
+
+`
+/* these should probably all be expression types */
+
+struct Statement_ {
+    Symbol symbol;  /**< can hold pcall or alias name but otherwise is not used for anything */
+    int type;   /**< one of STMT_XXX above */
+    /* hey, is there nothing in common beside symbol and private data?? */
+    union u_statement {
+        struct Alias_     *     alias;
+        struct Assignment_   *  assign;
+        struct Case_Statement_   *  Case;
+        struct Compound_Statement_ * compound;
+        struct Conditional_  *  cond;
+        struct Loop_      *     loop;
+        struct Procedure_Call_   *  proc;
+        struct Return_Statement_  * ret;
+        /* skip & escape have no data */
+    } u;
+};
+`
+
+### Alias
+
+### Assignment
+
+### Case\_Statement
+
+### Compound\_Statement
+
+### Conditional
+
+### Loop
+
+### Procedure\_Call
+
+### Return\_Statement
+
+### Statement
+
+Scope\_ \*
+----------
+
+### Increment
+
+[Category:Code discussion](Category:Code discussion "wikilink")
