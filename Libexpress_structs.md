@@ -115,6 +115,39 @@ struct Return_Statement_ {
 Scope\_ \*
 ----------
 
+`
+struct Scope_ {
+    Symbol          symbol;
+    char            type;       /* see above */
+    ClientData      clientData; /**< user may use this for any purpose */
+    int             search_id;  /**< key to avoid searching this scope twice */
+    Dictionary      symbol_table,enum_table;
+    struct Scope_ * superscope;
+    union {
+        struct Procedure_ * proc;
+        struct Function_ * func;
+        struct Rule_ * rule;
+        struct Entity_ * entity;
+        struct Schema_ * schema;
+        struct Express_ * express;
+        struct Increment_ * incr;
+        struct TypeHead_ * type;
+        /* no, query owns a scope rather than scope owning a query
+         *      struct Query *query;  */
+    } u;
+    Linked_List where;      /**< optional where clause */
+};
+`
+
 ### Increment
+
+`
+/** this is an element in the optional Loop scope */
+struct Increment_ {
+    Expression init;
+    Expression end;
+    Expression increment;
+};
+`
 
 [Category:Code discussion](Category:Code discussion "wikilink")
