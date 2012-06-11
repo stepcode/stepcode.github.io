@@ -100,7 +100,7 @@ struct Return_Statement_ {
 };
 </code>
 
-== Scope_ * ==
+== [http://stepcode.org/doxygen/struct_scope__.html Scope_ *] ==
 <code lang='c'>
 struct Scope_ {
     Symbol          symbol;

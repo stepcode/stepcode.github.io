@@ -123,8 +123,8 @@ struct Return_Statement_ {
 };
 `
 
-Scope\_ \*
-----------
+[Scope\_ \*](http://stepcode.org/doxygen/struct_scope__.html)
+-------------------------------------------------------------
 
 `
 struct Scope_ {
