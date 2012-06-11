@@ -19,85 +19,21 @@ Copied from that page
     tabwidth='n'   How many spaces does a TAB represent
     fileurl='s'    Instead of processing the code provided between the tags, process the code at specified URL
 
-### C demo with line numbers, download, tab width
+### C demo with line numbers, download
 
 `
-    switch( statement->type ) {
-        case STMT_ALIAS:
-            EXPresolve( statement->u.alias->variable->initializer, scope, Type_Dont_Care );
-            statement->u.alias->variable->type =
-                statement->u.alias->variable->initializer->type;
-            if( !is_resolve_failed( statement->u.alias->variable->initializer ) ) {
-                STMTlist_resolve( statement->u.alias->statements, statement->u.alias->scope );
-            }
-            break;
-        case STMT_ASSIGN:
-            EXPresolve( statement->u.assign->lhs, scope, Type_Dont_Care );
-            EXPresolve( statement->u.assign->rhs, scope, statement->u.assign->lhs->type );
-            break;
-        case STMT_CASE:
-            EXPresolve( statement->u.Case->selector, scope, Type_Dont_Care );
-            type = statement->u.Case->selector->return_type;
-            LISTdo( statement->u.Case->cases, c, Case_Item )
-            CASE_ITresolve( c, scope, type );
-            LISTod;
-            break;
-        case STMT_COMPOUND:
-            STMTlist_resolve( statement->u.compound->statements, scope );
-            break;
-        case STMT_COND:
-            EXPresolve( statement->u.cond->test, scope, Type_Dont_Care );
-            STMTlist_resolve( statement->u.cond->code, scope );
-            if( statement->u.cond->otherwise ) {
-                STMTlist_resolve( statement->u.cond->otherwise, scope );
-            }
-            break;
-        case STMT_PCALL:
-#define proc_name statement->symbol.name
-            proc = ( Scope )SCOPEfind( scope, proc_name,
-                                       SCOPE_FIND_PROCEDURE );
-            if( proc ) {
-                if( DICT_type != OBJ_PROCEDURE ) {
-                    Symbol * newsym = OBJget_symbol( proc, DICT_type );
-                    ERRORreport_with_symbol( ERROR_expected_proc, &statement->symbol, proc_name, newsym->line );
-                } else {
-                    statement->u.proc->procedure = proc;
-                }
-            } else {
-                ERRORreport_with_symbol( ERROR_no_such_procedure, &statement->symbol, proc_name );
-            }
-            LISTdo( statement->u.proc->parameters, e, Expression )
-            EXPresolve( e, scope, Type_Dont_Care );
-            LISTod;
-            break;
-        case STMT_LOOP:
-            if( statement->u.loop->scope ) {
-                /* resolve increment with old scope */
-                EXPresolve( statement->u.loop->scope->u.incr->init, scope, Type_Dont_Care );
-                EXPresolve( statement->u.loop->scope->u.incr->end, scope, Type_Dont_Care );
-                EXPresolve( statement->u.loop->scope->u.incr->increment, scope, Type_Dont_Care );
-                /* resolve others with new scope! */
-                scope = statement->u.loop->scope;
-            }
-            if( statement->u.loop->while_expr ) {
-                EXPresolve( statement->u.loop->while_expr, scope, Type_Dont_Care );
-            }
+void ALGresolve_expressions_statements( Scope s, Linked_List statements ) {
+    int status = 0;
 
-            if( statement->u.loop->until_expr ) {
-                EXPresolve( statement->u.loop->until_expr, scope, Type_Dont_Care );
-            }
-
-            STMTlist_resolve( statement->u.loop->statements, scope );
-            break;
-        case STMT_RETURN:
-            if( statement->u.ret->value ) {
-                EXPresolve( statement->u.ret->value, scope, Type_Dont_Care );
-            }
-            break;
-        case STMT_SKIP:
-        case STMT_ESCAPE:
-            /* do nothing */
-            ;
+    if( print_objects_while_running & OBJ_ALGORITHM_BITS &
+            OBJget_bits( s->type ) ) {
+        fprintf( stdout, "pass %d: %s (%s)\n", EXPRESSpass,
+                 s->symbol.name, OBJget_type( s->type ) );
     }
 
+    SCOPEresolve_expressions_statements( s );
+    STMTlist_resolve( statements, s );
+
+    s->symbol.resolved = status;
+}
 `
