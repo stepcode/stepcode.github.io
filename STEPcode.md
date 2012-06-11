@@ -74,7 +74,8 @@ We use a CDash/CTest
 [dashboard](http://my.cdash.org/index.php?project=StepClassLibrary).
 
 Unfortunately, it is not possible to view test from more than one day at
-once; you must use the **Previous** link for that.
+once; you must use the **Previous** link for that. Testing is sporadic,
+and is generally only done for branches that are under review.
 
 ### Documentation
 
