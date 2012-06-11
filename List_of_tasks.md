@@ -10,6 +10,8 @@ On the wiki
 -   More external links
 -   Logo, background
 -   syntax highlighting for C, C++, Python, EXPRESS, Part 21
+    <http://www.mediawiki.org/wiki/Extension:Code>
+    <http://qbnz.com/highlighter/geshi-doc.html#starting-line-numbers>
 -   etc etc etc
 
 Improvements to STEPcode's source
