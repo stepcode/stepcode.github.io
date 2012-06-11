@@ -2,6 +2,9 @@
 title: Libexpress structs
 ---
 
+*typedef*s
+----------
+
 `
 typedef struct Statement_ * Alias;
 typedef struct Statement_ * Assignment;
@@ -11,9 +14,17 @@ typedef struct Statement_ * Conditional;
 typedef struct Statement_ * Loop;
 typedef struct Statement_ * Procedure_Call;
 typedef struct Statement_ * Return_Statement;
-typedef struct Statement_*  Statement;
+typedef struct Statement_ * Statement;
 
-typedef struct Scope_*      Increment;
+typedef struct Scope_ *     Increment;
+typedef struct Scope_ *     Type;
+typedef struct Scope_ *     Scope;
+typedef struct Scope_ *     Schema;
+typedef struct Scope_ *     Express;
+typedef struct Scope_ *     Entity;
+typedef struct Scope_ *     Procedure;
+typedef struct Scope_ *     Function;
+typedef struct Scope_ *     Rule;
 `
 
 [Statement\_ \*](http://stepcode.org/doxygen/struct_statement__.html)
