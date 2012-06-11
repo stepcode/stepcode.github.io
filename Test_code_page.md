@@ -22,13 +22,13 @@ Copied from that page
 ### C demo with line numbers, download
 
 `
+
 void ALGresolve_expressions_statements( Scope s, Linked_List statements ) {
     int status = 0;
 
     if( print_objects_while_running & OBJ_ALGORITHM_BITS &
             OBJget_bits( s->type ) ) {
-        fprintf( stdout, "pass %d: %s (%s)\n", EXPRESSpass,
-                 s->symbol.name, OBJget_type( s->type ) );
+        fprintf( stdout, "pass %d: %s (%s)\n", EXPRESSpass, s->symbol.name, OBJget_type( s->type ) );
     }
 
     SCOPEresolve_expressions_statements( s );
