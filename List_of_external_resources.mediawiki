@@ -8,10 +8,13 @@
 == External information about standards that use EXPRESS schemas ==
 '''i.e. STEP, IFC, etc'''
 
-[http://wikistep.org/index.php/Main_Page WikiSTEP]
+[http://wikistep.org/index.php/Main_Page WikiSTEP] tutorials and detailed information on STEP Application Protocols
 
-[http://en.wikipedia.org/wiki/ISO_10303 Wikipedia]
+[http://en.wikipedia.org/wiki/ISO_10303 Wikipedia] article on ISO 10303 STEP
 
+[http://www.cax-if.org CAx-IF] schemas, example CAD models, and recommended practices for STEP CAD implementations
+ 
+[http://www.buildingsmart-tech.org/ buildingSMART] IFC and related specifications
 
 == Other open source projects related to STEP and/or EXPRESS ==
 
