@@ -14,7 +14,7 @@ The [[http://github.com/stepcode/stepcode/blob/master/COPYING BSD license]] allo
 ISO 10303 is commonly referred to as '''STEP''', the '''ST'''andard for the '''E'''xchange of '''P'''roduct model data. It can be used as a data exchange format in areas such as mechanical and assembly design, electromechanical design, machine tool control, and finite element analysis.
 
 === Other Standards ===
-All of the following standards use Parts 11 and 21 of ISO10303, which are the EXPRESS information modeling language and the ASCII data exchange format. Some also use Part 28, XML data exchange.
+All of the following standards use Parts 11 and 21 of ISO10303, which are the EXPRESS information modeling language and the ASCII data exchange format that STEPcode supports. Some also use Part 28, XML data exchange, which STEPcode does not yet support.
 
 * The Industry Foundation Classes ('''IFC''') are used for Building Information Modeling (BIM)
 * ISO 15926 is used in the Oil & Gas industry

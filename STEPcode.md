@@ -39,7 +39,8 @@ analysis.
 
 All of the following standards use Parts 11 and 21 of ISO10303, which
 are the EXPRESS information modeling language and the ASCII data
-exchange format. Some also use Part 28, XML data exchange.
+exchange format that STEPcode supports. Some also use Part 28, XML data
+exchange, which STEPcode does not yet support.
 
 -   The Industry Foundation Classes (**IFC**) are used for Building
     Information Modeling (BIM)
