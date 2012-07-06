@@ -2,8 +2,8 @@
 title: How to use STEPcode in an application
 ---
 
-C++
----
+C++ examples
+------------
 
 -   [sc/test/cpp/schema\_specific](http://github.com/stepcode/stepcode/tree/master/test/cpp/schema_specific)
     - tests written in c++
