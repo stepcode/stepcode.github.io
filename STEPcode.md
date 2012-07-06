@@ -74,6 +74,8 @@ Project Links
     sporadic, and is generally only done for branches that are under
     review.
 
+### [How to use STEPcode in an application](How to use STEPcode in an application "wikilink")
+
 ### Documentation
 
 -   **[Doxygen](http://stepcode.org/doxygen/)** for v0.6
