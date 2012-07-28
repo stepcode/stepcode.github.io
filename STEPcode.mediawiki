@@ -37,6 +37,7 @@ diverse open source community helping improve the accessibility, adoption, and l
 
 === Documentation ===
 * '''[http://stepcode.org/doxygen/ Doxygen]''' for v0.6
+* doxygen documentation of [http://stepcode.org/stepcode-use-doxygen/ apps using STEPcode]
 * See also [[:Category:Code discussion]]
 
 == Schemas ==

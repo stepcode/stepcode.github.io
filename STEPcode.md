@@ -79,6 +79,8 @@ Project Links
 ### Documentation
 
 -   **[Doxygen](http://stepcode.org/doxygen/)** for v0.6
+-   doxygen documentation of [apps using
+    STEPcode](http://stepcode.org/stepcode-use-doxygen/)
 -   See also [:Category:Code
     discussion](:Category:Code discussion "wikilink")
 
