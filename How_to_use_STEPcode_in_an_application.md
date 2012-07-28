@@ -5,6 +5,8 @@ title: How to use STEPcode in an application
 C++ examples
 ------------
 
+-   doxygen documentation of [apps using
+    STEPcode](http://stepcode.org/stepcode-use-doxygen/)
 -   [sc/test/cpp/schema\_specific](http://github.com/stepcode/stepcode/tree/master/test/cpp/schema_specific)
     - tests written in c++
 -   [sc/src/test](http://github.com/stepcode/stepcode/tree/master/src/test)
