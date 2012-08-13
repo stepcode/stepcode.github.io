@@ -39,3 +39,6 @@ massif-visualizer massif.out.<pid></code>
 == lcov/gcov (code coverage) ==
 <code lang='bash'>ctest -S lcov.cmake
 # 30 minutes later, open the resulting html file in a browser</code>
+
+= Downloads =
+Output of callgrind, cachegrind, and massif: https://docs.google.com/open?id=0B9G1tTILtiCyTmhoLTZva0JxdTQ
