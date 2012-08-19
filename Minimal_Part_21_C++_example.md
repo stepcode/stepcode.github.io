@@ -5,7 +5,8 @@ title: Minimal Part 21 C++ example
 Minimal C++ example based on [P21read](P21read "wikilink") - note, this
 hasn't been tested!
 
-### Important Classes
+Important Classes
+-----------------
 
 -   [Registry](http://stepcode.org/doxygen/class_registry.html)
     (contains information about types present in the current schema)
@@ -18,10 +19,10 @@ hasn't been tested!
 -   [SDAI\_Application\_instance](http://stepcode.org/doxygen/class_s_d_a_i___application__instance.html)
     (the base class for every type of instance that STEP deals with)
 
-### Code
+Code
+----
 
-`
-#include <scl_cf.h>
+`#include <scl_cf.h>
 extern void SchemaInit( class Registry & );
 #include <STEPfile.h>
 #include <sdai.h>
@@ -65,5 +66,11 @@ int main( int argc, char * argv[] ) {
         sfile.Error().PrintContents( cout );
     }
 }`
+
+Related Pages
+-------------
+
+-   [How to use STEPcode in an
+    application](How to use STEPcode in an application "wikilink")
 
 [Category:Code discussion](Category:Code discussion "wikilink")

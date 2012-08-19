@@ -1,15 +1,14 @@
 [[Category:Code discussion]]
 Minimal C++ example based on [[P21read]] - note, this hasn't been tested!
 
-=== Important Classes ===
+== Important Classes ==
 * [http://stepcode.org/doxygen/class_registry.html Registry] (contains information about types present in the current schema)
 * [http://stepcode.org/doxygen/class_inst_mgr.html InstMgr] (holds instances that have been created or that have been loaded from a file)
 * [http://stepcode.org/doxygen/class_s_t_e_pfile.html STEPfile] (takes care of reading and writing Part 21 files, and creates an SDAI_Application_instance for every instance read)
 * [http://stepcode.org/doxygen/class_s_d_a_i___application__instance.html SDAI_Application_instance] (the base class for every type of instance that STEP deals with)
 
-=== Code ===
-<code lang='C++'>
-#include <scl_cf.h>
+== Code ==
+<code lang='C++'>#include <scl_cf.h>
 extern void SchemaInit( class Registry & );
 #include <STEPfile.h>
 #include <sdai.h>
@@ -53,3 +52,6 @@ int main( int argc, char * argv[] ) {
         sfile.Error().PrintContents( cout );
     }
 }</code>
+
+== Related Pages ==
+* [[How to use STEPcode in an application]]
