@@ -35,7 +35,7 @@ int main( int argc, char * argv[] ) {
     InstMgr   instance_list;
 
     // STEPfile takes care of reading and writing Part 21 files
-    STEPfile  sfile( registry, instance_list, "", strict );
+    STEPfile  sfile( registry, instance_list, "", false );
 
     // read a file, using the name from the command line
     sfile.ReadExchangeFile( argv[1] );
