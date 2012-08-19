@@ -28,6 +28,23 @@ Without ctest script
 `         Start   2: build_cpp_sdai_ap239_arm_lf`  
 `   2/137 Test   #2: build_cpp_sdai_ap239_arm_lf ......................................   Passed   84.97 sec`
 
+...
+
+` Label Time Summary:`  
+` cpp_schema_build       = 932.95 sec`  
+` cpp_schema_gen         =  37.66 sec`  
+` cpp_schema_rw          =  42.59 sec`  
+` cpp_schema_specific    =  10.50 sec`  
+` exchange_file          =   0.49 sec`  
+` unitary_schemas        =   0.24 sec`  
+` `  
+` Total Test time (real) = 1025.09 sec`  
+` `  
+` The following tests FAILED:`  
+`           7 - read_write_cpp_ap227_mitre (Failed)`  
+`          33 - read_write_cpp_ap210e2_v1_40_mim_lf_SurfaceMountFlasher (Failed)`  
+`          34 - read_write_cpp_ap210e2_v1_40_mim_lf_PDES-181 (Failed)`
+
 and so on.
 
 Via ctest script
