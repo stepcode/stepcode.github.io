@@ -7,7 +7,7 @@ C++ examples
 
 -   doxygen documentation of [apps using
     STEPcode](http://stepcode.org/stepcode-use-doxygen/)
--   [sc/test/cpp/schema\_specific](http://github.com/stepcode/stepcode/tree/master/test/cpp/schema_specific)
+-   [sc/test/cpp/](http://github.com/stepcode/stepcode/tree/master/test/cpp/)
     - tests written in c++
 -   [sc/src/test](http://github.com/stepcode/stepcode/tree/master/src/test)
     - tests written by NIST; not guaranteed to be up-to-date except for
