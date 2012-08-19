@@ -21,8 +21,8 @@ C++ examples
     toolkit, which predates X windows. An attempt has been made to
     resurrect it, but without success.
 
-Other C++
----------
+External C++
+------------
 
 The BRL-CAD
 [step-g](http://brlcad.svn.sourceforge.net/viewvc/brlcad/brlcad/trunk/src/conv/step/)
