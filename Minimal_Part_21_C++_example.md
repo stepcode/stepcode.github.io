@@ -8,8 +8,15 @@ hasn't been tested!
 ### Important Classes
 
 -   [Registry](http://stepcode.org/doxygen/class_registry.html)
--   [InstMgr](http://stepcode.org/doxygen/class_inst_mgr.html)
+    (contains information about types present in the current schema)
+-   [InstMgr](http://stepcode.org/doxygen/class_inst_mgr.html) (holds
+    instances that have been created or that have been loaded from a
+    file)
 -   [STEPfile](http://stepcode.org/doxygen/class_s_t_e_pfile.html)
+    (takes care of reading and writing Part 21 files, and creates an
+    SDAI\_Application\_instance for every instance read)
+-   [SDAI\_Application\_instance](http://stepcode.org/doxygen/class_s_d_a_i___application__instance.html)
+    (the base class for every type of instance that STEP deals with)
 
 ### Code
 
@@ -28,7 +35,7 @@ extern void SchemaInit( class Registry & );
 
 int main( int argc, char * argv[] ) {
 
-    // the registry contains information about types present in the current schema
+    // the registry contains information about types present in the current schema; SchemaInit is a function in the schema-specific SDAI library
     Registry  registry( SchemaInit );
 
     //the InstMgr holds instances that have been created or that have been loaded from a file
@@ -48,7 +55,11 @@ int main( int argc, char * argv[] ) {
         exit(1);
     }
 
-    // write to "file.out", then check for errors. The write operation overwrites any errors caused by previous operations.
+    /**************************************************
+    ** do something with the data here
+    ***************************************************/
+
+    // write to "file.out", then check for write errors. The write operation overwrites any errors caused by previous operations.
     sfile.WriteExchangeFile( "file.out" );
     if( sfile.Error().severity() < SEVERITY_USERMSG ) {
         sfile.Error().PrintContents( cout );
