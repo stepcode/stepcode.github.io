@@ -5,6 +5,7 @@ title: How to use STEPcode in an application
 C++ examples
 ------------
 
+-   [Minimal C++ example](Minimal C++ example "wikilink")
 -   doxygen documentation of [apps using
     STEPcode](http://stepcode.org/stepcode-use-doxygen/)
 -   [sc/test/cpp/](http://github.com/stepcode/stepcode/tree/master/test/cpp/)
