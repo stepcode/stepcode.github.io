@@ -1,5 +1,11 @@
 Minimal C++ example based on [[P21read]] - note, this hasn't been tested!
 
+=== Important Classes ===
+* [http://stepcode.org/doxygen/class_registry.html Registry]
+* [http://stepcode.org/doxygen/class_inst_mgr.html InstMgr]
+* [http://stepcode.org/doxygen/class_s_t_e_pfile.html STEPfile]
+
+=== Code ===
 <code lang='C++'>
 #include <scl_cf.h>
 extern void SchemaInit( class Registry & );

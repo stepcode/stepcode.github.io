@@ -5,6 +5,14 @@ title: Minimal Part 21 C++ example
 Minimal C++ example based on [P21read](P21read "wikilink") - note, this
 hasn't been tested!
 
+### Important Classes
+
+-   [Registry](http://stepcode.org/doxygen/class_registry.html)
+-   [InstMgr](http://stepcode.org/doxygen/class_inst_mgr.html)
+-   [STEPfile](http://stepcode.org/doxygen/class_s_t_e_pfile.html)
+
+### Code
+
 `
 #include <scl_cf.h>
 extern void SchemaInit( class Registry & );
