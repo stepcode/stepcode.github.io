@@ -15,3 +15,7 @@ Errors could be from one of three sources:
 -   the Part 21 file
 -   the EXPRESS schema
 
+### Source
+
+P21read can be foud in the repo on GitHub at
+[src/test/p21read/p21read.cc](https://github.com/stepcode/stepcode/blob/master/src/test/p21read/p21read.cc)
