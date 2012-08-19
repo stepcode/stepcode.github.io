@@ -27,7 +27,9 @@ Other C++
 The BRL-CAD
 [step-g](http://brlcad.svn.sourceforge.net/viewvc/brlcad/brlcad/trunk/src/conv/step/)
 converter, documented
-[here](http://stepcode.org/stepcode-use-doxygen/step-g_8cpp.html)
+[here](http://stepcode.org/stepcode-use-doxygen/step-g_8cpp.html) (Note
+- currently, the BRL-CAD version of STEPcode differs slightly from the
+version on GitHub)
 
 Laurent Bauer's [SCView](https://github.com/LaurentBauer/SCLView/wiki)
 
