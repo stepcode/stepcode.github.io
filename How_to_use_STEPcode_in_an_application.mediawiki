@@ -1,8 +1,13 @@
 == C++ examples ==
 * doxygen documentation of [http://stepcode.org/stepcode-use-doxygen/ apps using STEPcode]
-* [http://github.com/stepcode/stepcode/tree/master/test/cpp/ sc/test/cpp/] - tests written in c++
-* [http://github.com/stepcode/stepcode/tree/master/src/test sc/src/test] - tests written by NIST; not guaranteed to be up-to-date except for p21read
+* [http://github.com/stepcode/stepcode/tree/master/test/cpp/ sc/test/cpp/] - tests written in c++; these can be built when ENABLE_TESTING is set to ON, but are excluded from 'make all'
+* [http://github.com/stepcode/stepcode/tree/master/src/test sc/src/test] - tests written by NIST; not guaranteed to be up-to-date except for [https://github.com/stepcode/stepcode/blob/master/src/test/p21read/p21read.cc#L138 p21read]
 * [http://github.com/stepcode/stepcode/tree/master/src/clprobe-ui sc/src/clprobe-ui] - remnants of a UI known as dataProbe; written with the [http://www.ivtools.org/ivtools/interviews.html InterViews] toolkit, which predates X windows
+
+== Other C++ ==
+The BRL-CAD [http://brlcad.svn.sourceforge.net/viewvc/brlcad/brlcad/trunk/src/conv/step/ step-g] converter, documented [http://stepcode.org/stepcode-use-doxygen/step-g_8cpp.html here]
+Laurent Bauer's [https://github.com/LaurentBauer/SCLView/wiki SCView]
+
 
 == Python ==
 * [http://github.com/stepcode/stepcode/wiki/python-generator Python Generator]
