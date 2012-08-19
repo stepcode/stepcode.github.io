@@ -16,9 +16,10 @@ C++ examples
     - tests written by NIST; not guaranteed to be up-to-date except for
     [p21read](https://github.com/stepcode/stepcode/blob/master/src/test/p21read/p21read.cc#L138)
 -   [sc/src/clprobe-ui](http://github.com/stepcode/stepcode/tree/master/src/clprobe-ui)
-    - remnants of a UI known as dataProbe; written with the
+    - remnants of a UI known as dataProbe; requires the
     [InterViews](http://www.ivtools.org/ivtools/interviews.html)
-    toolkit, which predates X windows
+    toolkit, which predates X windows. An attempt has been made to
+    resurrect it, but without success.
 
 Other C++
 ---------
