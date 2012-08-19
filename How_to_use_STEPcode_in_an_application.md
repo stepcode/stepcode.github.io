@@ -40,6 +40,6 @@ Python
 See also
 --------
 
--   [How to compile]
--   [How to test with CTest]
+-   [How to compile](How to compile "wikilink")
+-   [How to test with CTest](How to test with CTest "wikilink")
 
