@@ -65,3 +65,5 @@ int main( int argc, char * argv[] ) {
         sfile.Error().PrintContents( cout );
     }
 }`
+
+[Category:Code discussion](Category:Code discussion "wikilink")

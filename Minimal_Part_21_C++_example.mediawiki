@@ -1,3 +1,4 @@
+[[Category:Code discussion]]
 Minimal C++ example based on [[P21read]] - note, this hasn't been tested!
 
 === Important Classes ===
