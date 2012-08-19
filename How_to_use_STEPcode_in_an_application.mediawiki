@@ -5,7 +5,7 @@
 * [http://github.com/stepcode/stepcode/tree/master/src/test sc/src/test] - tests written by NIST; not guaranteed to be up-to-date except for [https://github.com/stepcode/stepcode/blob/master/src/test/p21read/p21read.cc#L138 p21read]
 * [http://github.com/stepcode/stepcode/tree/master/src/clprobe-ui sc/src/clprobe-ui] - remnants of a UI known as dataProbe; requires the [http://www.ivtools.org/ivtools/interviews.html InterViews] toolkit, which predates X windows. An attempt has been made to resurrect it, but without success.
 
-== External C++ ==
+== C++ applications that are not in the GitHub repository ==
 The BRL-CAD [http://brlcad.svn.sourceforge.net/viewvc/brlcad/brlcad/trunk/src/conv/step/ step-g] converter, documented [http://stepcode.org/stepcode-use-doxygen/step-g_8cpp.html here] (Note - currently, the BRL-CAD version of STEPcode differs slightly from the version on GitHub)
 
 Laurent Bauer's [https://github.com/LaurentBauer/SCLView/wiki SCView]
