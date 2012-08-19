@@ -37,3 +37,9 @@ Python
 -   [Python
     Generator](http://github.com/stepcode/stepcode/wiki/python-generator)
 
+See also
+--------
+
+-   [How to compile]
+-   [How to test with CTest]
+
