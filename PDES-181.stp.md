@@ -20,6 +20,10 @@ It turns out that all of the complex entity errors are identical.
 
 -   This error report has been accepted by the AP 210 project team as a
     schema error.
+-   An upward compatible schema correction will be included in the next
+    release.
+-   The official ISO 10303 issue log for this is at
+    <http://wikistep.org/bugzilla/show_bug.cgi?id=4439>
 
 <!-- -->
 
