@@ -48,6 +48,7 @@ exchange, which STEPcode does not yet support.
 -   STEP-TAS is used in the thermal analysis of aerospace equipment
 -   ISO 13584, *Industrial automation systems and integration - Parts
     library*
+-   [ISO 13399](http://en.wikipedia.org/wiki/ISO_13399)
 
 ### History
 

@@ -20,6 +20,7 @@ All of the following standards use Parts 11 and 21 of ISO10303, which are the EX
 * ISO 15926 is used in the Oil & Gas industry
 * STEP-TAS is used in the thermal analysis of aerospace equipment
 * ISO 13584, ''Industrial automation systems and integration - Parts library''
+* [http://en.wikipedia.org/wiki/ISO_13399 ISO 13399]
 
 === History ===
 Based originally on the NIST STEP Class Library (SCL), the STEPcode project has evolved into a
