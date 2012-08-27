@@ -5,9 +5,6 @@ title: STEPcode
 |---|
 |\_\_TOC\_\_|
 
-STEPcode
-========
-
 Introduction
 ------------
 
@@ -60,25 +57,29 @@ project has evolved into a diverse open source community helping improve
 the accessibility, adoption, and long-term availability of STEP related
 technologies for CAx developers.
 
-Project Links
--------------
+Links
+-----
 
-### [Source Code: GitHub](http://github.com/stepcode/stepcode)
+-   The source code is on [GitHub](http://github.com/stepcode/stepcode)
+    -   Any discussion of the code on this wiki should have a
+        [[Category:Code discussion]] tag so that it shows up in
+        [:Category:Code
+        discussion](:Category:Code discussion "wikilink")
 
--   Any discussion of the code on this wiki should have a
-    [[Category:Code discussion]] tag so that it shows up in
-    [:Category:Code discussion](:Category:Code discussion "wikilink")
+-   The [<http://groups.google.com/forum/?fromgroups>\#!forum/scl-dev
+    mailing list] is hosted on google groups.
+-   We have a [CDash
+    dashboard](http://my.cdash.org/index.php?project=StepClassLibrary)
+    do show the status of recent test runs.
+    -   Unfortunately, it is not possible to view tests from more than
+        one day at once; you must use the **Previous** link for that.
+        Testing is sporadic, and is generally only done for branches
+        that are under review.
 
-### [<http://groups.google.com/forum/?fromgroups>\#!forum/scl-dev Developers Mailing List]
+### Using STEPcode
 
-### [Testing - CDash dashboard](http://my.cdash.org/index.php?project=StepClassLibrary)
-
--   Unfortunately, it is not possible to view test from more than one
-    day at once; you must use the **Previous** link for that. Testing is
-    sporadic, and is generally only done for branches that are under
-    review.
-
-### [How to use STEPcode in an application](How to use STEPcode in an application "wikilink")
+-   [How to use STEPcode in an
+    application](How to use STEPcode in an application "wikilink")
 
 ### Documentation
 

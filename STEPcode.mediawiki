@@ -1,7 +1,6 @@
 {| align="right"
   | __TOC__
   |}
-= STEPcode =
 == Introduction ==
 The '''STEPcode''' project is a collection of open source libraries, tools, and resources that revolve around the technologies of ISO 10303, a.k.a. STEP. Parts of the STEP specification are reused in other standards, so STEPcode is not limited to ISO10303.
 
@@ -28,15 +27,16 @@ All of the following standards use Parts 11 and 21 of ISO10303, which are the EX
 Based originally on the NIST STEP Class Library (SCL), the STEPcode project has evolved into a
 diverse open source community helping improve the accessibility, adoption, and long-term availability of STEP related technologies for CAx developers.
 
-== Project Links ==
+== Links ==
 
-=== [http://github.com/stepcode/stepcode Source Code: GitHub] ===
-* Any discussion of the code on this wiki should have a <nowiki>[[Category:Code discussion]]</nowiki> tag so that it shows up in [[:Category:Code discussion]]
-=== [http://groups.google.com/forum/?fromgroups#!forum/scl-dev Developers Mailing List] ===
-=== [http://my.cdash.org/index.php?project=StepClassLibrary Testing - CDash dashboard] ===
-* Unfortunately, it is not possible to view test from more than one day at once; you must use the '''Previous''' link for that. Testing is sporadic, and is generally only done for branches that are under review.
+* The source code is on [http://github.com/stepcode/stepcode GitHub]
+** Any discussion of the code on this wiki should have a <nowiki>[[Category:Code discussion]]</nowiki> tag so that it shows up in [[:Category:Code discussion]]
+* The [http://groups.google.com/forum/?fromgroups#!forum/scl-dev mailing list] is hosted on google groups.
+* We have a [http://my.cdash.org/index.php?project=StepClassLibrary CDash dashboard] do show the status of recent test runs.
+** Unfortunately, it is not possible to view tests from more than one day at once; you must use the '''Previous''' link for that. Testing is sporadic, and is generally only done for branches that are under review.
 
-=== [[How to use STEPcode in an application]] ===
+=== Using STEPcode ===
+* [[How to use STEPcode in an application]]
 
 === Documentation ===
 * '''[http://stepcode.org/doxygen/ Doxygen]''' for v0.6
