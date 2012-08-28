@@ -15,7 +15,7 @@ The [http://github.com/stepcode/stepcode/blob/master/COPYING BSD license] allows
 ISO 10303 is commonly referred to as '''STEP''', the '''ST'''andard for the '''E'''xchange of '''P'''roduct model data. It can be used for neutral file exchange or as a basis for a data sharing or archiving in areas such as drafting, mechanical and assembly design, electromechanical design, machine tool control, PLCS (product lifecycle support), systems engineering, computational fluid dynamics and finite element analysis.
 
 STEPcode can be used with the following standards because they reuse [http://en.wikipedia.org/wiki/ISO_10303-11 Part 11] and [http://en.wikipedia.org/wiki/ISO_10303-21 Part 21] of ISO 10303:
-* AP203, AP214 and AP242 for CAD [http://www.cax-if.org]
+* AP203, AP214 and AP242 for CAD [http://www.cax-if.org CAX-IF]
 * The Industry Foundation Classes ('''IFC''') are used for Building Information Modeling (BIM)
 * ISO 15926 is used in the Oil & Gas industry
 * STEP-TAS is used in the thermal analysis of aerospace equipment

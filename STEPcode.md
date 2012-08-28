@@ -40,7 +40,7 @@ STEPcode can be used with the following standards because they reuse
 [Part 11](http://en.wikipedia.org/wiki/ISO_10303-11) and [Part
 21](http://en.wikipedia.org/wiki/ISO_10303-21) of ISO 10303:
 
--   AP203, AP214 and AP242 for CAD [1](http://www.cax-if.org)
+-   AP203, AP214 and AP242 for CAD [CAX-IF](http://www.cax-if.org)
 -   The Industry Foundation Classes (**IFC**) are used for Building
     Information Modeling (BIM)
 -   ISO 15926 is used in the Oil & Gas industry
