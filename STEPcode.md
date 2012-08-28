@@ -76,10 +76,11 @@ has been tested with.
 
 ### To Do
 
-There is a [list of tasks](list of tasks "wikilink") that involve
+There is a **[list of tasks](list of tasks "wikilink")** that involve
 improving the wiki or STEPcode's source code. In addition, there is a
-list of [projects](Projects "wikilink") that are more difficult than the
-tasks; these might be appropriate for GSoC participants.
+**[list of projects](list of projects "wikilink")** that are more
+difficult than the tasks; these might be appropriate for GSoC
+participants.
 
 Links
 -----

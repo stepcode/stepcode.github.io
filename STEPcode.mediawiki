@@ -38,7 +38,7 @@ See also: [[History]]
 There is a [[list of schemas]] that STEPcode has been tested with.
 
 === To Do ===
-There is a [[list of tasks]] that involve improving the wiki or STEPcode's source code. In addition, there is a list of [[Projects|projects]] that are more difficult than the tasks; these might be appropriate for GSoC participants.
+There is a '''[[list of tasks]]''' that involve improving the wiki or STEPcode's source code. In addition, there is a '''[[list of projects]]''' that are more difficult than the tasks; these might be appropriate for GSoC participants.
 
 == Links ==
 * The source code is on [http://github.com/stepcode/stepcode GitHub]
