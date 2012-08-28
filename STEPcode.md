@@ -12,7 +12,7 @@ The **STEPcode** project is a collection of open source libraries,
 tools, and resources that revolve around the technologies of [ISO
 10303](http://en.wikipedia.org/w/index.php?title=ISO_10303), a.k.a.
 STEP. Parts of the STEP specification are reused in other standards, so
-STEPcode is not limited to ISO10303.
+STEPcode use is not limited to ISO 10303.
 
 STEPcode provides a robust implementation of
 
@@ -30,15 +30,17 @@ projects such as [BRL-CAD](http://www.brl-cad.org).
 ### STEP & Other Standards
 
 ISO 10303 is commonly referred to as **STEP**, the **ST**andard for the
-**E**xchange of **P**roduct model data. It can be used as a data
-exchange format in areas such as drafting, mechanical and assembly
-design, electromechanical design, machine tool control, PLCS (product
-lifecycle support) and finite element analysis.
+**E**xchange of **P**roduct model data. It can be used for neutral file
+exchange or as a basis for a data sharing or archiving in areas such as
+drafting, mechanical and assembly design, electromechanical design,
+machine tool control, PLCS (product lifecycle support), systems
+engineering, computational fluid dynamics and finite element analysis.
 
 STEPcode can be used with the following standards because they reuse
 [Part 11](http://en.wikipedia.org/wiki/ISO_10303-11) and [Part
-21](http://en.wikipedia.org/wiki/ISO_10303-21) of ISO10303:
+21](http://en.wikipedia.org/wiki/ISO_10303-21) of ISO 10303:
 
+-   AP203, AP214 and AP242 for CAD [1](http://www.cax-if.org)
 -   The Industry Foundation Classes (**IFC**) are used for Building
     Information Modeling (BIM)
 -   ISO 15926 is used in the Oil & Gas industry
