@@ -2,6 +2,7 @@
  | __TOC__
  |}
 Possible student projects for GSoC 2013+
+
 [http://github.com/stepcode/stepcode/wiki/GSoC main GSoC page]
 
 '''Note to any students who find this page: unfortunately, we are ''not'' part of GSoC 2012.'''

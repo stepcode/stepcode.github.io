@@ -5,8 +5,9 @@ title: List of projects
 |---|
 |\_\_TOC\_\_|
 
-Possible student projects for GSoC 2013+ [main GSoC
-page](http://github.com/stepcode/stepcode/wiki/GSoC)
+Possible student projects for GSoC 2013+
+
+[main GSoC page](http://github.com/stepcode/stepcode/wiki/GSoC)
 
 **Note to any students who find this page: unfortunately, we are *not*
 part of GSoC 2012.**
