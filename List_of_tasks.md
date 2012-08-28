@@ -16,9 +16,13 @@ On the wiki
 Improvements to STEPcode's source
 ---------------------------------
 
--   Support AP209
 -   Support the unaltered AP203Amd1 (same fix as AP209 problem?)
 -   Each unique p21read error should be printed only once, with a list
     of affected entities. Fall back to verbose errors via a switch, such
     as ''' '-v' '''?
+-   support for splitting a STEP file according to the recommended
+    practices for (nested) external references
+    -   this needs fleshed out and moved to the [list of
+        projects](list of projects "wikilink")
+
 
