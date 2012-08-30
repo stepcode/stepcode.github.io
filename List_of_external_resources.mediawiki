@@ -18,5 +18,9 @@
 
 == Other open source projects related to STEP and/or EXPRESS ==
 
+[http://osbim.org/ Open Source BIM Collective]
+
+[http://www.jsdai.net JSDAI], similar to STEPcode but written in Java.
+
 == Free, closed-source programs related to STEP / EXPRESS ==
 * [http://ciks.cbt.nist.gov/cgi-bin/ctv/sfa_request.cgi STEP File Analyzer]
