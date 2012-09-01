@@ -95,7 +95,7 @@ The Code
 
 -   [Building STEPcode](Building STEPcode "wikilink")
 -   [Description of the files and
-    directories](Description of the files and directories "wikilink")
+    directories](Files and directories "wikilink")
 -   [Getting started](Getting started "wikilink")
 -   We have a [CDash
     dashboard](http://my.cdash.org/index.php?project=StepClassLibrary)
