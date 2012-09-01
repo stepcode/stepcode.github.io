@@ -81,7 +81,7 @@ STEPcode can be used with the following standards because they reuse [http://en.
 * [[Building STEPcode]]
 * [[Files and directories|Description of the files and directories]]
 * [[Getting started]]
-* We have a [http://my.cdash.org/index.php?project=StepClassLibrary CDash dashboard] do show the status of recent test runs.
+* We have a [http://my.cdash.org/index.php?project=StepClassLibrary CDash dashboard] to show the status of recent test runs.
 ** Unfortunately, it is not possible to view tests from more than one day at once; you must use the '''Previous''' link for that. Testing is sporadic, and is generally only done for branches that are under review.
 
 </div></div>

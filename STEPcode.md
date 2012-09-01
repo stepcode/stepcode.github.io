@@ -99,7 +99,7 @@ The Code
 -   [Getting started](Getting started "wikilink")
 -   We have a [CDash
     dashboard](http://my.cdash.org/index.php?project=StepClassLibrary)
-    do show the status of recent test runs.
+    to show the status of recent test runs.
     -   Unfortunately, it is not possible to view tests from more than
         one day at once; you must use the **Previous** link for that.
         Testing is sporadic, and is generally only done for branches
