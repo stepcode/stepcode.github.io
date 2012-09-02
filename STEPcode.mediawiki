@@ -91,7 +91,7 @@ STEPcode can be used with the following standards because they reuse [http://en.
 
 == Links  ==
 * [http://wikistep.org/ WikiSTEP] - wiki for the STEP standard
-* [en.wikipedia.org/w/index.php?title=ISO_10303 STEP on Wikipedia]
+* [http://en.wikipedia.org/w/index.php?title=ISO_10303 STEP on Wikipedia]
 
 </div></div>
 
@@ -99,4 +99,3 @@ STEPcode can be used with the following standards because they reuse [http://en.
 |}
 
 __NOTOC__
-<!-- __NOEDITSECTION__ -->

@@ -113,7 +113,8 @@ Links
 -----
 
 -   [WikiSTEP](http://wikistep.org/) - wiki for the STEP standard
--   [en.wikipedia.org/w/index.php?title=ISO\_10303 STEP on Wikipedia]
+-   [STEP on
+    Wikipedia](http://en.wikipedia.org/w/index.php?title=ISO_10303)
 
 </div>
 </div>|
