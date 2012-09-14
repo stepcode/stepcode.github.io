@@ -87,16 +87,17 @@ Community
 The Code
 --------
 
--   The source code is on [GitHub](http://github.com/stepcode/stepcode)
-    -   Any discussion of the code on this wiki should have a
-        [[Category:Code discussion]] tag so that it shows up in
-        [:Category:Code
-        discussion](:Category:Code discussion "wikilink")
-
+-   **The source code is on
+    [GitHub](http://github.com/stepcode/stepcode)**
+-   Any discussion of the code on this wiki should have a
+    [[Category:Code discussion]] tag so that it shows up in
+    [:Category:Code discussion](:Category:Code discussion "wikilink")
+-   [Getting started](Getting started "wikilink")
 -   [Building STEPcode](Building STEPcode "wikilink")
 -   [Description of the files and
     directories](Files and directories "wikilink")
--   [Getting started](Getting started "wikilink")
+-   [How to use STEPcode in an
+    application](How to use STEPcode in an application "wikilink")
 -   We have a [CDash
     dashboard](http://my.cdash.org/index.php?project=StepClassLibrary)
     to show the status of recent test runs.
