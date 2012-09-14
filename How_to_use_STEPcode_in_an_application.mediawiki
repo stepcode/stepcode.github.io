@@ -1,3 +1,4 @@
+[[Category:Code discussion]]
 == C++ examples ==
 * [[Minimal Part 21 C++ example]]
 * doxygen documentation of [http://stepcode.org/stepcode-use-doxygen/ apps using STEPcode]

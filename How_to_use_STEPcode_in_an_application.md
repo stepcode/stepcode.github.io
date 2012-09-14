@@ -45,3 +45,4 @@ See also
 -   [Building STEPcode](Building STEPcode "wikilink")
 -   [How to test with CTest](How to test with CTest "wikilink")
 
+[Category:Code discussion](Category:Code discussion "wikilink")
