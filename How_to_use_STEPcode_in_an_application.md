@@ -42,6 +42,6 @@ Python
 See also
 --------
 
--   [How to compile](How to compile "wikilink")
+-   [Building STEPcode](Building STEPcode "wikilink")
 -   [How to test with CTest](How to test with CTest "wikilink")
 

@@ -14,5 +14,5 @@ Laurent Bauer's [https://github.com/LaurentBauer/SCLView/wiki SCView]
 * [http://github.com/stepcode/stepcode/wiki/python-generator Python Generator]
 
 == See also ==
-* [[How to compile]]
+* [[Building STEPcode]]
 * [[How to test with CTest]]
