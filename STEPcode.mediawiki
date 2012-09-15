@@ -57,10 +57,12 @@ STEPcode can be used with the following standards because they reuse [http://en.
 <div style="background-color:#F8FCFF; border:1px solid #7ABDFF; border-top:10px solid #7A7AFF; font-size:95%; margin-bottom:0em; padding:0.4em; padding-top:0;">
 
 == Community ==
-* The [http://groups.google.com/forum/?fromgroups#!forum/scl-dev scl-dev mailing list] is hosted on google groups. In spite of the name, this is for both users and developers.
-* The STEPcode project has evolved into a diverse open source community helping improve the accessibility, adoption, and long-term availability of STEP related technologies for CAx developers.
-</div></div>
+The [http://groups.google.com/forum/?fromgroups#!forum/scl-dev scl-dev mailing list] is hosted on google groups. In spite of the name, this is for both users and developers.
+The STEPcode project has evolved into a diverse open source community helping improve the accessibility, adoption, and long-term availability of STEP related technologies for CAx developers.
 
+==== [[List of projects|Projects]] and [[List of tasks|tasks]] ====
+
+</div></div>
 <!--
 <div style="padding:0; margin:0; border:1px solid #FFFF99; border-top:0; margin-bottom:1.0em;">
 <div style="background-color:#F8FCFF; border:1px solid #FFD16D; border-top:10px solid #FFD16D; font-size:95%; margin-bottom:0em; padding:0.4em; padding-top:0;">
@@ -71,7 +73,6 @@ STEPcode can be used with the following standards because they reuse [http://en.
 -->
 
 |style="width:40%; vertical-align:top; margin:0; padding:0; padding-left:5px;"| 
-
 <div style="padding:0; margin:0; border:1px solid #FCC; border-top:0; margin-bottom:1.0em;">
 <div style="background-color:#F8FCFF; border:1px solid #FF9090; border-top:10px solid #FF0000; font-size:95%; margin-bottom:0em; padding:0.4em; padding-top:0;">
 

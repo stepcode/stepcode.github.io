@@ -74,12 +74,9 @@ STEPcode can be used with the following standards because they reuse [Part 11](h
 Community
 ---------
 
--   The [<http://groups.google.com/forum/?fromgroups>\#!forum/scl-dev
-    scl-dev mailing list] is hosted on google groups. In spite of the
-    name, this is for both users and developers.
--   The STEPcode project has evolved into a diverse open source
-    community helping improve the accessibility, adoption, and long-term
-    availability of STEP related technologies for CAx developers.
+The [<http://groups.google.com/forum/?fromgroups>\#!forum/scl-dev scl-dev mailing list] is hosted on google groups. In spite of the name, this is for both users and developers. The STEPcode project has evolved into a diverse open source community helping improve the accessibility, adoption, and long-term availability of STEP related technologies for CAx developers.
+
+#### [Projects](List of projects "wikilink") and [tasks](List of tasks "wikilink")
 
 </div>
 </div>|<div style="padding:0; margin:0; border:1px solid #FCC; border-top:0; margin-bottom:1.0em;">
