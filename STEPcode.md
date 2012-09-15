@@ -87,7 +87,9 @@ Community
 The Code
 --------
 
-**The source code is on [GitHub](http://github.com/stepcode/stepcode)** Any discussion of the code on this wiki should have a [[Category:Code discussion]] tag so that it shows up in [:Category:Code discussion](:Category:Code discussion "wikilink")
+**The source code is on [GitHub](http://github.com/stepcode/stepcode)**
+
+Any discussion of the code on this wiki should have a [[Category:Code discussion]] tag so that it shows up in [:Category:Code discussion](:Category:Code discussion "wikilink")
 
 More pages:
 
