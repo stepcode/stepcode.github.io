@@ -16,13 +16,11 @@ flex versions newer than v2.5.35 do not work on windows.
 How to build
 ------------
 
-`
-cd scl
+`cd scl
 mkdir build
 cd build
 cmake ..    # '..' is the path to the directory containing the top-level CMakeLists.txt
-make
-`
+make`
 
 Configuration options (append to the 'cmake ..' line):
 ------------------------------------------------------

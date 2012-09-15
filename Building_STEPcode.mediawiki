@@ -7,13 +7,11 @@ For windows, the versions of flex and bison that are distributed in [http://code
 
 == How to build ==
 
-<code language="shell">
-cd scl
+<code language="shell">cd scl
 mkdir build
 cd build
 cmake ..    # '..' is the path to the directory containing the top-level CMakeLists.txt
-make
-</code>
+make</code>
 
 == Configuration options (append to the 'cmake ..' line): ==
 * -DBUILD_SCHEMAS="''path/to/schema.exp'';''path/to/schema2.exp''"
