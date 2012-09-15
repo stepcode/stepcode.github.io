@@ -76,14 +76,16 @@ STEPcode can be used with the following standards because they reuse [http://en.
 <div style="background-color:#F8FCFF; border:1px solid #FF9090; border-top:10px solid #FF0000; font-size:95%; margin-bottom:0em; padding:0.4em; padding-top:0;">
 
 == The Code ==
-* '''The source code is on [http://github.com/stepcode/stepcode GitHub]'''
-* Any discussion of the code on this wiki should have a <nowiki>[[Category:Code discussion]]</nowiki> tag so that it shows up in [[:Category:Code discussion]]
+'''The source code is on [http://github.com/stepcode/stepcode GitHub]'''
+Any discussion of the code on this wiki should have a <nowiki>[[Category:Code discussion]]</nowiki> tag so that it shows up in [[:Category:Code discussion]]
+
+More pages:
 * [[Getting started]]
 * [[Building STEPcode]]
 * [[Files and directories|Description of the files and directories]]
 * [[How to use STEPcode in an application]]
-* We have a [http://my.cdash.org/index.php?project=StepClassLibrary CDash dashboard] to show the status of recent test runs.
-** Unfortunately, it is not possible to view tests from more than one day at once; you must use the '''Previous''' link for that. Testing is sporadic, and is generally only done for branches that are under review.
+
+We have a [http://my.cdash.org/index.php?project=StepClassLibrary CDash dashboard] to show the status of recent test runs. Unfortunately, it is not possible to view tests from more than one day at once; you must use the '''Previous''' link for that. Testing is sporadic, and is generally only done for branches that are under review.
 
 </div></div>
 
