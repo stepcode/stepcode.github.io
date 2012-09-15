@@ -1,0 +1,44 @@
+
+== Express Schemas ==
+
+=== [http://www.steptools.com/sc4/archive/ SC4 Express Archive] - for STEP AP schemas that are International Standards (IS) ===
+
+=== [http://stepmod.cvs.sourceforge.net/viewvc/stepmod/stepmod/data/modules/ STEPmod on Sourceforge] - for versions of modular STEP AP schemas that are in development ===
+
+=== [http://www.cax-if.org/joint_testing_info.html#schemas CAX-IF Schemas, Recommended Practices, and Test Rounds] - for AP203, AP214, and AP242 ===
+
+== Software used in SCL development ==
+
+[http://sourceforge.net/projects/exp-engine/ Express Engine] - used by SCL to validate models with schemas. Old website is [http://exp-engine.sourceforge.net/ here]
+
+== Other Free Software for STEP ==
+
+[http://www.ida-step.net/components/viewers/basic IDA-STEP Viewer] - free downloadable STEP file viewer
+
+[http://www.isetools.org/eb-cgi-bin/yabb2_ISE/YaBB.pl?board=general_mediators Jen-X p28 schema generator and p21-p28 mediators] - for shipbuilding STEP AP's
+
+[http://www.steptools.com/translate/expfront STEP Tools] - free on-line EXPRESS schema checker
+
+[http://sourceforge.net/projects/step-toybox/ STEP-toybox]
+
+[http://exff.sourceforge.net/ Express for Free], also [http://www.exff.org/ here]
+
+[http://www.jsdai.net/ JSDAI]
+
+[http://www.nist.gov/el/msid/reeper.cfm Reeper]
+
+[http://www.nist.gov/el/msid/ontostep.cfm OntoSTEP Protégé plugin]
+
+[http://code.google.com/p/sebnf2pars/ SEBNF2Pars] - Creates Part 21 parsers from an EBNF representation
+
+[http://code.google.com/p/lgtstep/ lgtstep] - a Logtalk STEP implementation
+
+[http://www.kshell.com/pages/scripting/index.html Scripting Applications for STEP Part 21 files] - uses Prolog
+
+http://github.com/mvaerle/python-ifc
+
+http://www.ifcgears.com/extender.php
+
+== Commercial ==
+
+[http://www.steptools.com/products/stdev/ ST-Developer]
