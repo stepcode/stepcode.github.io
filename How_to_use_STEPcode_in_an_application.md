@@ -31,7 +31,7 @@ converter, documented
 - currently, the BRL-CAD version of STEPcode differs slightly from the
 version on GitHub)
 
-Laurent Bauer's [SCView](https://github.com/LaurentBauer/SCLView/wiki)
+Laurent Bauer's [SCView](https://github.com/LaurentBauer/SCView/wiki)
 
 Python
 ------
