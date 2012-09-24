@@ -13,8 +13,9 @@ C++ examples
     - tests written in c++; these can be built when ENABLE\_TESTING is
     set to ON, but are excluded from 'make all'
 -   [sc/src/test](http://github.com/stepcode/stepcode/tree/master/src/test)
-    - tests written by NIST; not guaranteed to be up-to-date except for
+    - tests written by NIST; all are up-to-date, but
     [p21read](https://github.com/stepcode/stepcode/blob/master/src/test/p21read/p21read.cc#L138)
+    is the most frequently used. See the README in sc/src/test for more.
 -   [sc/src/clprobe-ui](http://github.com/stepcode/stepcode/tree/master/src/clprobe-ui)
     - remnants of a UI known as dataProbe; requires the
     [InterViews](http://www.ivtools.org/ivtools/interviews.html)
