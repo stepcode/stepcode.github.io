@@ -2,7 +2,15 @@
 title: BRL-CAD patches
 ---
 
-October, 2012
+October, 2012 - patches to be merged from the BRL-CAD SVN repo
+
+Ignore the number in italics - it is a git commit id from an svn import
+operation. It is present here to ease patch creation, and does not refer
+to the GitHub repo.
+
+**If you move a commit from one category to another, please leave the
+svn revision & git commit id intact, so that I can extract the page text
+and run a script on it.**
 
 Revision Range
 --------------
@@ -13,10 +21,6 @@ through
 <http://brlcad.svn.sourceforge.net/viewvc/brlcad?view=revision&revision=52540>
 r52540] have been considered. Earlier BRL-CAD revisions had already been
 merged; any later revisions have yet to be examined.
-
-Ignore the number in italics - it is a git revision id from an svn
-import operation. It is present here to ease patch creation, and does
-not refer to the GitHub repo.
 
 Compiler warnings, Coverity
 ---------------------------
