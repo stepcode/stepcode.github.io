@@ -6,7 +6,7 @@ Ignore the number in italics - it is a git commit id from an svn import operatio
 
 == Revision Range ==
 
-For this list, revisions [http://brlcad.svn.sourceforge.net/viewvc/brlcad?view=revision&revision=45683 r45683] through http://brlcad.svn.sourceforge.net/viewvc/brlcad?view=revision&revision=52540 r52540] have been considered. Earlier BRL-CAD revisions had already been merged; any later revisions have yet to be examined.
+For this list, revisions [http://brlcad.svn.sourceforge.net/viewvc/brlcad?view=revision&revision=45683 r45683] through [http://brlcad.svn.sourceforge.net/viewvc/brlcad?view=revision&revision=52540 r52540] have been considered. Earlier BRL-CAD revisions had already been merged; any later revisions have yet to be examined.
 
 == Compiler warnings, Coverity ==
 

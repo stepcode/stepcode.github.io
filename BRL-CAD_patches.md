@@ -18,9 +18,9 @@ Revision Range
 For this list, revisions
 [r45683](http://brlcad.svn.sourceforge.net/viewvc/brlcad?view=revision&revision=45683)
 through
-<http://brlcad.svn.sourceforge.net/viewvc/brlcad?view=revision&revision=52540>
-r52540] have been considered. Earlier BRL-CAD revisions had already been
-merged; any later revisions have yet to be examined.
+[r52540](http://brlcad.svn.sourceforge.net/viewvc/brlcad?view=revision&revision=52540)
+have been considered. Earlier BRL-CAD revisions had already been merged;
+any later revisions have yet to be examined.
 
 Compiler warnings, Coverity
 ---------------------------
