@@ -5,7 +5,7 @@
 |<div style="padding:0px; margin:0; border:1px solid #CCC; border-top:0;">
 <div style="background-color:#FCFCFC; border:1px solid #CCC; border-top:10px solid #CCC; font-size:95%; padding:10px;">
 
-<div style="font-family:Verdana, Arial, Helvetica, sans-serif; font-size: 175%; padding-top:20px;">Welcome<div style="float: right;">{{#widget:GPlusOne}}</div></div> 
+<div style="font-family:Verdana, Arial, Helvetica, sans-serif; font-size: 175%; padding-top:20px;">Welcome<div style="float: right;"><google1 style="3"></google1></div></div> 
 <div style="padding-top:22px;padding-bottom:15px;"><hr /></div>
 <!-- == Introduction == -->
 The '''STEPcode''' project is a collection of open source libraries, tools, and resources that revolve around the technologies of [http://en.wikipedia.org/w/index.php?title=ISO_10303 ISO 10303], a.k.a. STEP, the '''ST'''andard for the '''E'''xchange of '''P'''roduct model data.
