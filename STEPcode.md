@@ -9,8 +9,6 @@ title: STEPcode
 Welcome
 
 <div style="float: right;">
-<google1 style="3"></google1>
-
 </div>
 </div>
 <div style="padding-top:22px;padding-bottom:15px;">
