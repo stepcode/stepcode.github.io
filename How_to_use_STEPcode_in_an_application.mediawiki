@@ -14,6 +14,11 @@ Laurent Bauer's [https://github.com/LaurentBauer/SCView/wiki SCView]
 == Python ==
 * [http://github.com/stepcode/stepcode/wiki/python-generator Python Generator]
 
+== TODO ==
+* describe use of [http://github.com/stepcode/stepcode/blob/master/src/cllazyfile/lazyInstMgr.h lazy loading code]
+* create a page with a small Part 21 file, with description of format and links to relevant classes - SDAI_Application_instance, STEPcomplex, generated code (?)
+* run doxygen on parts of STEPcode (libexpress + exppp + fedex_plus, fedex_python, cllazyfile, cleditor, clstepcore + cldai + clutils + base ) '''and automate doxygen with a script'''
+
 == See also ==
 * [[Building STEPcode]]
 * [[How to test with CTest]]

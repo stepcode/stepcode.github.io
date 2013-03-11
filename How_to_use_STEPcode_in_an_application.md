@@ -40,6 +40,18 @@ Python
 -   [Python
     Generator](http://github.com/stepcode/stepcode/wiki/python-generator)
 
+TODO
+----
+
+-   describe use of [lazy loading
+    code](http://github.com/stepcode/stepcode/blob/master/src/cllazyfile/lazyInstMgr.h)
+-   create a page with a small Part 21 file, with description of format
+    and links to relevant classes - SDAI\_Application\_instance,
+    STEPcomplex, generated code (?)
+-   run doxygen on parts of STEPcode (libexpress + exppp + fedex\_plus,
+    fedex\_python, cllazyfile, cleditor, clstepcore + cldai + clutils +
+    base ) **and automate doxygen with a script**
+
 See also
 --------
 
