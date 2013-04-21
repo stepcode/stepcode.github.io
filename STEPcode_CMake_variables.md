@@ -38,9 +38,11 @@ You can change these
 
 ### SC\_SDAI\_ADDITIONAL\_EXES\_SRCS
 
--   list of paths to source files for additional executables that will
-    be built for each schema. Each source file is assumed to be
-    stand-alone, much like p21read.cc
+-   A list of paths to source files for additional executables that will
+    be built for each schema.
+-   Each source file is assumed to be stand-alone, much like p21read.cc
+-   Each executable will be linked to the same libs as p21read - this
+    will **not** work with lazy loading.
 
 Variables exclusively for CTest
 -------------------------------
