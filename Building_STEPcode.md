@@ -7,13 +7,9 @@ Required packages
 
 -   cmake \>= v2.8.7
 
--   As of v0.7, the following are no longer necessary:
+-   As of v0.7, the following are no longer used:
     -   bison
     -   flex
-
-For windows, the versions of flex and bison that are distributed in
-[msysgit](http://code.google.com/p/msysgit/) are known to work. Some
-flex versions newer than v2.5.35 do not work on windows.
 
 How to build
 ------------
