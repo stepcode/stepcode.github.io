@@ -51,9 +51,9 @@ Configuration options (append to the 'cmake ..' line):
 Create c++ for a schema manually:
 ---------------------------------
 
-    mkdir schema_name
-    cd schema_name
-    build/bin/fedex_plus path/to/schema.exp
+`mkdir schema_name
+cd schema_name
+build/bin/fedex_plus path/to/schema.exp`
 
 Files created in build dir
 --------------------------
