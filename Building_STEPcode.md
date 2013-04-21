@@ -46,6 +46,8 @@ Configuration options (append to the 'cmake ..' line):
 -   The above options can be used from the CMake GUI as well - just look
     through the list of variables.
 
+#### See Also: [STEPcode CMake variables](STEPcode CMake variables "wikilink")
+
 Create c++ for a schema manually:
 ---------------------------------
 

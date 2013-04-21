@@ -28,6 +28,8 @@ make</code>
 ** see also: cmake documentation for CMAKE_BUILD_TYPE
 * The above options can be used from the CMake GUI as well - just look through the list of variables.
 
+==== See Also: [[STEPcode CMake variables]] ====
+
 == Create c++ for a schema manually: ==
 <pre>
 mkdir schema_name
