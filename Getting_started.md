@@ -7,17 +7,16 @@ Download STEPcode
 
 ### Install git
 
-Windows users: use [msysgit](http://code.google.com/p/msysgit/), which
-also includes working versions of bison and flex. The app referenced in
-GitHub Bootcamp (link below) may work as well, but it does not include
-bison and flex.
+Windows users: [msysgit](http://code.google.com/p/msysgit/) is known to
+work. The app referenced in GitHub Bootcamp (link below) should work as
+well.
 
 For OSX, see [GitHub
 Bootcamp](https://help.github.com/articles/set-up-git)
 
 For Linux, install git through your package manager.
 
-Alternately (not recommended): download an archive of the current code
+Alternately (not recommended): download an archive of the latest code
 with **no** revision history by clicking
 [here](https://github.com/stepcode/stepcode/zipball/master).
 
@@ -29,11 +28,7 @@ Windows, download from
 
 ### Install Flex and Bison
 
-Windows: If you did not install msysgit above, you will need
-[bison](http://gnuwin32.sourceforge.net/packages/bison.htm) and
-[flex](http://gnuwin32.sourceforge.net/packages/flex.htm). **Not all
-versions work.** OSX and Linux: Flex and Bison were probably installed
-with your compiler.
+v0.7 and later **do not use** flex or bison.
 
 ### Clone the repository
 
