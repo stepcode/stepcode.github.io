@@ -1,4 +1,10 @@
 [[Category:Code discussion]]
+
+== CMake Integration ==
+* Use '''SC_IS_SUBBUILD''' and '''SC_BUILD_SCHEMAS'''
+* '''SC_SDAI_ADDITIONAL_EXES_SRCS''' can be used to have SC build single-file executables (similar to p21read)
+** this will not work for applications with more than one source code file or that need to link other libs.
+==== See also: [[STEPcode CMake variables]] ====
 == C++ examples ==
 * [[Minimal Part 21 C++ example]]
 * doxygen documentation of [http://stepcode.org/stepcode-use-doxygen/ apps using STEPcode]

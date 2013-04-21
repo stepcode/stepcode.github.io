@@ -2,6 +2,17 @@
 title: How to use STEPcode in an application
 ---
 
+CMake Integration
+-----------------
+
+-   Use **SC\_IS\_SUBBUILD** and **SC\_BUILD\_SCHEMAS**
+-   **SC\_SDAI\_ADDITIONAL\_EXES\_SRCS** can be used to have SC build
+    single-file executables (similar to p21read)
+    -   this will not work for applications with more than one source
+        code file or that need to link other libs.
+
+#### See also: [STEPcode CMake variables](STEPcode CMake variables "wikilink")
+
 C++ examples
 ------------
 
