@@ -24,6 +24,11 @@ See also: [[History]], [[List of external resources]], [[List of OSS or free STE
 
 === Quick Start ===
 * See the [[Getting started|getting started]] page
+
+=== Communication ===
+* '''[https://groups.google.com/forum/#!forum/scl-dev STEPcode mailing list]''' on google groups
+* '''#stepcode''' on freenode - use an IRC client or [http://webchat.freenode.net/?channels=stepcode your browser]
+
 </div></div>
 
 <!--

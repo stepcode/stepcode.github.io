@@ -37,6 +37,13 @@ See also: [History](History "wikilink"), [List of external resources](List of ex
 
 -   See the [getting started](Getting started "wikilink") page
 
+### Communication
+
+-   **[<https://groups.google.com/forum/>\#!forum/scl-dev STEPcode
+    mailing list]** on google groups
+-   **\#stepcode** on freenode - use an IRC client or [your
+    browser](http://webchat.freenode.net/?channels=stepcode)
+
 </div>
 </div>
 \<!--|<div style="padding:0; margin:0; border:1px solid #CCC; border-top:0;">
