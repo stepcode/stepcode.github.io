@@ -7,9 +7,9 @@ Without ctest script
 
 **Preferred method**
 
--   configure with SCL\_ENABLE\_TESTING=ON, i.e.
+-   configure with SC\_ENABLE\_TESTING=ON, i.e.
 
-`   cmake .. -DSCL_ENABLE_TESTING=ON`
+`   cmake .. -DSC_ENABLE_TESTING=ON`
 
 -   build:
 
@@ -22,7 +22,7 @@ Without ctest script
 -   results will look like
 
 ` Running tests...`  
-` Test project /opt/step/test-scl/build_ctest`  
+` Test project /opt/step/test-sc/build_ctest`  
 `         Start   1: generate_cpp_ap239_arm_lf`  
 `   1/137 Test   #1: generate_cpp_ap239_arm_lf ........................................   Passed    3.55 sec`  
 `         Start   2: build_cpp_sdai_ap239_arm_lf`  
