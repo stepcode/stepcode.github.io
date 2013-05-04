@@ -7,8 +7,9 @@ Without ctest script
 
 **Preferred method**
 
--   configure with SC\_ENABLE\_TESTING=ON, i.e.
+-   configure with SC\_ENABLE\_TESTING=ON
 
+In CMake-GUI, tick the box next to that variable. From the command line,
 `cmake .. -DSC_ENABLE_TESTING=ON`
 
 -   build:

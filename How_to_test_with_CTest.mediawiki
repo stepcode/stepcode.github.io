@@ -1,6 +1,7 @@
 == Without ctest script ==
 '''Preferred method'''
-* configure with SC_ENABLE_TESTING=ON, i.e.
+* configure with SC_ENABLE_TESTING=ON
+In CMake-GUI, tick the box next to that variable. From the command line,
 <code lang='bash'>cmake .. -DSC_ENABLE_TESTING=ON</code>
 * build:
 <code lang='bash'>make</code>
