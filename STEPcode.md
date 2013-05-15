@@ -40,9 +40,12 @@ See also: [History](History "wikilink"), [List of external resources](List of ex
 ### Communication
 
 -   **[<https://groups.google.com/forum/>\#!forum/scl-dev STEPcode
-    mailing list]** on google groups
+    mailing list]** on google groups (new users are moderated to
+    discourage spam)
 -   **\#stepcode** on freenode - use an IRC client or [your
-    browser](http://webchat.freenode.net/?channels=stepcode)
+    browser](http://webchat.freenode.net/?channels=stepcode). There is
+    also a [log](http://ibot.rikers.org/%23stepcode/) thanks to Tim
+    Rikers.
 
 </div>
 </div>

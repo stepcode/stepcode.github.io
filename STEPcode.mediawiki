@@ -26,8 +26,8 @@ See also: [[History]], [[List of external resources]], [[List of OSS or free STE
 * See the [[Getting started|getting started]] page
 
 === Communication ===
-* '''[https://groups.google.com/forum/#!forum/scl-dev STEPcode mailing list]''' on google groups
-* '''#stepcode''' on freenode - use an IRC client or [http://webchat.freenode.net/?channels=stepcode your browser]
+* '''[https://groups.google.com/forum/#!forum/scl-dev STEPcode mailing list]''' on google groups (new users are moderated to discourage spam)
+* '''#stepcode''' on freenode - use an IRC client or [http://webchat.freenode.net/?channels=stepcode your browser]. There is also a [http://ibot.rikers.org/%23stepcode/ log] thanks to Tim Rikers.
 
 </div></div>
 
