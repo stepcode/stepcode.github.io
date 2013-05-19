@@ -3,8 +3,9 @@
 * List of schemas to be built. Defaults to special value ALL, which builds all schemas in SC/data.
 * Each list entry can be a relative or absolute path to a schema or to a directory. If an entry is a directory, CMake looks for '''*.exp''' within that directory.
 === SC_BUILD_TYPE ===
-* Release, Debug, etc.
+* Release, Debug ('''default'''), etc.
 * See also: CMAKE_BUILD_TYPE documentation
+
 === SC_GENERATE_LEXER_PARSER ===
 * See comments in root CMakeLists.txt for this variable.
 === SC_INSTALL_PREFIX ===

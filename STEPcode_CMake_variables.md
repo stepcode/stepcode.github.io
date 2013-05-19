@@ -15,7 +15,7 @@ You can change these
 
 ### SC\_BUILD\_TYPE
 
--   Release, Debug, etc.
+-   Release, Debug (**default**), etc.
 -   See also: CMAKE\_BUILD\_TYPE documentation
 
 ### SC\_GENERATE\_LEXER\_PARSER
