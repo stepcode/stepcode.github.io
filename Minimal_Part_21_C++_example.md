@@ -7,8 +7,9 @@ Minimal C++ example based on [P21read](P21read "wikilink")
 ### Notes
 
 -   this hasn't been tested
--   `make install` does not install all necessary headers - try using
-    [SC\_SDAI\_ADDITIONAL\_EXES\_SRCS](http://stepcode.org/mw/index.php?title=STEPcode_CMake_variables#SC_SDAI_ADDITIONAL_EXES_SRCS)
+-   **make install** does not install all necessary headers - try using
+    [
+    SC\_SDAI\_ADDITIONAL\_EXES\_SRCS](STEPcode CMake variables#SC_SDAI_ADDITIONAL_EXES_SRCS "wikilink")
     instead
 
 Important Classes
