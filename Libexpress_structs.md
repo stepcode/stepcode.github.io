@@ -25,6 +25,16 @@ typedef struct Scope_ *     Entity;
 typedef struct Scope_ *     Procedure;
 typedef struct Scope_ *     Function;
 typedef struct Scope_ *     Rule;
+
+typedef struct Case_Item_ * Case_Item;
+typedef struct Expression_ * Expression;
+typedef struct Hash_Table_ * Dictionary;
+typedef struct Linked_List_ * Linked_List;
+typedef struct Query_    *   Query;
+typedef struct TypeBody_ * TypeBody;
+typedef struct TypeHead_ * TypeHead;
+typedef struct Variable_ * Variable;
+typedef struct Where_ * Where;
 `
 
 [Statement\_ \*](http://stepcode.org/doxygen/struct_statement__.html)
@@ -267,5 +277,118 @@ struct Procedure_ {
     Linked_List body;
     struct FullText text;
 };`
+
+Others
+------
+
+### Case\_Item
+
+``
+
+### Dictionary
+
+``
+
+### Expression
+
+`struct Qualified_Attr {
+    struct Expression_ * complex;   /**< complex entity instance */
+    Symbol * entity;
+    Symbol * attribute;
+};
+
+struct Op_Subexpression {
+    Op_Code op_code;
+    Expression op1;
+    Expression op2;
+    Expression op3;
+};
+
+struct Query_ {
+    Variable local;
+    Expression aggregate;   /**< set from which to test */
+    Expression expression;  /**< logical expression */
+    struct Scope_ * scope;
+};
+
+struct Funcall {
+    struct Scope_ * function; /**< can also be an entity because entities can be called as functions */
+    Linked_List list;
+};
+
+union expr_union {
+    int integer;
+    float real;
+    char * attribute;   /**< inverse .... for 'attr' */
+    char * binary;
+    int logical;
+    bool boolean;
+    struct Query_ * query;
+    struct Funcall funcall;
+
+    /* if etype == aggregate, list of expressions */
+    /* if etype == funcall, 1st element of list is funcall or entity */
+    /*  remaining elements are parameters */
+    Linked_List list;   /**< aggregates (bags, lists, sets, arrays) or lists for oneof expressions */
+    Expression expression;  /**< derived value in derive attrs, or
+                             * initializer in local vars, or
+                             * enumeration tags
+                             * or oneof value */
+    struct Scope_ * entity; /**< used by subtype exp, group expr
+                              * and self expr, some funcall's and any
+                              * expr that results in an entity */
+    Variable variable;  /**< attribute reference */
+};
+
+/** The difference between 'type' and 'return_type' is illustrated
+ * by "func(a)".  Here, 'type' is Type_Function while 'return_type'
+ * might be Type_Integer (assuming func returns an integer). */
+struct Expression_ {
+    Symbol symbol;      /**< contains things like funcall names, string names, binary values, enumeration names */
+    Type type;
+    Type return_type;   /**< type of value returned by expression */
+    struct Op_Subexpression e;
+    union expr_union u;
+};
+`
+
+### Linked\_List
+
+``
+
+### Query
+
+``
+
+### Statement
+
+``
+
+### Variable
+
+`struct Variable_ {
+    Expression  name;    /**< Symbol is inside of 'name' below */
+    Type        type;
+    Expression  initializer; /**< or 'derived' */
+    int         offset;
+
+    struct {
+        int optional    : 1; /**< OPTIONAL keyword */
+        int var         : 1; /**< VAR keyword */
+        int constant    : 1; /**< from CONSTANT...END_CONSTANT */
+        int unique      : 1; /**< appears in UNIQUE list */
+        int parameter   : 1; /**< is a formal parameter */
+        int attribute   : 1; /**< is an attribute (rule parameters are marked this way, too) */
+    } flags;
+
+#define query_symbol inverse_symbol
+    Symbol   *  inverse_symbol;     /**< entity symbol */
+    Variable    inverse_attribute;  /**< attribute related by inverse relationship */
+};
+`
+
+### Where
+
+``
 
 [Category:Code discussion](Category:Code discussion "wikilink")
