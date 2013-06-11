@@ -14,8 +14,9 @@ Linux users, install cmake via your package manager. For OSX and Windows, downlo
 v0.7 and later '''do not use''' flex or bison.
 === Clone the repository ===
 From the command prompt:
- git clone git://github.com/stepcode/stepcode.git
+<code>git clone git://github.com/stepcode/stepcode.git</code>
 Git will create a directory ''stepcode'' and clone the repository there. Once done, the latest revision will be checked out. You will be able to view revision logs, switch branches, etc - see [http://git-scm.com/book/en/Getting-Started-Git-Basics Git Basics]
+
 == Build STEPcode ==
 See '''[[Building STEPcode]]'''. STEPcode uses CMake, which is cross-platform and somewhat different from the traditional unix './configure && make'
 

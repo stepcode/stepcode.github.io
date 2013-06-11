@@ -33,12 +33,10 @@ v0.7 and later **do not use** flex or bison.
 ### Clone the repository
 
 From the command prompt:
-
-`git clone `[`git://github.com/stepcode/stepcode.git`](git://github.com/stepcode/stepcode.git)
-
-Git will create a directory *stepcode* and clone the repository there.
-Once done, the latest revision will be checked out. You will be able to
-view revision logs, switch branches, etc - see [Git
+`git clone git://github.com/stepcode/stepcode.git` Git will create a
+directory *stepcode* and clone the repository there. Once done, the
+latest revision will be checked out. You will be able to view revision
+logs, switch branches, etc - see [Git
 Basics](http://git-scm.com/book/en/Getting-Started-Git-Basics)
 
 Build STEPcode
