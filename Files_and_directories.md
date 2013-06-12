@@ -53,8 +53,8 @@ The tools are fedex\_plus, fedex\_python, check\_express, and exppp.
 
 The following libraries are used prior to runtime, in the process of
 generating source code for the schema-specific libraries. **base** is
-also used at runtime, along with a few hashing functions in
-**libexpress**.
+also used at runtime~~, along with a few hashing functions in
+**libexpress**~~.
 
 -   **base** currently only contains memory management functions -
     implementations of malloc, calloc, realloc, free, new, and delete
