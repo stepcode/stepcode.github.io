@@ -34,6 +34,7 @@ Other open source projects related to STEP and/or EXPRESS
 [Open Source BIM Collective](http://osbim.org/)
 
 [JSDAI](http://www.jsdai.net), similar to STEPcode but written in Java.
+Created by [LKSoftWare GmbH](http://www.lksoft.com/).
 
 Free, closed-source programs related to STEP / EXPRESS
 ------------------------------------------------------

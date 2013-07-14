@@ -20,7 +20,7 @@
 
 [http://osbim.org/ Open Source BIM Collective]
 
-[http://www.jsdai.net JSDAI], similar to STEPcode but written in Java.
+[http://www.jsdai.net JSDAI], similar to STEPcode but written in Java. Created by [http://www.lksoft.com/ LKSoftWare GmbH].
 
 == Free, closed-source programs related to STEP / EXPRESS ==
 * [http://ciks.cbt.nist.gov/cgi-bin/ctv/sfa_request.cgi STEP File Analyzer]
