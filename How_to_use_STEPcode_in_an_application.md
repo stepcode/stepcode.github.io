@@ -32,6 +32,9 @@ C++ examples
     [InterViews](http://www.ivtools.org/ivtools/interviews.html)
     toolkit, which predates X windows. An attempt has been made to
     resurrect it, but without success.
+-   TODO: Example using lazy loading code. For now, see
+    [lazy\_test.cc](http://github.com/stepcode/stepcode/blob/master/src/cllazyfile/lazy_test.cc)
+    in the repo.
 
 C++ applications that are not in the GitHub repository
 ------------------------------------------------------
