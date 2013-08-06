@@ -20,6 +20,8 @@ C++ examples
     example](Minimal Part 21 C++ example "wikilink")
 -   doxygen documentation of [apps using
     STEPcode](http://stepcode.org/stepcode-use-doxygen/)
+-   [sc/src/express/test](https://github.com/stepcode/stepcode/tree/master/src/express/test/)
+    - tests executables for the express parser
 -   [sc/test/cpp/](http://github.com/stepcode/stepcode/tree/master/test/cpp/)
     - tests written in c++; these can be built when ENABLE\_TESTING is
     set to ON, but are excluded from 'make all'
