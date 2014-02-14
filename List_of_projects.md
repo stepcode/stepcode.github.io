@@ -5,12 +5,91 @@ title: List of projects
 |---|
 |\_\_TOC\_\_|
 
-Possible student projects for GSoC 2013+
+STEPcode is participating in GSoC again!
+========================================
 
-[main GSoC page](http://github.com/stepcode/stepcode/wiki/GSoC)
+Submit your GSoC 2014 proposal to the BRL-CAD organization but make it
+clear that your proposal is for a STEPcode project.
 
-**Note to any students who find this page: unfortunately, we are *not*
-part of GSoC 2012.**
+For more information, see BRL-CAD's [GSoC
+page](http://brlcad.org/wiki/Google_Summer_of_Code)
+
+Project: code documentation
+---------------------------
+
+-   Brief Explanation: improve code documentation, utilize additional
+    doxygen features
+
+-   Expected Results: a 'make doxygen' target in CMake which will
+    generate documentation (in HTML form, at least). This documentation
+    will be greatly improved over the current documentation. It will be
+    better organized and utilize many more of the features of doxygen -
+    such as creating pages pertaining to specific topics. One example of
+    the latter would be a page explaining our CMake-based build system.
+
+-   Knowledge Prerequisite: Familiarity with doxygen, cmake, C, C++ a
+    plus.
+
+Project: exp2html
+-----------------
+
+-   Brief Explanation: documentation generator for EXPRESS
+
+-   Expected Results: generate graphs and hyperlinked documentation of
+    an express schema, including express comments (requires modifying
+    parser to not skip comments). Outputs html + JavaScript (search,
+    other?)
+
+-   Knowledge Prerequisite: html, javascript, lexer and parser.
+
+Project: minimal examples
+-------------------------
+
+-   Brief Explanation: create minimal examples for various schemas -
+    such as AP214 or AP242 - in the style of ap203min
+
+-   Expected Results: an executable that writes a part 21 file that is
+    compatible with the schema in question
+
+-   Knowledge Prerequisite: EXPRESS, STEP, C++.
+
+Project: ap242 support in BRL-CAD
+---------------------------------
+
+-   Brief Explanation: add support for AP242 to BRL-CAD's importer and
+    exporter.
+
+-   Expected Results: paragraph.
+
+-   Knowledge Prerequisite: STEP, NURBS, C++
+
+Project: refactor code
+----------------------
+
+-   Brief Explanation: split large files and functions, add unit tests,
+    move contents of most or all LISTdo loops into separate functions.
+
+-   Expected Results: smaller files and functions, greatly increased
+    code coverage, more understandable code, less repeated code.
+
+-   Knowledge Prerequisite: C, C++. Knowledge of code coverage tools
+    such as lcov a plus.
+
+Project: thread safety and performance
+--------------------------------------
+
+-   Brief Explanation: modify the libraries to improve thread safety,
+    increase performance using hotspot analysis
+
+-   Expected Results: possible to read/write files in different threads
+    simultaneously; performance increase in single-threaded code
+
+-   Knowledge Prerequisite: thread safety, C++. Valgrind or OProfile a
+    plus.
+
+* * * * *
+
+previous years
 
 Project: STEP CAD file viewer
 -----------------------------
@@ -25,7 +104,7 @@ Project: STEP CAD file viewer
 -   Expected Results: A viewer that works with the latest STEP schemas
     and files.
 
--   Knowledge Prerequisite: SCL currently supports C++ and python code
+-   Knowledge Prerequisite: SC currently supports C++ and python code
     generation.
 
 Project: STEP-COLLADA direct bi-directional translation
@@ -35,11 +114,11 @@ Project: STEP-COLLADA direct bi-directional translation
     formats for mechanical CAD (STEP) and digital content creation
     (Collada)
 
--   Expected Results: Use SCL and Collada open source code to develop a
+-   Expected Results: Use SC and Collada open source code to develop a
     translator between STEP and COLLADA. Round-trip test with validated
     files from both formats.
 
--   Knowledge Prerequisite: SCL currently supports C++ and python code
+-   Knowledge Prerequisite: SC currently supports C++ and python code
     generation.
 
 Project: Data Probe Application
@@ -56,9 +135,9 @@ Project: Data Probe Application
     their attributes is desired, along with contextual help derived from
     the EXPRESS schema.
 
--   Knowledge Prerequisite: SCL supports C++, and recently python code
-    generation. Some experience with Qt (or similar), Eclipse (or
-    similar), or HTML5 could be helpful.
+-   Knowledge Prerequisite: SC supports C++, and python code generation.
+    Some experience with Qt (or similar), Eclipse (or similar), or HTML5
+    could be helpful.
 
 Project: Part 21 (Exchange File) Test Coverage Generation and Reporting
 -----------------------------------------------------------------------
@@ -67,12 +146,12 @@ Project: Part 21 (Exchange File) Test Coverage Generation and Reporting
     coverage of an EXPRESS schema
 
 -   Expected Results: Testing translators and other implementations
-    based on SCL requires a library of test cases. Given an EXPRESS
+    based on SC requires a library of test cases. Given an EXPRESS
     schema, generate part21 files and validate them against the schema
     and analyze the test coverage of the part21reader. Use random and/or
     structured generation methods to enhance test coverage.
 
--   Knowledge Prerequisite: SCL currently supports C++ and python code
+-   Knowledge Prerequisite: SC currently supports C++ and python code
     generation.
 
 Project: Part 11 (EXPRESS) Test Coverage Generation and Reporting
@@ -87,12 +166,11 @@ Project: Part 11 (EXPRESS) Test Coverage Generation and Reporting
     Parsers](http://people.cs.uchicago.edu/~jriehl/thesis.pdf). Validate
     the schemas against the EBNF using
     [bnfparser2](http://bnfparser2.sourceforge.net/). Analyze test
-    coverage of \`libexpress\` and \`fedex\_plus\`. Validate the code
-    generated by fedex\_plus.
+    coverage of \`libexpress\` and \`exp2cxx\`. Validate the code
+    generated by exp2cxx.
 
--   Knowledge Prerequisite: Familiarity with bison and/or lemon parsers
-    (we are moving to lemon, but it isn't terribly different from the
-    current bison implementation), C, C++.
+-   Knowledge Prerequisite: Familiarity with lemon parser (not terribly
+    different from the bison parser), C, C++.
 
 Project: Generate Part28 XML schema and documents
 -------------------------------------------------
@@ -100,12 +178,12 @@ Project: Generate Part28 XML schema and documents
 -   Brief Explanation: Generate a part28 XML schema from an EXPRESS
     schema and generate a part28read program
 
--   Expected Results: Like how SCL already generates C++ and python
-    libraries and a part21read program, extend the capability to the
-    alternate part28 XML schema standard and a part28read program.
-    Develop an application that converts between part21 and part28.
+-   Expected Results: Like how SC already generates C++ and python
+    libraries and a p21read program, extend the capability to the
+    alternate part28 XML schema standard and a p28read program. Develop
+    an application that converts between p21 and p28.
 
--   Knowledge Prerequisite: SCL currently supports C++ and python code
+-   Knowledge Prerequisite: SC currently supports C++ and python code
     generation.
 
 Project: Database Persistence
@@ -113,13 +191,13 @@ Project: Database Persistence
 
 -   Brief Explanation:
 
--   Expected Results: Implement database persistence of SCL instance
-    data. Use existing SDAI standard by extending SCL, or experiment
-    with SQLite, NoSQL or other methods. Develop a demonstration
-    application that reads part21 instance data files and persists and
-    manages them in a database.
+-   Expected Results: Implement database persistence of SC instance
+    data. Use existing SDAI standard by extending SC, or experiment with
+    SQLite, NoSQL or other methods. Develop a demonstration application
+    that reads part21 instance data files and persists and manages them
+    in a database.
 
--   Knowledge Prerequisite: SCL currently supports C++ and python code
+-   Knowledge Prerequisite: SC currently supports C++ and python code
     generation. Database implementation experience would be helpful.
 
 Project: Multithread/Multiprocess Part21 import/export.
