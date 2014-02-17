@@ -88,9 +88,8 @@ Project: thread safety and performance
 -   Knowledge Prerequisite: thread safety, C++. Valgrind or OProfile a
     plus.
 
-* * * * *
-
 previous years
+==============
 
 Project: STEP CAD file viewer
 -----------------------------

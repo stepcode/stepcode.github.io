@@ -56,8 +56,8 @@ For more information, see BRL-CAD's [http://brlcad.org/wiki/Google_Summer_of_Cod
 
 * Knowledge Prerequisite:  thread safety, C++. Valgrind or OProfile a plus.
 
-----
-previous years
+
+= previous years =
 
 == Project: STEP CAD file viewer ==
 
