@@ -46,7 +46,8 @@ Project: minimal examples
 -------------------------
 
 -   Brief Explanation: create minimal examples for various schemas -
-    such as AP214 or AP242 - in the style of ap203min
+    such as AP214 or AP242 - in the style of
+    [ap203min](http://github.com/stepcode/stepcode/blob/master/example/ap203min/ap203min.cpp)
 
 -   Expected Results: an executable that writes a part 21 file that is
     compatible with the schema in question
