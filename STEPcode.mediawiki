@@ -92,7 +92,7 @@ More pages:
 * [[Files and directories|Description of the files and directories]]
 * [[How to use STEPcode in an application]]
 
-We use [https://travis-ci.org/stepcode/stepcode Travis-CI] for testing. It automatically tests pull requests, and tests master when it changes. Originally, we used a [http://my.cdash.org/index.php?project=StepClassLibrary CDash dashboard] to show the status of test runs; it was transient, as well as difficult to navigate.
+We use [https://travis-ci.org/stepcode/stepcode Travis-CI] for testing. It automatically tests pull requests, and tests master when it changes. Originally, we used a [http://my.cdash.org/index.php?project=StepClassLibrary CDash dashboard] to show the status of test runs. Test results are only visible for a month, and it was difficult to navigate.
 
 </div></div>
 

@@ -107,7 +107,7 @@ More pages:
 -   [How to use STEPcode in an
     application](How to use STEPcode in an application "wikilink")
 
-We use [Travis-CI](https://travis-ci.org/stepcode/stepcode) for testing. It automatically tests pull requests, and tests master when it changes. Originally, we used a [CDash dashboard](http://my.cdash.org/index.php?project=StepClassLibrary) to show the status of test runs; it was transient, as well as difficult to navigate.
+We use [Travis-CI](https://travis-ci.org/stepcode/stepcode) for testing. It automatically tests pull requests, and tests master when it changes. Originally, we used a [CDash dashboard](http://my.cdash.org/index.php?project=StepClassLibrary) to show the status of test runs. Test results are only visible for a month, and it was difficult to navigate.
 
 </div>
 </div>
