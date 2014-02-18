@@ -107,7 +107,7 @@ More pages:
 -   [How to use STEPcode in an
     application](How to use STEPcode in an application "wikilink")
 
-We have a [CDash dashboard](http://my.cdash.org/index.php?project=StepClassLibrary) to show the status of recent test runs. Unfortunately, it is not possible to view tests from more than one day at once; you must use the **Previous** link for that. Testing is sporadic, and is generally only done for branches that are under review.
+We use [Travis-CI](https://travis-ci.org/stepcode/stepcode) for testing. It automatically tests pull requests, and tests master when it changes. Originally, we used a [CDash dashboard](http://my.cdash.org/index.php?project=StepClassLibrary) to show the status of test runs; it was transient, as well as difficult to navigate.
 
 </div>
 </div>
