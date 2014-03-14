@@ -22,6 +22,11 @@ STEPcode traces its roots to the NIST STEP Class Library (SCL) which was develop
 
 See also: [[History]], [[List of external resources]], [[List of OSS or free STEP programs]]
 
+=== GSoC 2014 ===
+We're participating again!
+
+See the [http://brlcad.org/wiki/Summer_of_Code/Checklist Checklist] and the BRL-CAD [http://brlcad.org/wiki/Google_Summer_of_Code/Project_Ideas project ideas]. If those ideas don't interest you, you can also look at the longer [[List of projects|list of projects]] on this wiki.
+
 === Quick Start ===
 * See the [[Getting started|getting started]] page
 
