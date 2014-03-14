@@ -49,7 +49,7 @@ Create c++ for a schema manually:
 
 `mkdir schema_name
 cd schema_name
-build/bin/fedex_plus path/to/schema.exp`
+build/bin/exp2cxx path/to/schema.exp`
 
 Files created in build dir
 --------------------------
@@ -62,11 +62,11 @@ Files created in build dir
         the .exp extension
 
 -   build/bin/ contains executables
-    -   *fedex\_plus*
-        -   Generates C++ code
+    -   *exp2cxx*
+        -   Generates C++ code, formerly fedex\_plus
 
-    -   *fedex\_python*
-        -   Generates Python code
+    -   *exp2py*
+        -   Generates Python code, formerly fedex\_python
 
     -   *exppp*
         -   Express Pretty Printer
@@ -75,7 +75,7 @@ Files created in build dir
     -   *check\_express*
         -   Formerly *fedex*
         -   Parses the express and checks for errors. The functionality
-            of fedex\_plus/fedex\_python is a superset of this.
+            of exp2cxx/exp2py is a superset of this.
 
     -   *p21read\_sdai\_SCHEMA\_NAME*
         -   reads one step file and writes another. It may change
