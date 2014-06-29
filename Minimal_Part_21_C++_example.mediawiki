@@ -11,7 +11,7 @@ Minimal C++ example based on [[P21read]]
 * [http://stepcode.org/doxygen/class_s_d_a_i___application__instance.html SDAI_Application_instance] (the base class for every type of instance that STEP deals with)
 
 == Code ==
-<code lang='C++'>#include <scl_cf.h>
+<code lang='C++'>#include <sc_cf.h>
 extern void SchemaInit( class Registry & );
 #include <STEPfile.h>
 #include <sdai.h>

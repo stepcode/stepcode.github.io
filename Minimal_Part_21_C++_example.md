@@ -29,7 +29,7 @@ Important Classes
 Code
 ----
 
-`#include <scl_cf.h>
+`#include <sc_cf.h>
 extern void SchemaInit( class Registry & );
 #include <STEPfile.h>
 #include <sdai.h>
