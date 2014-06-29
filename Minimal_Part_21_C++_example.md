@@ -74,6 +74,19 @@ int main( int argc, char * argv[] ) {
     }
 }`
 
+Include Paths
+-------------
+
+Stepcode's includes are not relative the top level of the stepcode
+include directory, so multiple include paths are needed to compile this
+example:
+
+-   include/stepcode
+-   include/stepcode/cldai
+-   include/stepcode/cleditor
+-   include/stepcode/clstepcore
+-   include/stepcode/clutils
+
 Related Pages
 -------------
 
