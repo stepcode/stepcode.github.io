@@ -4,10 +4,6 @@ title: Minimal Part 21 C++ example
 
 Minimal C++ example based on [P21read](P21read "wikilink")
 
-### Notes
-
--   this hasn't been tested
-
 Important Classes
 -----------------
 

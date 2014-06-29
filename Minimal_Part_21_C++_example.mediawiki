@@ -1,7 +1,5 @@
 [[Category:Code discussion]]
 Minimal C++ example based on [[P21read]]
-=== Notes ===
-* this hasn't been tested
 
 == Important Classes ==
 * [http://stepcode.org/doxygen/class_registry.html Registry] (contains information about types present in the current schema)
