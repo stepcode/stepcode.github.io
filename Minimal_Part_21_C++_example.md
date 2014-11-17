@@ -79,6 +79,17 @@ example:
 -   include/stepcode/clstepcore
 -   include/stepcode/clutils
 
+Linking
+-------
+
+Your executable will need to link to various libraries, likely including
+a generated library, specific to the schema you are interested in. Once
+generated, this lib can be found in build/lib with a prefix of
+libsdai\_.
+
+It will also need to link with cldai, cleditor, clstepcore, and clutils
+- all found in build/lib.
+
 Related Pages
 -------------
 

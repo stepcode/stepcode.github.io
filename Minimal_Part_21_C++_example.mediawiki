@@ -63,5 +63,11 @@ Stepcode's includes are not relative the top level of the stepcode include direc
 * include/stepcode/clstepcore
 * include/stepcode/clutils
 
+== Linking ==
+
+Your executable will need to link to various libraries, likely including a generated library, specific to the schema you are interested in. Once generated, this lib can be found in build/lib with a prefix of libsdai_.
+
+It will also need to link with cldai, cleditor, clstepcore, and clutils - all found in build/lib.
+
 == Related Pages ==
 * [[How to use STEPcode in an application]]
