@@ -90,6 +90,12 @@ libsdai\_.
 It will also need to link with cldai, cleditor, clstepcore, and clutils
 - all found in build/lib.
 
+If you get stuck, consider examining the compile/link commands used for
+one of the p21read executables. This can be done with **make
+VERBOSE=1\_**:
+
+`make VERBOSE=1 p21read_sdai_ap214e3`
+
 Related Pages
 -------------
 
