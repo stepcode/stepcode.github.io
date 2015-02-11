@@ -56,6 +56,7 @@ STEP can be used for neutral file exchange or as a basis for data sharing or arc
 
 STEPcode can be used with the following standards because they reuse [http://en.wikipedia.org/wiki/ISO_10303-11 Part 11] and [http://en.wikipedia.org/wiki/ISO_10303-21 Part 21] of ISO 10303:
 * AP203, AP214 and AP242 for CAD tested at the [http://www.cax-if.org CAX-IF]
+* AP210 [http://www.wikistep.org/index.php/Main_Page#AP210_specifics]
 * The Industry Foundation Classes ('''IFC''') are used for Building Information Modeling ('''BIM''')
 * ISO 15926 is used in the Oil & Gas industry
 * STEP-TAS is used in the thermal analysis of aerospace equipment
