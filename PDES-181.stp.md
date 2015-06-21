@@ -7,11 +7,11 @@ Description
 
 This file is available [on
 wikistep](http://www.wikistep.org/index.php/PDES-181). It is a test file
-for [AP210e2](AP210e2 "wikilink").
+for [AP210e2](AP210e2.html).
 
 **time stamp** 2009-10-16T16:42:18
 
-Errors reported by AP210e2 [p21read](p21read "wikilink")
+Errors reported by AP210e2 [p21read](p21read.html)
 --------------------------------------------------------
 
 ### Illegal complex entity

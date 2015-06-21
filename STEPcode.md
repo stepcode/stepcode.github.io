@@ -31,17 +31,17 @@ The [BSD license](http://github.com/stepcode/stepcode/blob/master/COPYING) allow
   
 STEPcode traces its roots to the NIST STEP Class Library (SCL) which was developed between \~1987 and 1998.
 
-See also: [History](History "wikilink"), [List of external resources](List of external resources "wikilink"), [List of OSS or free STEP programs](List of OSS or free STEP programs "wikilink")
+See also: [History](History.html), [List of external resources](List_of_external_resources.html), [List of OSS or free STEP programs](List_of_OSS_or_free_STEP_programs.html)
 
 ### GSoC 2014
 
 We're participating again!
 
-See the [Checklist](http://brlcad.org/wiki/Summer_of_Code/Checklist) and the BRL-CAD [project ideas](http://brlcad.org/wiki/Google_Summer_of_Code/Project_Ideas). If those ideas don't interest you, you can also look at the longer [list of projects](List of projects "wikilink") on this wiki.
+See the [Checklist](http://brlcad.org/wiki/Summer_of_Code/Checklist) and the BRL-CAD [project ideas](http://brlcad.org/wiki/Google_Summer_of_Code/Project_Ideas). If those ideas don't interest you, you can also look at the longer [list of projects](List_of_projects.html) on this wiki.
 
 ### Quick Start
 
--   See the [getting started](Getting started "wikilink") page
+-   See the [getting started](Getting_started.html) page
 
 ### Communication
 
@@ -94,7 +94,7 @@ Community
 
 The [<http://groups.google.com/forum/?fromgroups>\#!forum/scl-dev scl-dev mailing list] is hosted on google groups. In spite of the name, this is for both users and developers. The STEPcode project has evolved into a diverse open source community helping improve the accessibility, adoption, and long-term availability of STEP related technologies for CAx developers.
 
-#### [Projects](List of projects "wikilink") and [tasks](List of tasks "wikilink")
+#### [Projects](List_of_projects.html) and [tasks](List_of_tasks.html)
 
 </div>
 </div>|<div style="padding:0; margin:0; border:1px solid #FCC; border-top:0; margin-bottom:1.0em;">
@@ -104,16 +104,16 @@ The Code
 
 **The source code is on [GitHub](http://github.com/stepcode/stepcode)**
 
-Any discussion of the code on this wiki should have a [[Category:Code discussion]] tag so that it shows up in [:Category:Code discussion](:Category:Code discussion "wikilink")
+Any discussion of the code on this wiki should have a [[Category:Code discussion]] tag so that it shows up in [:Category:Code discussion](:Category:Code_discussion.html)
 
 More pages:
 
--   [Getting started](Getting started "wikilink")
--   [Building STEPcode](Building STEPcode "wikilink")
+-   [Getting started](Getting_started.html)
+-   [Building STEPcode](Building_STEPcode.html)
 -   [Description of the files and
-    directories](Files and directories "wikilink")
+    directories](Files_and_directories.html)
 -   [How to use STEPcode in an
-    application](How to use STEPcode in an application "wikilink")
+    application](How_to_use_STEPcode_in_an_application.html)
 
 We use [Travis-CI](https://travis-ci.org/stepcode/stepcode) for testing. It automatically tests pull requests, and tests master when it changes. Originally, we used a [CDash dashboard](http://my.cdash.org/index.php?project=StepClassLibrary) to show the status of test runs. Test results are only visible for a month, and it was difficult to navigate.
 

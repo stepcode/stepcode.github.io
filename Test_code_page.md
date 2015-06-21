@@ -88,4 +88,4 @@ index 4921649..1529387 100644
  }
 `
 
-[Category:Code discussion](Category:Code discussion "wikilink")
+[Category:Code discussion](Category:Code_discussion.html)

@@ -42,7 +42,7 @@ Basics](http://git-scm.com/book/en/Getting-Started-Git-Basics)
 Build STEPcode
 --------------
 
-See **[Building STEPcode](Building STEPcode "wikilink")**. STEPcode uses
+See **[Building STEPcode](Building_STEPcode.html)**. STEPcode uses
 CMake, which is cross-platform and somewhat different from the
 traditional unix './configure && make'
 
@@ -50,10 +50,10 @@ Use STEPcode
 ------------
 
 See **[How to use STEPcode in an
-application](How to use STEPcode in an application "wikilink")**
+application](How_to_use_STEPcode_in_an_application.html)**
 
 Exploring STEPcode
 ------------------
 
 [Description of the files and
-directories](Files and directories "wikilink")
+directories](Files_and_directories.html)

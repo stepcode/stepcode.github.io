@@ -2,7 +2,7 @@
 title: Minimal Part 21 C++ example
 ---
 
-Minimal C++ example based on [P21read](P21read "wikilink")
+Minimal C++ example based on [P21read](P21read.html)
 
 Important Classes
 -----------------
@@ -100,6 +100,6 @@ Related Pages
 -------------
 
 -   [How to use STEPcode in an
-    application](How to use STEPcode in an application "wikilink")
+    application](How_to_use_STEPcode_in_an_application.html)
 
-[Category:Code discussion](Category:Code discussion "wikilink")
+[Category:Code discussion](Category:Code_discussion.html)

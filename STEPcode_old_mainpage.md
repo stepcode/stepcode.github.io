@@ -56,12 +56,12 @@ project has evolved into a diverse open source community helping improve
 the accessibility, adoption, and long-term availability of STEP related
 technologies for CAx developers.
 
-See also: [History](History "wikilink")
+See also: [History](History.html)
 
 ### Using STEPcode
 
 -   [How to use STEPcode in an
-    application](How to use STEPcode in an application "wikilink")
+    application](How_to_use_STEPcode_in_an_application.html)
 
 ### Documentation
 
@@ -69,18 +69,18 @@ See also: [History](History "wikilink")
 -   doxygen documentation of [apps using
     STEPcode](http://stepcode.org/stepcode-use-doxygen/)
 -   See also [:Category:Code
-    discussion](:Category:Code discussion "wikilink")
+    discussion](:Category:Code_discussion.html)
 
 ### Schemas
 
-There is a [list of schemas](list of schemas "wikilink") that STEPcode
+There is a [list of schemas](list_of_schemas.html) that STEPcode
 has been tested with.
 
 ### To Do
 
-There is a **[list of tasks](list of tasks "wikilink")** that involve
+There is a **[list of tasks](list_of_tasks.html)** that involve
 improving the wiki or STEPcode's source code. In addition, there is a
-**[list of projects](list of projects "wikilink")** that are more
+**[list of projects](list_of_projects.html)** that are more
 difficult than the tasks; these might be appropriate for GSoC
 participants.
 
@@ -91,7 +91,7 @@ Links
     -   Any discussion of the code on this wiki should have a
         [[Category:Code discussion]] tag so that it shows up in
         [:Category:Code
-        discussion](:Category:Code discussion "wikilink")
+        discussion](:Category:Code_discussion.html)
 
 -   The [<http://groups.google.com/forum/?fromgroups>\#!forum/scl-dev
     mailing list] is hosted on google groups.
@@ -106,5 +106,5 @@ Links
 External Resources
 ------------------
 
-A [list of external resources](list of external resources "wikilink")
+A [list of external resources](list_of_external_resources.html)
 related to STEP/EXPRESS.

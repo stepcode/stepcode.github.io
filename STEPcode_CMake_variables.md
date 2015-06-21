@@ -65,7 +65,7 @@ These won't do anything useful unless you're running tests.
 make test`
 
 -   also set by CTest - see [How to test with
-    CTest](How to test with CTest "wikilink")
+    CTest](How_to_test_with_CTest.html)
 
 You probably don't want to change these
 ---------------------------------------

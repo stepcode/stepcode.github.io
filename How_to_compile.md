@@ -2,4 +2,4 @@
 title: How to compile
 ---
 
-See [Building STEPcode](Building STEPcode "wikilink")
+See [Building STEPcode](Building_STEPcode.html)

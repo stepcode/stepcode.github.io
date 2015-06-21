@@ -38,4 +38,4 @@ Still add new access function.
 Go through derived attributes. If STEPattribute found with same name,
 tell it to be \* for reading and writing
 
-[Category:Code discussion](Category:Code discussion "wikilink")
+[Category:Code discussion](Category:Code_discussion.html)

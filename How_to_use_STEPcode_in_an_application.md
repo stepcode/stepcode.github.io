@@ -11,13 +11,13 @@ CMake Integration
     -   this will not work for applications with more than one source
         code file or that need to link other libs.
 
-#### See also: [STEPcode CMake variables](STEPcode CMake variables "wikilink")
+#### See also: [STEPcode CMake variables](STEPcode_CMake_variables.html)
 
 C++ examples
 ------------
 
 -   [Minimal Part 21 C++
-    example](Minimal Part 21 C++ example "wikilink")
+    example](Minimal_Part_21_C++_example.html)
 -   doxygen documentation of [apps using
     STEPcode](http://stepcode.org/stepcode-use-doxygen/)
 -   [sc/src/express/test](https://github.com/stepcode/stepcode/tree/master/src/express/test/)
@@ -71,7 +71,7 @@ TODO
 See also
 --------
 
--   [Building STEPcode](Building STEPcode "wikilink")
--   [How to test with CTest](How to test with CTest "wikilink")
+-   [Building STEPcode](Building_STEPcode.html)
+-   [How to test with CTest](How_to_test_with_CTest.html)
 
-[Category:Code discussion](Category:Code discussion "wikilink")
+[Category:Code discussion](Category:Code_discussion.html)

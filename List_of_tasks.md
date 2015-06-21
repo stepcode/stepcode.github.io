@@ -10,7 +10,7 @@ On the wiki
 -   More external links
 -   Logo, background
 -   syntax highlighting for C, C++, Python, EXPRESS, Part 21
-    '''[DONE](Test code page "wikilink")
+    '''[DONE](Test_code_page.html)
 -   etc etc etc
 
 Improvements to STEPcode's source
@@ -23,6 +23,6 @@ Improvements to STEPcode's source
 -   support for splitting a STEP file according to the recommended
     practices for (nested) external references
     -   this needs fleshed out and moved to the [list of
-        projects](list of projects "wikilink")
+        projects](list_of_projects.html)
 
 

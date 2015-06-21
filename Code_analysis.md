@@ -69,4 +69,4 @@ Downloads
 Output of callgrind, cachegrind, and massif:
 <https://docs.google.com/open?id=0B9G1tTILtiCyTmhoLTZva0JxdTQ>
 
-[Category:Code discussion](Category:Code discussion "wikilink")
+[Category:Code discussion](Category:Code_discussion.html)
