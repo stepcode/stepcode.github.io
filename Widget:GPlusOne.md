@@ -1,7 +1,0 @@
----
-title: Widget:GPlusOne
----
-
-<script type="text/javascript" src="https://apis.google.com/js/plusone.js">
-</script>
-<g:plusone></g:plusone>
