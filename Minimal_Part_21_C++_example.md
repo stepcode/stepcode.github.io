@@ -1,4 +1,5 @@
 ---
+layout: docs
 title: Minimal Part 21 C++ example
 ---
 
@@ -21,7 +22,8 @@ Important Classes
 Code
 ----
 
-`#include <sc_cf.h>
+{% highlight cpp linenos %}
+#include <sc_cf.h>
 extern void SchemaInit( class Registry & );
 #include <STEPfile.h>
 #include <sdai.h>
@@ -35,7 +37,8 @@ extern void SchemaInit( class Registry & );
 
 int main( int argc, char * argv[] ) {
 
-    // the registry contains information about types present in the current schema; SchemaInit is a function in the schema-specific SDAI library
+    // the registry contains information about types present in the current schema; SchemaInit 
+    // is a function in the schema-specific SDAI library
     Registry  registry( SchemaInit );
 
     //the InstMgr holds instances that have been created or that have been loaded from a file
@@ -59,12 +62,14 @@ int main( int argc, char * argv[] ) {
     ** do something with the data here
     ***************************************************/
 
-    // write to "file.out", then check for write errors. The write operation overwrites any errors caused by previous operations.
+    // write to "file.out", then check for write errors. The write operation overwrites any
+    // errors caused by previous operations.
     sfile.WriteExchangeFile( "file.out" );
     if( sfile.Error().severity() < SEVERITY_USERMSG ) {
         sfile.Error().PrintContents( cout );
     }
-}`
+}
+{% endhighlight %}
 
 Include Paths
 -------------
@@ -87,19 +92,14 @@ a generated library, specific to the schema you are interested in. Once
 generated, this lib can be found in build/lib with a prefix of
 libsdai\_.
 
-It will also need to link with cldai, cleditor, clstepcore, and clutils
-- all found in build/lib.
+It will also need to link with cldai, cleditor, clstepcore, and clutils - all found in build/lib.
 
-If you get stuck, consider examining the compile/link commands used for
-one of the p21read executables. This can be done with **make
-VERBOSE=1\_**:
+If you get stuck, consider examining the compile/link commands used for one of the p21read executables. This can be done with **make VERBOSE=1\_**:
 
 `make VERBOSE=1 p21read_sdai_ap214e3`
 
 Related Pages
 -------------
 
--   [How to use STEPcode in an
-    application](How_to_use_STEPcode_in_an_application.html)
+-   [How to use STEPcode in an application](How_to_use_STEPcode_in_an_application.html)
 
-[Category:Code discussion](Category:Code_discussion.html)
