@@ -1,21 +1,13 @@
 ---
-title: STEPcode
+layout: front
+title: STEPcode &bull; Data Exchange with the technologies of ISO 10303
+overview: true
 ---
 
-|---|---|---|---|
-|<http://stepcode.org/STEPcode_logo.png>||<div style="padding:0px; margin:0; border:1px solid #CCC; border-top:0;">
-<div style="background-color:#FCFCFC; border:1px solid #CCC; border-top:10px solid #CCC; font-size:95%; padding:10px;">
-<div style="font-family:Verdana, Arial, Helvetica, sans-serif; font-size: 175%; padding-top:20px;">
-Welcome
 
-<div style="float: right;">
-<google1 style="3"></google1>
+# Welcome
+----
 
-</div>
-</div>
-<div style="padding-top:22px;padding-bottom:15px;">
-<hr />
-</div>
 The **STEPcode** project is a collection of open source libraries, tools, and resources that revolve around the technologies of [ISO 10303](http://en.wikipedia.org/w/index.php?title=ISO_10303), a.k.a. STEP, the **ST**andard for the **E**xchange of **P**roduct model data.
 
 STEPcode provides a cross-platform (Linux, OSX, **and** Windows) implementation of
@@ -29,7 +21,7 @@ STEPcode provides a cross-platform (Linux, OSX, **and** Windows) implementation 
   
 The [BSD license](http://github.com/stepcode/stepcode/blob/master/COPYING) allows commercial use. In addition, STEPcode is used in other open source projects such as [BRL-CAD](http://www.brl-cad.org) and [SCView](http://github.com/LaurentBauer/SCView).  
   
-STEPcode traces its roots to the NIST STEP Class Library (SCL) which was developed between \~1987 and 1998.
+STEPcode traces its roots to the NIST STEP Class Library (SCL) which was developed between ~1987 and 1998.
 
 See also: [History](History.html), [List of external resources](List_of_external_resources.html), [List of OSS or free STEP programs](List_of_OSS_or_free_STEP_programs.html)
 
@@ -45,27 +37,14 @@ See the [Checklist](http://brlcad.org/wiki/Summer_of_Code/Checklist) and the BRL
 
 ### Communication
 
--   **[<https://groups.google.com/forum/>\#!forum/scl-dev STEPcode
-    mailing list]** on google groups (new users are moderated to
+-   **[STEPcode
+    mailing list](https://groups.google.com/forum/#!forum/scl-dev)** on google groups (new users are moderated to
     discourage spam)
--   **\#stepcode** on freenode - use an IRC client or [your
+-   **#stepcode** on freenode - use an IRC client or [your
     browser](http://webchat.freenode.net/?channels=stepcode). There is
     also a [log](http://ibot.rikers.org/%23stepcode/) thanks to Tim
     Rikers.
 
-</div>
-</div>
-\<!--|<div style="padding:0; margin:0; border:1px solid #CCC; border-top:0;">
-<div style="background-color:#FCFCFC; border:1px solid #CCC; border-top:10px solid #CCC; font-size:95%; margin-bottom:0em; padding:0.4em; padding-top:0;">
-\_\_TOC\_\_
-
-</div>
-</div>
---\>|
-
-|---|---|
-|<div style="padding:0; margin:0; border:1px solid #FFCC33; border-top:0; margin-bottom:1.0em;">
-<div style="background-color:#F8FCFF; border:1px solid #F5B800; border-top:10px solid #FFCC33; font-size:95%; margin-bottom:0em; padding:0.4em; padding-top:0;">
 STEP & Other Standards
 ----------------------
 
@@ -75,38 +54,29 @@ STEPcode can be used with the following standards because they reuse [Part 11](h
 
 -   AP203, AP214 and AP242 for CAD tested at the
     [CAX-IF](http://www.cax-if.org)
--   AP210
-    [1](http://www.wikistep.org/index.php/Main_Page#AP210_specifics)
--   The Industry Foundation Classes (**IFC**) are used for Building
+-   [AP210](http://www.wikistep.org/index.php/Main_Page#AP210_specifics)
+-   The Industry Foundation Classes (**IFC**),used for Building
     Information Modeling (**BIM**)
--   ISO 15926 is used in the Oil & Gas industry
--   STEP-TAS is used in the thermal analysis of aerospace equipment
+-   ISO 15926, used in the Oil & Gas industry
+-   STEP-TAS, used in the thermal analysis of aerospace equipment
 -   ISO 13584, *Industrial automation systems and integration - Parts
     library*
 -   [ISO 13399](http://en.wikipedia.org/wiki/ISO_13399)
 
-</div>
-</div>
-<div style="padding:0; margin:0; border:1px solid #C3E4BA; border-top:0; margin-bottom:1.0em;">
-<div style="background-color:#F8FCFF; border:1px solid #7ABDFF; border-top:10px solid #7A7AFF; font-size:95%; margin-bottom:0em; padding:0.4em; padding-top:0;">
-Community
+# Community
 ---------
 
-The [<http://groups.google.com/forum/?fromgroups>\#!forum/scl-dev scl-dev mailing list] is hosted on google groups. In spite of the name, this is for both users and developers. The STEPcode project has evolved into a diverse open source community helping improve the accessibility, adoption, and long-term availability of STEP related technologies for CAx developers.
+The [scl-dev mailing list](http://groups.google.com/forum/?fromgroups#!forum/scl-dev) is hosted on google groups. In spite of the name, this is for both users and developers. The STEPcode project has evolved into a diverse open source community helping improve the accessibility, adoption, and long-term availability of STEP related technologies for CAx developers.
 
 #### [Projects](List_of_projects.html) and [tasks](List_of_tasks.html)
 
-</div>
-</div>|<div style="padding:0; margin:0; border:1px solid #FCC; border-top:0; margin-bottom:1.0em;">
-<div style="background-color:#F8FCFF; border:1px solid #FF9090; border-top:10px solid #FF0000; font-size:95%; margin-bottom:0em; padding:0.4em; padding-top:0;">
-The Code
+# Code
 --------
 
 **The source code is on [GitHub](http://github.com/stepcode/stepcode)**
 
-Any discussion of the code on this wiki should have a [[Category:Code discussion]] tag so that it shows up in [:Category:Code discussion](:Category:Code_discussion.html)
-
 More pages:
+----
 
 -   [Getting started](Getting_started.html)
 -   [Building STEPcode](Building_STEPcode.html)
@@ -117,18 +87,9 @@ More pages:
 
 We use [Travis-CI](https://travis-ci.org/stepcode/stepcode) for testing. It automatically tests pull requests, and tests master when it changes. Originally, we used a [CDash dashboard](http://my.cdash.org/index.php?project=StepClassLibrary) to show the status of test runs. Test results are only visible for a month, and it was difficult to navigate.
 
-</div>
-</div>
-<div style="padding:0; margin:0; border:1px solid #FFD8C3; border-top:0; margin-bottom:1.0em;">
-<div style="background-color:#F8FCFF; border:1px solid #CE82B9; border-top:10px solid #9A3C80; font-size:95%; margin-bottom:0em; padding:0.4em; padding-top:0;">
 Links
 -----
 
 -   [WikiSTEP](http://wikistep.org/) - wiki for the STEP standard
 -   [STEP on
     Wikipedia](http://en.wikipedia.org/w/index.php?title=ISO_10303)
-
-</div>
-</div>|
-
-\_\_NOTOC\_\_
