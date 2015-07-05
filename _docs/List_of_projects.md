@@ -3,7 +3,7 @@ title: List of projects
 ---
 
 |---|
-|\_\_TOC\_\_|
+|__TOC__|
 
 STEPcode is participating in GSoC again!
 ========================================

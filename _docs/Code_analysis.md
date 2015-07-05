@@ -10,7 +10,7 @@ Cross Platform
 ctest/cdash (testing)
 ---------------------
 
--   install cmake/ctest, then run 'ctest -S run\_ctest.cmake'
+-   install cmake/ctest, then run 'ctest -S run_ctest.cmake'
 -   test submission to my.ctest.org requires creation of a file in the
     dir above the STEPcode source; read the messages from the above
     command

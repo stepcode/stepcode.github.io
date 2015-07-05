@@ -1,59 +1,27 @@
 ---
-title: Getting started
+layout: docs
+title: Basic Usage
+permalink: /docs/usage/
 ---
 
-Download STEPcode
------------------
+## Prerequisites
 
-### Install git
+More details: [prerequisites](/docs/prereqs/).
 
-Windows users: [msysgit](http://code.google.com/p/msysgit/) is known to
-work. The app referenced in GitHub Bootcamp (link below) should work as
-well.
+* Install git (windows: msysgit or GitHub Bootcamp, detailed in prerequisites)
+* Install CMake
+* Clone the repo
 
-For OSX, see [GitHub
-Bootcamp](https://help.github.com/articles/set-up-git)
+## Build
 
-For Linux, install git through your package manager.
+More details: [building STEPcode](/docs/building/).
 
-Alternately (not recommended): download an archive of the latest code
-with **no** revision history by clicking
-[here](https://github.com/stepcode/stepcode/zipball/master).
+Create a build dir inside the STEPcode dir. From there, run `cmake ..` or `cmake-gui`. Schemas are selected with the variable `SC_BUILD_SCHEMAS`. Once CMake has finished without error, use your build system (make, MSVC, etc) to compile.
 
-### Install CMake
+## Use
 
-Linux users, install cmake via your package manager. For OSX and
-Windows, download from
-[cmake.org](http://cmake.org/cmake/resources/software.html)
+See [detailed usage](/docs/usage2/)
 
-### Install Flex and Bison
+## Explore
 
-v0.7 and later **do not use** flex or bison.
-
-### Clone the repository
-
-From the command prompt:
-`git clone git://github.com/stepcode/stepcode.git` Git will create a
-directory *stepcode* and clone the repository there. Once done, the
-latest revision will be checked out. You will be able to view revision
-logs, switch branches, etc - see [Git
-Basics](http://git-scm.com/book/en/Getting-Started-Git-Basics)
-
-Build STEPcode
---------------
-
-See **[Building STEPcode](Building_STEPcode.html)**. STEPcode uses
-CMake, which is cross-platform and somewhat different from the
-traditional unix './configure && make'
-
-Use STEPcode
-------------
-
-See **[How to use STEPcode in an
-application](How_to_use_STEPcode_in_an_application.html)**
-
-Exploring STEPcode
-------------------
-
-[Description of the files and
-directories](Files_and_directories.html)
+More details: [description of the files and directories](/docs/files_dirs/)

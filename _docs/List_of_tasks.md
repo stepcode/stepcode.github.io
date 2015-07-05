@@ -1,11 +1,13 @@
 ---
+layout: docs
+permalink: 
 title: List of tasks
 ---
 
 On the wiki
 -----------
 
--   Document the data structures in *libexpress*, *fedex\_plus*
+-   Document the data structures in *libexpress*, *fedex_plus*
 -   Copy content from github wiki?
 -   More external links
 -   Logo, background

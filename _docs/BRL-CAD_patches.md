@@ -33,11 +33,11 @@ cid 1925)
 
 [r48833](http://brlcad.svn.sourceforge.net/viewvc/brlcad?view=revision&revision=48833)
 *5b62b1a* initialize all of the class fields. fixes report from coverity
-UNINIT\_CTOR check. (cid 2014)
+UNINIT_CTOR check. (cid 2014)
 
 [r48834](http://brlcad.svn.sourceforge.net/viewvc/brlcad?view=revision&revision=48834)
 *a33a60f* initialize all of the class fields. fixes report from coverity
-UNINIT\_CTOR check. (cid 2034)
+UNINIT_CTOR check. (cid 2034)
 
 [r49068](http://brlcad.svn.sourceforge.net/viewvc/brlcad?view=revision&revision=49068)
 *b2dd1f0* Can't take it any longer. Doggy bag all the gcc vomit about
@@ -85,7 +85,7 @@ suppressed warning by calling with (char\*)"". Real solution is to make
 the parameter const.
 
 [r50222](http://brlcad.svn.sourceforge.net/viewvc/brlcad?view=revision&revision=50222)
-*7f5707c* initialize all of the class members. cid 2014 UNINIT\_CTOR.
+*7f5707c* initialize all of the class members. cid 2014 UNINIT_CTOR.
 
 [r52252](http://brlcad.svn.sourceforge.net/viewvc/brlcad?view=revision&revision=52252)
 *b1a2e88* quell warning on unused var since it won't necessarily get
@@ -124,7 +124,7 @@ is not portable.
 *ffa8a4e* remove some commented code
 
 [r50561](http://brlcad.svn.sourceforge.net/viewvc/brlcad?view=revision&revision=50561)
-*17a7e8c* consolidate definitions of STRING\_DELIM
+*17a7e8c* consolidate definitions of STRING_DELIM
 
 [r50801](http://brlcad.svn.sourceforge.net/viewvc/brlcad?view=revision&revision=50801)
 *0469371* don't believe I have any account names as morrison with
@@ -156,7 +156,7 @@ conflict error from lemon
 *565a6eb* seems lemon requires real type name in type declaration
 
 [r47040](http://brlcad.svn.sourceforge.net/viewvc/brlcad?view=revision&revision=47040)
-*307c8ca* Added disabled macros to build temp fedex\_new target for
+*307c8ca* Added disabled macros to build temp fedex_new target for
 development. Added expscan.re to build against, but it has not yet been
 converted to re2c.
 
@@ -168,7 +168,7 @@ converted to re2c.
 
 [r47163](http://brlcad.svn.sourceforge.net/viewvc/brlcad?view=revision&revision=47163)
 *f3def5d* added new version of express.c with lemon parsing loop;
-building fedex\_plus with lemon as well
+building fedex_plus with lemon as well
 
 [r47197](http://brlcad.svn.sourceforge.net/viewvc/brlcad?view=revision&revision=47197)
 *d0799fd* build new scanner output into new libexpress
@@ -221,7 +221,7 @@ as I go
 corruption.
 
 [r47461](http://brlcad.svn.sourceforge.net/viewvc/brlcad?view=revision&revision=47461)
-*abc6f2c* add modified lemon\_target macro
+*abc6f2c* add modified lemon_target macro
 
 [r47462](http://brlcad.svn.sourceforge.net/viewvc/brlcad?view=revision&revision=47462)
 *9ece199* modified CMakeLists for alt lemon macro
@@ -287,7 +287,7 @@ check in the future.
 *334e727* Fix shiftwidth for vim in .cmake files
 
 [r49201](http://brlcad.svn.sourceforge.net/viewvc/brlcad?view=revision&revision=49201)
-*9426397* Sync src/other copies of LEMON\_Util.cmake
+*9426397* Sync src/other copies of LEMON_Util.cmake
 
 [r49205](http://brlcad.svn.sourceforge.net/viewvc/brlcad?view=revision&revision=49205)
 *73eb85a* Try to be better about using misc/CMake .cmake files by
@@ -311,8 +311,8 @@ using Alexander Neundorf's tip from
 BRL-CAD defines 'em first, so the src/other copies won't get loaded
 (makes sure older versions of macro files that might linger in src/other
 don't stomp misc/CMake versions) but stand-alone builds will use the
-local copies. Properly set up search ordering with CMAKE\_MODULE\_PATH
-should take care of this for the find\_package commands, but the utility
+local copies. Properly set up search ordering with CMAKE_MODULE_PATH
+should take care of this for the find_package commands, but the utility
 macros are separate and so must be handled differently.
 
 [r49772](http://brlcad.svn.sourceforge.net/viewvc/brlcad?view=revision&revision=49772)
@@ -380,7 +380,7 @@ generated sources this way.
 generated source tree.
 
 [r51510](http://brlcad.svn.sourceforge.net/viewvc/brlcad?view=revision&revision=51510)
-*b2afab6* Use DEBUGGING\_GENERATED\_SOURCES to allow re2c debugging
+*b2afab6* Use DEBUGGING_GENERATED_SOURCES to allow re2c debugging
 information to appear in re2c intermediate output. Disable normal
 behavior while doing so, so the debug-enabled output won't poison the
 MD5 management mechanism.
@@ -418,11 +418,11 @@ CMake
 
 [r49115](http://brlcad.svn.sourceforge.net/viewvc/brlcad?view=revision&revision=49115)
 *93238df* Go with 'lib' for all instances of
-CMAKE\_LIBRARY\_OUTPUT\_DIRECTORY
+CMAKE_LIBRARY_OUTPUT_DIRECTORY
 
 [r49163](http://brlcad.svn.sourceforge.net/viewvc/brlcad?view=revision&revision=49163)
-*792b7ea* Dispose of the one-off CHECK\_C\_FILE\_RUNS and instead
-enhance CHECK\_C\_SOURCE\_RUNS. Will try to contribute the change
+*792b7ea* Dispose of the one-off CHECK_C_FILE_RUNS and instead
+enhance CHECK_C_SOURCE_RUNS. Will try to contribute the change
 upstream.
 
 [r49164](http://brlcad.svn.sourceforge.net/viewvc/brlcad?view=revision&revision=49164)
@@ -447,7 +447,7 @@ behavior in some corner cases, enforce a convention we already pretty
 much followed by default of using relative paths to specify source files
 in the source tree (this is a robust way to spot generated files in
 build target definitions, since support for an out of directory build
-requires that they be specified with their full CMAKE\_BINARY\_DIR
+requires that they be specified with their full CMAKE_BINARY_DIR
 output path.)
 
 [r49859](http://brlcad.svn.sourceforge.net/viewvc/brlcad?view=revision&revision=49859)
@@ -462,7 +462,7 @@ be robust to weirder source and build directory names. This is not
 everything needed, but it's a step in the right direction.
 
 [r49905](http://brlcad.svn.sourceforge.net/viewvc/brlcad?view=revision&revision=49905)
-*f3dad58* Take a stab at making configure\_file cmakefiles appending
+*f3dad58* Take a stab at making configure_file cmakefiles appending
 more robust
 
 [r49924](http://brlcad.svn.sourceforge.net/viewvc/brlcad?view=revision&revision=49924)
@@ -480,12 +480,12 @@ different compilers
 hardcoding. Untested on systems which would show the issue.
 
 [r50441](http://brlcad.svn.sourceforge.net/viewvc/brlcad?view=revision&revision=50441)
-*a1ab6a0* rename STDCXX\_LINKLIB to STDCXX\_LIBRARIES to comply with
+*a1ab6a0* rename STDCXX_LINKLIB to STDCXX_LIBRARIES to comply with
 cmake's documented convention (and it can require multiple libraries
 like -lm and -lc, too)
 
 [r51372](http://brlcad.svn.sourceforge.net/viewvc/brlcad?view=revision&revision=51372)
-*f6a6295* scl\_version\_string.h needs to be generated before fedex.c is
+*f6a6295* scl_version_string.h needs to be generated before fedex.c is
 compiled
 
 [r51397](http://brlcad.svn.sourceforge.net/viewvc/brlcad?view=revision&revision=51397)
@@ -496,7 +496,7 @@ compiled
 
 [r51555](http://brlcad.svn.sourceforge.net/viewvc/brlcad?view=revision&revision=51555)
 *9a0b7d0* hmm - exppp tried to build before fedex, and didn't have
-version\_string. Make the version string dependency trigger on expres
+version_string. Make the version string dependency trigger on expres
 build
 
 [r51568](http://brlcad.svn.sourceforge.net/viewvc/brlcad?view=revision&revision=51568)
@@ -515,7 +515,7 @@ wrench.
 arguments
 
 [r51716](http://brlcad.svn.sourceforge.net/viewvc/brlcad?view=revision&revision=51716)
-*ee4fc2e* Use semicolons in lists for SCL\_ADD macros as well.
+*ee4fc2e* Use semicolons in lists for SCL_ADD macros as well.
 
 Bug fix, reorganization, rewrite
 --------------------------------
@@ -539,7 +539,7 @@ sources.
 *6e61e3a* s/malloc/calloc
 
 [r47790](http://brlcad.svn.sourceforge.net/viewvc/brlcad?view=revision&revision=47790)
-*684d759* Fixed asStr(), was broken in the scl\_string -\> std::string
+*684d759* Fixed asStr(), was broken in the scl_string -\> std::string
 rework.
 
 [r48192](http://brlcad.svn.sourceforge.net/viewvc/brlcad?view=revision&revision=48192)
@@ -557,15 +557,15 @@ MgrNodeArray otherwise parent class GenNodeArray will try and delete
 memory error
 
 [r49185](http://brlcad.svn.sourceforge.net/viewvc/brlcad?view=revision&revision=49185)
-*811d380* use \_\_inline\_\_ instead of inline for c89 compilation
+*811d380* use __inline__ instead of inline for c89 compilation
 
 [r49186](http://brlcad.svn.sourceforge.net/viewvc/brlcad?view=revision&revision=49186)
-*5b3f97c* use static\_inline instead of 'static inline' so that we're
+*5b3f97c* use static_inline instead of 'static inline' so that we're
 consistent with other uses and expand correctly to the right symbols for
 this compilation
 
 [r49193](http://brlcad.svn.sourceforge.net/viewvc/brlcad?view=revision&revision=49193)
-*441414a* more static\_inline propagation so we support strict c89 mode
+*441414a* more static_inline propagation so we support strict c89 mode
 
 [r49478](http://brlcad.svn.sourceforge.net/viewvc/brlcad?view=revision&revision=49478)
 *ea46e08* don't output unused variable
@@ -578,7 +578,7 @@ this compilation
 rewrite for readability.
 
 [r49622](http://brlcad.svn.sourceforge.net/viewvc/brlcad?view=revision&revision=49622)
-*aebfb14* Copy changes to the commited SdaiCONFIG\_CONTROL\_DESIGN.cc,
+*aebfb14* Copy changes to the commited SdaiCONFIG_CONTROL_DESIGN.cc,
 which disables adding of certain parent-class attributes on object
 creation, to the corresponding generation code.
 
@@ -614,11 +614,11 @@ after certain errors to allow attaching debugger
 portable; just remove it
 
 [r51579](http://brlcad.svn.sourceforge.net/viewvc/brlcad?view=revision&revision=51579)
-*75220c8* strictly match EXPRESSinit\_init defs to the express.h
+*75220c8* strictly match EXPRESSinit_init defs to the express.h
 declaration
 
 [r51598](http://brlcad.svn.sourceforge.net/viewvc/brlcad?view=revision&revision=51598)
-*2684045* have check-express compile its own EXPRESSinit\_init
+*2684045* have check-express compile its own EXPRESSinit_init
 definition like all the other programs that use fedex.c so we don't need
 to conditionally override an express dll definition on windows
 
@@ -627,7 +627,7 @@ to conditionally override an express dll definition on windows
 clstepcore/README
 
 [r51723](http://brlcad.svn.sourceforge.net/viewvc/brlcad?view=revision&revision=51723)
-*5f5c110* don't use scl\_memmgr.h definitions if mem checks aren't
+*5f5c110* don't use scl_memmgr.h definitions if mem checks aren't
 enabled
 
 [r52251](http://brlcad.svn.sourceforge.net/viewvc/brlcad?view=revision&revision=52251)
@@ -636,7 +636,7 @@ AssignAggrCreator() be defined in a compilation unit.
 
 [r52276](http://brlcad.svn.sourceforge.net/viewvc/brlcad?view=revision&revision=52276)
 *f4ef1c7* Use stdarg.h unconditionally and avoid undefined behavior by
-remembering to call va\_end. Appears to fix fedex\_plus crash seen when
+remembering to call va_end. Appears to fix fedex_plus crash seen when
 doing a Windows release build.
 
 Need to look at these more
@@ -653,8 +653,8 @@ Differs from GitHub
 
 [r47791](http://brlcad.svn.sourceforge.net/viewvc/brlcad?view=revision&revision=47791)
 *f5b4ff4* Looks like possible debugging code left in during the
-scl\_string -\> std::string rework breaking STEPattribute::is\_null()
-for STRING\_TYPE and BINARY\_TYPE, commented out for now.
+scl_string -\> std::string rework breaking STEPattribute::is_null()
+for STRING_TYPE and BINARY_TYPE, commented out for now.
 
 [r49071](http://brlcad.svn.sourceforge.net/viewvc/brlcad?view=revision&revision=49071)
 *07335d3* might make merging a bit more difficult or (more likely)
@@ -666,7 +666,7 @@ mark them all const.
 [r49794](http://brlcad.svn.sourceforge.net/viewvc/brlcad?view=revision&revision=49794)
 *0f1486e* Replaced generated cleditor sources with tweaked copies of the
 388901d versions from the mpictor git repo. These were apparently
-generated by running fedex\_plus on the Ed 2 header schema
+generated by running fedex_plus on the Ed 2 header schema
 (http://www.steptools.com/sc4/archive/imp-methods/10303-21-header.exp).
 
 [r50389](http://brlcad.svn.sourceforge.net/viewvc/brlcad?view=revision&revision=50389)
@@ -679,7 +679,7 @@ Will probably skip
 *4fbd00e* Key the static lib building on the build type. Exposed a
 problem with making the trigger variable an OPTION in sub-builds - doing
 so forces the setting into the cache and makes it impractical for the
-AUTO\_OPTION macro to do its thing. Fortunately, the only files doing
+AUTO_OPTION macro to do its thing. Fortunately, the only files doing
 that were the ones we wrote - corrected them, and we're good to go.
 
 [r48101](http://brlcad.svn.sourceforge.net/viewvc/brlcad?view=revision&revision=48101)
@@ -693,8 +693,8 @@ go.
 *f615c39* remove miscellaneous unused files
 
 [r51470](http://brlcad.svn.sourceforge.net/viewvc/brlcad?view=revision&revision=51470)
-*46fbcbc* Include fedex\_python subdir to make it easier to build
-fedex\_python for testing. Make paths relative to avoid CMAKEFILES
+*46fbcbc* Include fedex_python subdir to make it easier to build
+fedex_python for testing. Make paths relative to avoid CMAKEFILES
 warning.
 
 Skip (duplicated effort, autotools, etc)
@@ -710,11 +710,11 @@ Skip (duplicated effort, autotools, etc)
 *2a6a16b* remove reference to non-existant file
 
 [r47359](http://brlcad.svn.sourceforge.net/viewvc/brlcad?view=revision&revision=47359)
-*b383b97* ignore scl\_cf.h.in since autoheader will create it during
+*b383b97* ignore scl_cf.h.in since autoheader will create it during
 autogen.sh
 
 [r48188](http://brlcad.svn.sourceforge.net/viewvc/brlcad?view=revision&revision=48188)
-*e487dc0* adding a modified ap203 express file that fedex\_plus doesn't
+*e487dc0* adding a modified ap203 express file that fedex_plus doesn't
 fail on
 
 [r49192](http://brlcad.svn.sourceforge.net/viewvc/brlcad?view=revision&revision=49192)
@@ -744,7 +744,7 @@ non-existant chars member function
 *c239a1f* revert 51651 - breaks build on Linux
 
 [r52410](http://brlcad.svn.sourceforge.net/viewvc/brlcad?view=revision&revision=52410)
-*c4d9549* ignore/inclue the scl\_cf.h.in header template
+*c4d9549* ignore/inclue the scl_cf.h.in header template
 
 [r52411](http://brlcad.svn.sourceforge.net/viewvc/brlcad?view=revision&revision=52411)
 *3742b9f* bah, it's not actually a repo file -- something is writing to
@@ -765,7 +765,7 @@ git repo in a0353bc
 
 [r49776](http://brlcad.svn.sourceforge.net/viewvc/brlcad?view=revision&revision=49776)
 *4337b40* Edge our CMakeLists.txt file and tree a little closer to the
-github tree. base and fedex\_python are turned off and ignored for the
+github tree. base and fedex_python are turned off and ignored for the
 moment.
 
 [r49777](http://brlcad.svn.sourceforge.net/viewvc/brlcad?view=revision&revision=49777)
@@ -784,14 +784,14 @@ keep ap203edit.exp, since that's the one that works with our step-g
 converter.
 
 [r49795](http://brlcad.svn.sourceforge.net/viewvc/brlcad?view=revision&revision=49795)
-*89a25f0* don't use a generic IS\_SUBBUILD variable - bad idea.
+*89a25f0* don't use a generic IS_SUBBUILD variable - bad idea.
 
 [r49797](http://brlcad.svn.sourceforge.net/viewvc/brlcad?view=revision&revision=49797)
 *bacb8c1* remove symlink program; removed from mpictor git repo in
 23cf6a5
 
 [r49799](http://brlcad.svn.sourceforge.net/viewvc/brlcad?view=revision&revision=49799)
-*e20cd29* remove fedex\_idl program; removed from mpictor git repo in
+*e20cd29* remove fedex_idl program; removed from mpictor git repo in
 dbbf4b9
 
 [r49822](http://brlcad.svn.sourceforge.net/viewvc/brlcad?view=revision&revision=49822)
@@ -799,7 +799,7 @@ dbbf4b9
 and d067534
 
 [r49824](http://brlcad.svn.sourceforge.net/viewvc/brlcad?view=revision&revision=49824)
-*85c067c* Removed references to PART26/CORBA and ODI\_OSSG. Corresponds
+*85c067c* Removed references to PART26/CORBA and ODI_OSSG. Corresponds
 primarily to SCL git e99240a, d6aa13f, and 4c5a8e0.
 
 [r49826](http://brlcad.svn.sourceforge.net/viewvc/brlcad?view=revision&revision=49826)
@@ -814,7 +814,7 @@ SCL git a0353bc version
 
 [r49836](http://brlcad.svn.sourceforge.net/viewvc/brlcad?view=revision&revision=49836)
 *cf57641* Replaced basic.h's Boolean/True/False with bool/true/false via
-stdbool.h or else scl\_stdbool.h. Includes changes from SCL git e40cbca
+stdbool.h or else scl_stdbool.h. Includes changes from SCL git e40cbca
 and 71bd7b2. Honest attempts made to ensure all affected symbols were
 actually being used as real booleans (as opposed to sdaiEnum.h's trinary
 Boolean type).
@@ -861,7 +861,7 @@ from empty string. SCL git 8e256d7.
 
 [r50158](http://brlcad.svn.sourceforge.net/viewvc/brlcad?view=revision&revision=50158)
 *3514d1e* Apply SCL git d6d7c48 changes. SCLP23 macros replaced with
-simple SDAI\_ prefix.
+simple SDAI_ prefix.
 
 [r50171](http://brlcad.svn.sourceforge.net/viewvc/brlcad?view=revision&revision=50171)
 *3c20152* remove unused variables and functions identified in SCL git
@@ -883,7 +883,7 @@ SCL git 4cf16d7
 but be more judicious in using unsigned versus signed
 
 [r50295](http://brlcad.svn.sourceforge.net/viewvc/brlcad?view=revision&revision=50295)
-*4865978* ignore spaces in generate\_attribute\_name. SCL git 1ebee6d
+*4865978* ignore spaces in generate_attribute_name. SCL git 1ebee6d
 
 [r50303](http://brlcad.svn.sourceforge.net/viewvc/brlcad?view=revision&revision=50303)
 *dd9acf9* apply more commented code removal from SCL git c0b2b05,
@@ -932,7 +932,7 @@ and 402225e
 b6bebbb, and 3156ea7
 
 [r50431](http://brlcad.svn.sourceforge.net/viewvc/brlcad?view=revision&revision=50431)
-*e63b935* Using std::string c\_str() too much and empty() not enough.
+*e63b935* Using std::string c_str() too much and empty() not enough.
 SCL git 2295e71 and b759a0e.
 
 [r50432](http://brlcad.svn.sourceforge.net/viewvc/brlcad?view=revision&revision=50432)
@@ -943,8 +943,8 @@ SCL git 2295e71 and b759a0e.
 ecd400c
 
 [r50438](http://brlcad.svn.sourceforge.net/viewvc/brlcad?view=revision&revision=50438)
-*2082d23* Apply SCL git 900d94d. fedex\_plus no longer generates
-make\_schema file.
+*2082d23* Apply SCL git 900d94d. fedex_plus no longer generates
+make_schema file.
 
 [r50467](http://brlcad.svn.sourceforge.net/viewvc/brlcad?view=revision&revision=50467)
 *3461161* Rewrite PushPastString to avoid two consecutive get/putback as
@@ -952,7 +952,7 @@ identified by SCL git abb3add. Also if first char on stream isn't string
 delimiter, don't take it off the stream.
 
 [r50468](http://brlcad.svn.sourceforge.net/viewvc/brlcad?view=revision&revision=50468)
-*a187ad8* apply SCL git 0d9c16d, which fixes fedex\_plus failure on
+*a187ad8* apply SCL git 0d9c16d, which fixes fedex_plus failure on
 ap203e2 schema
 
 [r50470](http://brlcad.svn.sourceforge.net/viewvc/brlcad?view=revision&revision=50470)
@@ -980,7 +980,7 @@ things.
 [r50584](http://brlcad.svn.sourceforge.net/viewvc/brlcad?view=revision&revision=50584)
 *e63ac83* Apply changes based on SCL git 6e9b5a7. Creates GetLiteralStr
 function to implement and extend functionality common to
-SDAI\_String::STEPread and PushPastString.
+SDAI_String::STEPread and PushPastString.
 
 [r50598](http://brlcad.svn.sourceforge.net/viewvc/brlcad?view=revision&revision=50598)
 *9a3670a* Add collectAttributes function based on the one added by SCL
@@ -993,7 +993,7 @@ instead of rebuilding it
 
 [r50631](http://brlcad.svn.sourceforge.net/viewvc/brlcad?view=revision&revision=50631)
 *b1da4f6* apply rest of SCL git 290850a: change output suffix of
-aggregate select types from 's' to '\_agg'
+aggregate select types from 's' to '_agg'
 
 [r50632](http://brlcad.svn.sourceforge.net/viewvc/brlcad?view=revision&revision=50632)
 *49ac297* apply header guard symbol change from SCL git d1cd32b
@@ -1019,7 +1019,7 @@ writing char\* arg. SCL git b8fc557.
 ap239 express schema. SCL git 254b5a3.
 
 [r50767](http://brlcad.svn.sourceforge.net/viewvc/brlcad?view=revision&revision=50767)
-*9ea3ba0* optimize utype\_member based on SCL git 27ce560
+*9ea3ba0* optimize utype_member based on SCL git 27ce560
 
 [r50770](http://brlcad.svn.sourceforge.net/viewvc/brlcad?view=revision&revision=50770)
 *26fa107* Remove some unneeded functions. SCL git 1faaf69 and 2d7ed17.
@@ -1053,13 +1053,13 @@ was actually SCL git 1b69382.
 missing attributes. SCL git de3495d and 373d415.
 
 [r50815](http://brlcad.svn.sourceforge.net/viewvc/brlcad?view=revision&revision=50815)
-*4fe9ad8* correct SCANsave\_comment; SCL git c6bc7ec
+*4fe9ad8* correct SCANsave_comment; SCL git c6bc7ec
 
 [r50892](http://brlcad.svn.sourceforge.net/viewvc/brlcad?view=revision&revision=50892)
 *2bb7046* generate spaces instead of tabs; SCL git 86b9f12
 
 [r50893](http://brlcad.svn.sourceforge.net/viewvc/brlcad?view=revision&revision=50893)
-*0745c75* Use UNKNOWN\_TYPE when an attribute has no NonRefType. SCL git
+*0745c75* Use UNKNOWN_TYPE when an attribute has no NonRefType. SCL git
 6aa4695.
 
 [r50895](http://brlcad.svn.sourceforge.net/viewvc/brlcad?view=revision&revision=50895)
@@ -1113,11 +1113,11 @@ and 0869e41.
 *ad9a78f* support comments in entities; SCL git 4ddce86
 
 [r50996](http://brlcad.svn.sourceforge.net/viewvc/brlcad?view=revision&revision=50996)
-*308cedf* Have fedex\_plus generate dll import/export symbols. SCL git
+*308cedf* Have fedex_plus generate dll import/export symbols. SCL git
 80208dc.
 
 [r50997](http://brlcad.svn.sourceforge.net/viewvc/brlcad?view=revision&revision=50997)
-*667b223* Prefix scl\_hash routines with SCL\_. SCL git 4740f4d and
+*667b223* Prefix scl_hash routines with SCL_. SCL git 4740f4d and
 737c53e.
 
 [r51001](http://brlcad.svn.sourceforge.net/viewvc/brlcad?view=revision&revision=51001)
@@ -1152,7 +1152,7 @@ and 0869e41.
 *f7da8c2* ws/style from SCL git 09f3472 and d94a449
 
 [r51068](http://brlcad.svn.sourceforge.net/viewvc/brlcad?view=revision&revision=51068)
-*57e2678* Have SDAI\_String and SDAI\_Binary wrap std::string rather
+*57e2678* Have SDAI_String and SDAI_Binary wrap std::string rather
 than inherit from it. SCL git 82898d7.
 
 [r51069](http://brlcad.svn.sourceforge.net/viewvc/brlcad?view=revision&revision=51069)
@@ -1163,7 +1163,7 @@ than inherit from it. SCL git 82898d7.
 
 [r51072](http://brlcad.svn.sourceforge.net/viewvc/brlcad?view=revision&revision=51072)
 *783150e* Warn about indexing binary types instead of failing. Allows
-fedex\_plus to produce output for ap221 and ap235 express schemas. SCL
+fedex_plus to produce output for ap221 and ap235 express schemas. SCL
 git 4cd7e7c.
 
 [r51074](http://brlcad.svn.sourceforge.net/viewvc/brlcad?view=revision&revision=51074)
@@ -1178,34 +1178,34 @@ and e421f70.
 *fd5654a* break up generated strings; SCL git 212c114
 
 [r51096](http://brlcad.svn.sourceforge.net/viewvc/brlcad?view=revision&revision=51096)
-*e5e8012* Apply SCL git 3fd2222 which removes scl\_char\_str\_list
+*e5e8012* Apply SCL git 3fd2222 which removes scl_char_str_list
 class, but std::vector makes a better replacement than std::deque.
 
 [r51097](http://brlcad.svn.sourceforge.net/viewvc/brlcad?view=revision&revision=51097)
 *678d07e* eliminate a temp buffer; SCL git 1cc2774
 
 [r51104](http://brlcad.svn.sourceforge.net/viewvc/brlcad?view=revision&revision=51104)
-*36947b9* use scl\_memmgr in express; SCL git 82c84e7 and 4d6d249
+*36947b9* use scl_memmgr in express; SCL git 82c84e7 and 4d6d249
 
 [r51105](http://brlcad.svn.sourceforge.net/viewvc/brlcad?view=revision&revision=51105)
-*17b28d9* use scl\_memmgr in exppp and fedex\_plus; SCL git 7ce8bcb and
+*17b28d9* use scl_memmgr in exppp and fedex_plus; SCL git 7ce8bcb and
 4e0d73d
 
 [r51141](http://brlcad.svn.sourceforge.net/viewvc/brlcad?view=revision&revision=51141)
-*9580c9e* use scl\_memmgr in clutils; SCL git 010e02b
+*9580c9e* use scl_memmgr in clutils; SCL git 010e02b
 
 [r51145](http://brlcad.svn.sourceforge.net/viewvc/brlcad?view=revision&revision=51145)
-*ab135d3* use scl\_memmgr in clstepcore; SCL git 245ff14
+*ab135d3* use scl_memmgr in clstepcore; SCL git 245ff14
 
 [r51146](http://brlcad.svn.sourceforge.net/viewvc/brlcad?view=revision&revision=51146)
-*6766111* use scl\_memmgr in cldai; SCL git b49d2be
+*6766111* use scl_memmgr in cldai; SCL git b49d2be
 
 [r51147](http://brlcad.svn.sourceforge.net/viewvc/brlcad?view=revision&revision=51147)
-*8667bf7* use scl\_memmgr in cleditor; SCL git 3be4220
+*8667bf7* use scl_memmgr in cleditor; SCL git 3be4220
 
 [r51235](http://brlcad.svn.sourceforge.net/viewvc/brlcad?view=revision&revision=51235)
-*d56d107* Use scl\_memmgr in generated schema libraries. Since
-scl\_memmgr.h makes "new" a macro, it has to be included after uses of
+*d56d107* Use scl_memmgr in generated schema libraries. Since
+scl_memmgr.h makes "new" a macro, it has to be included after uses of
 placement new to avoid breakage. SCL git d8d293b.
 
 [r51236](http://brlcad.svn.sourceforge.net/viewvc/brlcad?view=revision&revision=51236)
@@ -1213,14 +1213,14 @@ placement new to avoid breakage. SCL git d8d293b.
 dea7f8c
 
 [r51238](http://brlcad.svn.sourceforge.net/viewvc/brlcad?view=revision&revision=51238)
-*d3a8e5e* add fedex\_plus/express memory cleanup function; SCL git
+*d3a8e5e* add fedex_plus/express memory cleanup function; SCL git
 f5d0cc5
 
 [r51239](http://brlcad.svn.sourceforge.net/viewvc/brlcad?view=revision&revision=51239)
-*21e086d* fix memory leaks reported by scl\_memmgr; SCL git 3010afa
+*21e086d* fix memory leaks reported by scl_memmgr; SCL git 3010afa
 
 [r51240](http://brlcad.svn.sourceforge.net/viewvc/brlcad?view=revision&revision=51240)
-*e7c22aa* fix memory leaks reported by scl\_memmgr; SCL git f7cde9f
+*e7c22aa* fix memory leaks reported by scl_memmgr; SCL git f7cde9f
 
 [r51241](http://brlcad.svn.sourceforge.net/viewvc/brlcad?view=revision&revision=51241)
 *b5ec68f* remove \#if 0 code; SCL git ee13cda
@@ -1278,7 +1278,7 @@ in this case so just quell by casting to int. SCL git 512968e and
 
 [r51343](http://brlcad.svn.sourceforge.net/viewvc/brlcad?view=revision&revision=51343)
 *9891ba7* Some unapplied changes from SCL git a362210, 696d8e3, and
-2b46efb, mostly fixing STEPattribute::is\_null.
+2b46efb, mostly fixing STEPattribute::is_null.
 
 [r51344](http://brlcad.svn.sourceforge.net/viewvc/brlcad?view=revision&revision=51344)
 *4a93e88* need shlwapi for Windows path handling routines; SCL git
@@ -1291,7 +1291,7 @@ in this case so just quell by casting to int. SCL git 512968e and
 *c7a150d* add missing lib dependencies; SCL git d0293fd
 
 [r51358](http://brlcad.svn.sourceforge.net/viewvc/brlcad?view=revision&revision=51358)
-*48836ca* Update version strings in fedex, fedex\_plus, generated code,
+*48836ca* Update version strings in fedex, fedex_plus, generated code,
 and documentation. SCL git 6851b27, fa615a1, dc30ee2, d190a1e, a33cba8,
 698b9e0.
 
@@ -1300,12 +1300,12 @@ and documentation. SCL git 6851b27, fa615a1, dc30ee2, d190a1e, a33cba8,
 their copy of the edited ap203.exp to generate step-g sources.
 
 [r51471](http://brlcad.svn.sourceforge.net/viewvc/brlcad?view=revision&revision=51471)
-*fcbe328* update fedex\_python sources to SCL git 7ffbb73 versions, but
+*fcbe328* update fedex_python sources to SCL git 7ffbb73 versions, but
 use the classes.h declaration of the FundamentalType func for
 consistency
 
 [r51472](http://brlcad.svn.sourceforge.net/viewvc/brlcad?view=revision&revision=51472)
-*b7f6bff* apply changes for fedex\_python from SCL git 10999e7 and
+*b7f6bff* apply changes for fedex_python from SCL git 10999e7 and
 2dcfaed
 
 [r51473](http://brlcad.svn.sourceforge.net/viewvc/brlcad?view=revision&revision=51473)
@@ -1315,7 +1315,7 @@ consistency
 *1683d67* missed ws and doxification changes from SCL git f9b9383
 
 [r51563](http://brlcad.svn.sourceforge.net/viewvc/brlcad?view=revision&revision=51563)
-*63b3633* rename getopt to sc\_getopt and include it as part of base
+*63b3633* rename getopt to sc_getopt and include it as part of base
 lib; SCL git 1a60cf9 and dd93a96
 
 [r51566](http://brlcad.svn.sourceforge.net/viewvc/brlcad?view=revision&revision=51566)

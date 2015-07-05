@@ -4,9 +4,6 @@ title: Welcome
 permalink: /docs/home/
 ---
 
-STEPcode &bull; Data Exchange with the technologies of ISO 10303
-
-# Welcome
 ----
 
 The **STEPcode** project is a collection of open source libraries, tools, and resources that revolve around the technologies of [ISO 10303](http://en.wikipedia.org/w/index.php?title=ISO_10303), a.k.a. STEP, the **ST**andard for the **E**xchange of **P**roduct model data.
@@ -19,32 +16,21 @@ STEPcode provides a cross-platform (Linux, OSX, **and** Windows) implementation 
 -   a library that allows STEP Part 21 files to be read and written
 -   various utilities, test routines, and test schemas
 
-  
+
 The [BSD license](http://github.com/stepcode/stepcode/blob/master/COPYING) allows commercial use. In addition, STEPcode is used in other open source projects such as [BRL-CAD](http://www.brl-cad.org) and [SCView](http://github.com/LaurentBauer/SCView).  
-  
+
 STEPcode traces its roots to the NIST STEP Class Library (SCL) which was developed between ~1987 and 1998.
 
 See also: [History](History.html), [List of external resources](List_of_external_resources.html), [List of OSS or free STEP programs](List_of_OSS_or_free_STEP_programs.html)
 
-### GSoC 2014
-
-We're participating again!
-
-See the [Checklist](http://brlcad.org/wiki/Summer_of_Code/Checklist) and the BRL-CAD [project ideas](http://brlcad.org/wiki/Google_Summer_of_Code/Project_Ideas). If those ideas don't interest you, you can also look at the longer [list of projects](List_of_projects.html) on this wiki.
-
 ### Quick Start
 
--   See the [getting started](Getting_started.html) page
+-   See the [basic usage](/docs/usage) page
 
 ### Communication
 
--   **[STEPcode
-    mailing list](https://groups.google.com/forum/#!forum/scl-dev)** on google groups (new users are moderated to
-    discourage spam)
--   **#stepcode** on freenode - use an IRC client or [your
-    browser](http://webchat.freenode.net/?channels=stepcode). There is
-    also a [log](http://ibot.rikers.org/%23stepcode/) thanks to Tim
-    Rikers.
+-   **[STEPcode mailing list](https://groups.google.com/forum/#!forum/scl-dev)** on google groups (new users are moderated to discourage spam)
+-   **#stepcode** on freenode - use an IRC client or [your browser](http://webchat.freenode.net/?channels=stepcode). There is also a [log](http://ibot.rikers.org/%23stepcode/) thanks to Tim Rikers.
 
 STEP & Other Standards
 ----------------------

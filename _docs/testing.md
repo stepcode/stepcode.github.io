@@ -1,13 +1,18 @@
 ---
-title: How to test with CTest
+layout: docs
+permalink: /docs/testing
+title: Testing in STEPcode
 ---
 
-Without ctest script
---------------------
+This page discusses manual use of CTest, as well as CDash. While manually running tests is good, we no longer use CDash. Instead, Travis-CI and Appveyor automatically test each PR on GitHub.
+
+----
+
+### Without ctest script
 
 **Preferred method**
 
--   configure with SC\_ENABLE\_TESTING=ON
+-   configure with SC_ENABLE_TESTING=ON
 
 In CMake-GUI, tick the box next to that variable. From the command line,
 `cmake .. -DSC_ENABLE_TESTING=ON`
@@ -44,17 +49,8 @@ In CMake-GUI, tick the box next to that variable. From the command line,
            34 - read_write_cpp_ap210e2_v1_40_mim_lf_PDES-181 (Failed)`
 and so on.
 
-Via ctest script
-----------------
+### Via ctest script
 
-**Note:** this is not recommended, as results are not reported unless
-result submission is enabled and you look at
-[my.cdash.org](http://my.cdash.org/index.php?project=StepClassLibrary)
-after running the tests. From the **STEPcode/** dir, run CTest:
-`ctest -S run_ctest.cmake`
+**Note:** this is not recommended, as results are not reported unless result submission is enabled and you look at [my.cdash.org](http://my.cdash.org/index.php?project=StepClassLibrary) after running the tests. From the **STEPcode/** dir, run CTest: `ctest -S run_ctest.cmake`
 
-It will warn you that .SC\_CTEST\_PREFS.cmake is missing. This is
-normal, unless you are set up to submit test results to my.cdash.org.
-Free my.cdash.org accounts have limits on the number of people that are
-allowed to submit tests, so please discuss on the mailing list before
-you create the file.
+It will warn you that .SC_CTEST_PREFS.cmake is missing. This is normal, unless you are set up to submit test results to my.cdash.org. Free my.cdash.org accounts have limits on the number of people that are allowed to submit tests, so please discuss on the mailing list before you create the file.

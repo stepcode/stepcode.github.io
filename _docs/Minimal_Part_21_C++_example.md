@@ -15,8 +15,8 @@ Important Classes
     file)
 -   [STEPfile](http://stepcode.org/doxygen/class_s_t_e_pfile.html)
     (takes care of reading and writing Part 21 files, and creates an
-    SDAI\_Application\_instance for every instance read)
--   [SDAI\_Application\_instance](http://stepcode.org/doxygen/class_s_d_a_i___application__instance.html)
+    SDAI_Application_instance for every instance read)
+-   [SDAI_Application_instance](http://stepcode.org/doxygen/class_s_d_a_i___application__instance.html)
     (the base class for every type of instance that STEP deals with)
 
 Code
@@ -90,11 +90,11 @@ Linking
 Your executable will need to link to various libraries, likely including
 a generated library, specific to the schema you are interested in. Once
 generated, this lib can be found in build/lib with a prefix of
-libsdai\_.
+libsdai_.
 
 It will also need to link with cldai, cleditor, clstepcore, and clutils - all found in build/lib.
 
-If you get stuck, consider examining the compile/link commands used for one of the p21read executables. This can be done with **make VERBOSE=1\_**:
+If you get stuck, consider examining the compile/link commands used for one of the p21read executables. This can be done with **make VERBOSE=1_**:
 
 `make VERBOSE=1 p21read_sdai_ap214e3`
 

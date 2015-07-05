@@ -1,11 +1,13 @@
 ---
-title: STEPcode CMake variables
+layout: docs
+title: CMake variables used by STEPcode
+permalink: /docs/cmake_vars/
 ---
 
 You can change these
 --------------------
 
-### SC\_BUILD\_SCHEMAS
+### SC_BUILD_SCHEMAS
 
 -   List of schemas to be built. Defaults to special value ALL, which
     builds all schemas in SC/data.
@@ -13,30 +15,30 @@ You can change these
     a directory. If an entry is a directory, CMake looks for **\*.exp**
     within that directory.
 
-### SC\_BUILD\_TYPE
+### SC_BUILD_TYPE
 
 -   Release, Debug (**default**), etc.
--   See also: CMAKE\_BUILD\_TYPE documentation
+-   See also: CMAKE_BUILD_TYPE documentation
 
-### SC\_GENERATE\_LEXER\_PARSER
+### SC_GENERATE_LEXER_PARSER
 
 -   See comments in root CMakeLists.txt for this variable.
 
-### SC\_INSTALL\_PREFIX
+### SC_INSTALL_PREFIX
 
 -   prefix for 'make install'
 
-### SC\_IS\_SUBBUILD
+### SC_IS_SUBBUILD
 
 -   used when building as a subproject, as SCView and BRL-CAD do.
 -   example of use:
     <http://github.com/LaurentBauer/SCView/blob/master/CMakeLists.txt>
 
-### SC\_MEMMGR\_ENABLE\_CHECKS
+### SC_MEMMGR_ENABLE_CHECKS
 
 -   enables runtime memory leak checks. Output is very verbose!
 
-### SC\_SDAI\_ADDITIONAL\_EXES\_SRCS
+### SC_SDAI_ADDITIONAL_EXES_SRCS
 
 -   A list of paths to source files for additional executables that will
     be built for each schema.
@@ -49,14 +51,14 @@ Variables exclusively for CTest
 
 These won't do anything useful unless you're running tests.
 
-### SC\_ENABLE\_COVERAGE
+### SC_ENABLE_COVERAGE
 
 -   for code coverage tests; requires gcov/lcov -
     <http://ltp.sourceforge.net/coverage/lcov.php>
 
 `ctest -S lcov.cmake`
 
-### SC\_ENABLE\_TESTING
+### SC_ENABLE_TESTING
 
 -   tests can be run manually (no submission) by setting this to ON,
     then
@@ -70,16 +72,16 @@ make test`
 You probably don't want to change these
 ---------------------------------------
 
-### SC\_ABI\_SOVERSION
+### SC_ABI_SOVERSION
 
-### SC\_BASE\_SOURCES
+### SC_BASE_SOURCES
 
-### SC\_BINARY\_DIR
+### SC_BINARY_DIR
 
-### SC\_CMAKE\_DIR
+### SC_CMAKE_DIR
 
-### SC\_SOURCE\_DIR
+### SC_SOURCE_DIR
 
-### SC\_VERSION\_MAJOR
+### SC_VERSION_MAJOR
 
-### SC\_VERSION\_MINOR
+### SC_VERSION_MINOR

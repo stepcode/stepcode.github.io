@@ -78,7 +78,7 @@ struct Statement_ {
 };
 `
 
-### Case\_Statement
+### Case_Statement
 
 `
 struct Case_Statement_ {
@@ -87,7 +87,7 @@ struct Case_Statement_ {
 };
 `
 
-### Compound\_Statement
+### Compound_Statement
 
 `
 struct Compound_Statement_ {
@@ -116,7 +116,7 @@ struct Loop_ {
 };
 `
 
-### Procedure\_Call
+### Procedure_Call
 
 `
 struct Procedure_Call_ {
@@ -125,7 +125,7 @@ struct Procedure_Call_ {
 };
 `
 
-### Return\_Statement
+### Return_Statement
 
 `
 struct Return_Statement_ {
@@ -281,7 +281,7 @@ struct Procedure_ {
 Others
 ------
 
-### Case\_Item
+### Case_Item
 
 ``
 
@@ -352,7 +352,7 @@ struct Expression_ {
 };
 `
 
-### Linked\_List
+### Linked_List
 
 ``
 
