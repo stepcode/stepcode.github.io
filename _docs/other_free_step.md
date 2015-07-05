@@ -1,4 +1,6 @@
 ---
+layout: docs
+permalink: /docs/other_free_step/
 title: List of OSS or free STEP programs
 ---
 
@@ -54,8 +56,3 @@ files](http://www.kshell.com/pages/scripting/index.html) - uses Prolog
 <http://github.com/mvaerle/python-ifc>
 
 <http://www.ifcgears.com/extender.php>
-
-Commercial
-----------
-
-[ST-Developer](http://www.steptools.com/products/stdev/)

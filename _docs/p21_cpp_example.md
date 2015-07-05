@@ -1,26 +1,25 @@
 ---
 layout: docs
+permalink: /docs/p21_cpp_example/
 title: Minimal Part 21 C++ example
 ---
 
-Minimal C++ example based on [P21read](P21read.html)
+Based on [P21read](/docs/p21read/)
 
-Important Classes
------------------
+### Contents
+* TOC
+{:toc}
 
--   [Registry](http://stepcode.org/doxygen/class_registry.html)
-    (contains information about types present in the current schema)
--   [InstMgr](http://stepcode.org/doxygen/class_inst_mgr.html) (holds
-    instances that have been created or that have been loaded from a
-    file)
--   [STEPfile](http://stepcode.org/doxygen/class_s_t_e_pfile.html)
-    (takes care of reading and writing Part 21 files, and creates an
-    SDAI_Application_instance for every instance read)
--   [SDAI_Application_instance](http://stepcode.org/doxygen/class_s_d_a_i___application__instance.html)
-    (the base class for every type of instance that STEP deals with)
 
-Code
-----
+## Important Classes
+
+-   [Registry](http://stepcode.org/doxygen/class_registry.html) (contains information about types present in the current schema)
+-   [InstMgr](http://stepcode.org/doxygen/class_inst_mgr.html) (holds instances that have been created or that have been loaded from a file)
+-   [STEPfile](http://stepcode.org/doxygen/class_s_t_e_pfile.html) (takes care of reading and writing Part 21 files, and creates an SDAI_Application_instance for every instance read)
+-   [SDAI_Application_instance](http://stepcode.org/doxygen/class_s_d_a_i___application__instance.html) (the base class for every type of instance that STEP deals with)
+
+## Code
+
 
 {% highlight cpp linenos %}
 #include <sc_cf.h>
@@ -71,8 +70,7 @@ int main( int argc, char * argv[] ) {
 }
 {% endhighlight %}
 
-Include Paths
--------------
+## Include Paths
 
 Stepcode's includes are not relative the top level of the stepcode
 include directory, so multiple include paths are needed to compile this
@@ -84,8 +82,7 @@ example:
 -   include/stepcode/clstepcore
 -   include/stepcode/clutils
 
-Linking
--------
+## Linking
 
 Your executable will need to link to various libraries, likely including
 a generated library, specific to the schema you are interested in. Once
@@ -98,8 +95,7 @@ If you get stuck, consider examining the compile/link commands used for one of t
 
 `make VERBOSE=1 p21read_sdai_ap214e3`
 
-Related Pages
--------------
+## Related Pages
 
 -   [How to use STEPcode in an application](How_to_use_STEPcode_in_an_application.html)
 

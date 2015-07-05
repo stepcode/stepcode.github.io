@@ -1,4 +1,6 @@
 ---
+layout: docs
+permalink: /docs/p21read/
 title: P21read
 ---
 

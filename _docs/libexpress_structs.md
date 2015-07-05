@@ -1,11 +1,29 @@
 ---
-title: Libexpress structs
+layout: docs
+permalink: /docs/code/libexpress_structs/
+title: Structs in libexpress
 ---
 
-*typedef*s
-----------
+#### Contents
 
-`
+[Statement](#statement) union
+
+* [Alias](#alias), [Assignment](#assignment), [Case_Statement](#casestatement), [Compound_Statement](#compoundstatement), [Conditional](#conditional), [Loop](#loop), [Procedure_Call](#procedurecall), [Return_Statement](#returnstatement)
+
+[Scope](#scope) union
+
+* [Procedure](#procedure), [Function](#function), [Rule](#rule), [Entity](#entity), [Schema](#schema), [Express](#express), [Increment](#increment), [Type](#type)
+
+[Others](#others)
+
+* [Case_Item](#caseitem), [Dictionary](#dictionary), [Expression](#expression), [Linked_List](#linkedlist), [Query](#query), [Variable](#variable), [Where](#where)
+
+<!--* TOC
+{:toc}-->
+
+## *typedef*s
+
+{% highlight C %}
 typedef struct Statement_ * Alias;
 typedef struct Statement_ * Assignment;
 typedef struct Statement_ * Case_Statement;
@@ -35,12 +53,14 @@ typedef struct TypeBody_ * TypeBody;
 typedef struct TypeHead_ * TypeHead;
 typedef struct Variable_ * Variable;
 typedef struct Where_ * Where;
-`
+{% endhighlight %}
 
-[Statement\_ \*](http://stepcode.org/doxygen/struct_statement__.html)
----------------------------------------------------------------------
+## Statement
+Union including [Alias](#alias), [Assignment](#assignment), [Case_Statement](#casestatement), [Compound_Statement](#compoundstatement), [Conditional](#conditional), [Loop](#loop), [Procedure_Call](#procedurecall), [Return_Statement](#returnstatement)
 
-`
+Doxygen: [Statement](http://stepcode.org/doxygen/struct_statement__.html)
+
+{% highlight C %}
 /* these should probably all be expression types */
 
 struct Statement_ {
@@ -59,84 +79,88 @@ struct Statement_ {
         /* skip & escape have no data */
     } u;
 };
-`
+{% endhighlight %}
 
 ### Alias
 
-` struct Alias_ {
+{% highlight C %}
+ struct Alias_ {
     struct Scope_ * scope;
     struct Variable_ * variable;
     Linked_List statements;     /**< list of statements */
 };
-`
+{% endhighlight %}
 
 ### Assignment
 
-` struct Assignment_ {
+{% highlight C %}
+ struct Assignment_ {
     Expression lhs;
     Expression rhs;
 };
-`
+{% endhighlight %}
 
 ### Case_Statement
 
-`
+{% highlight C %}
 struct Case_Statement_ {
     Expression selector;
     Linked_List cases;
 };
-`
+{% endhighlight %}
 
 ### Compound_Statement
 
-`
+{% highlight C %}
 struct Compound_Statement_ {
     Linked_List statements;
 };
-`
+{% endhighlight %}
 
 ### Conditional
 
-`
+{% highlight C %}
 struct Conditional_ {
     Expression test;
     Linked_List code;       /**< list of statements */
     Linked_List otherwise;      /**< list of statements */
 };
-`
+{% endhighlight %}
 
 ### Loop
 
-`
+{% highlight C %}
 struct Loop_ {
     struct Scope_ * scope;      /**< scope for increment control */
     Expression while_expr;
     Expression until_expr;
     Linked_List statements;     /**< list of statements */
 };
-`
+{% endhighlight %}
 
 ### Procedure_Call
 
-`
+{% highlight C %}
 struct Procedure_Call_ {
     struct Scope_ * procedure;
     Linked_List parameters; /**< list of expressions */
 };
-`
+{% endhighlight %}
 
 ### Return_Statement
 
-`
+{% highlight C %}
 struct Return_Statement_ {
     Expression value;
 };
-`
+{% endhighlight %}
 
-[Scope\_ \*](http://stepcode.org/doxygen/struct_scope__.html)
--------------------------------------------------------------
+## Scope
+Union including [Procedure](#procedure), [Function](#function), [Rule](#rule), [Entity](#entity), [Schema](#schema), [Express](#express), [Increment](#increment), [Type](#type)
 
-`
+Doxygen: [Scope](http://stepcode.org/doxygen/struct_scope__.html)
+
+{% highlight C %}
 struct Scope_ {
     Symbol          symbol;
     char            type;       /* see above */
@@ -158,24 +182,31 @@ struct Scope_ {
     } u;
     Linked_List where;      /**< optional where clause */
 };
-`
+{% endhighlight %}
 
 ### Increment
 
-`/** this is an element in the optional Loop scope */
+{% highlight C %}
+/** this is an element in the optional Loop scope */
 struct Increment_ {
     Expression init;
     Expression end;
     Expression increment;
-};`
+};
+{% endhighlight %}
 
 ### Type
 
-`//NOTE - this is TypeHead_, not Type_!
+{% highlight C %}
+//NOTE - this is TypeHead_, not Type_!
 struct TypeHead_ {
     Type head;          /**< if we are a defined type this is who we point to */
     struct TypeBody_ * body;    /**< true type, ignoring defined types */
-};` `struct TypeBody_ {
+};
+{% endhighlight %}
+
+{% highlight C %}
+struct TypeBody_ {
 #if 1
     struct TypeHead_ * head;    /**< for debugging only */
 #endif
@@ -188,19 +219,23 @@ struct TypeHead_ {
         unsigned repeat     : 1; /**< expression is a repeat count*/
         unsigned encoded    : 1; /**< encoded string */
     } flags;
-    Type base;      /**< underlying base type if any can also contain true type if this type is a type reference */
+    Type base;      /**< underlying base type if any can also contain true type if this
+                     *   type is a type reference */
     Type tag;       /**< optional tag */
     /* a lot of the stuff below can be unionized */
     Expression precision;
-    Linked_List list;   /**< used by select_types and composed types, such as for a list of entities in an instance */
+    Linked_List list;   /**< used by select_types and composed types, such as for a list
+                     *   of entities in an instance */
     Expression upper;
     Expression lower;
     struct Scope_ * entity;     /**< only used by entity types */
-};`
+};
+{% endhighlight %}
 
 ### Schema
 
-`struct Schema_ {
+{% highlight C %}
+struct Schema_ {
     Linked_List rules;
     Linked_List reflist;
     Linked_List uselist;
@@ -215,23 +250,28 @@ struct TypeHead_ {
                               * entries can be 0 if schemas weren't found during RENAMEresolve */
      Linked_List ref_schemas; /**< lists of schemas that are fully ref'd
                                * entries can be 0 if schemas weren't found during RENAMEresolve */
-};`
+};
+{% endhighlight %}
 
 ### Express
 
-`struct Express_ {
+{% highlight C %}
+struct Express_ {
     FILE * file;
     char * filename;
     char * basename; /**< name of file but without directory or .exp suffix */
-};`
+};
+{% endhighlight %}
 
 ### Entity
 
-`struct Entity_ {
+{% highlight C %}
+struct Entity_ {
     Linked_List supertype_symbols;  /**< linked list of original symbols as generated by parser */
     Linked_List supertypes;         /**< linked list of supertypes (as entities) */
     Linked_List subtypes;           /**< simple list of subtypes useful for simple lookups */
-    Expression  subtype_expression; /**< DAG of subtypes, with complete information including, OR, AND, and ONEOF */
+    Expression  subtype_expression; /**< DAG of subtypes, with complete information including
+                                     *   OR, AND, and ONEOF */
     Linked_List attributes;         /**< explicit attributes */
     int         inheritance;        /**< total number of attributes inherited from supertypes */
     int         attribute_count;
@@ -239,16 +279,23 @@ struct TypeHead_ {
     Linked_List instances;          /**< hook for applications */
     int         mark;               /**< usual hack - prevent traversing sub/super graph twice */
     bool        abstract;           /**< is this an abstract supertype? */
-    Type        type;               /**< type pointing back to ourself, useful to have when evaluating expressions involving entities */
-};`
+    Type        type;               /**< type pointing back to ourself, useful to have when
+                                     *   evaluating expressions involving entities */
+};
+{% endhighlight %}
 
 ### Procedure
 
-`/** location of fulltext of algorithm in source file */
+{% highlight C %}
+/** location of fulltext of algorithm in source file */
 struct FullText {
     char * filename;
     unsigned int start, end;
-};` `/** 'parameters' are lists of lists of (type) expressions */
+};
+{% endhighlight %}
+
+{% highlight C %}
+/** 'parameters' are lists of lists of (type) expressions */
 struct Procedure_ {
     int pcount; /**< # of parameters */
     int tag_count;  /**< # of different parameter tags */
@@ -256,11 +303,13 @@ struct Procedure_ {
     Linked_List body;
     struct FullText text;
     int builtin;    /**< builtin if true */
-};`
+};
+{% endhighlight %}
 
 ### Function
 
-`struct Function_ {
+{% highlight C %}
+struct Function_ {
     int pcount; /**< # of parameters */
     int tag_count;  /**< # of different parameter/return value tags */
     Linked_List parameters;
@@ -268,30 +317,38 @@ struct Procedure_ {
     Type return_type;
     struct FullText text;
     int builtin;    /**< builtin if true */
-};`
+};
+{% endhighlight %}
 
 ### Rule
 
-`struct Rule_ {
+{% highlight C %}
+struct Rule_ {
     Linked_List parameters;
     Linked_List body;
     struct FullText text;
-};`
+};
+{% endhighlight %}
 
-Others
-------
+## Others
+
+[Case_Item](#caseitem), [Dictionary](#dictionary), [Expression](#expression), [Linked_List](#linkedlist), [Query](#query), [Variable](#variable), [Where](#where)
 
 ### Case_Item
-
-``
+TODO
+{% highlight C %}
+{% endhighlight %}
 
 ### Dictionary
 
-``
+TODO
+{% highlight C %}
+{% endhighlight %}
 
 ### Expression
 
-`struct Qualified_Attr {
+{% highlight C %}
+struct Qualified_Attr {
     struct Expression_ * complex;   /**< complex entity instance */
     Symbol * entity;
     Symbol * attribute;
@@ -344,29 +401,34 @@ union expr_union {
  * by "func(a)".  Here, 'type' is Type_Function while 'return_type'
  * might be Type_Integer (assuming func returns an integer). */
 struct Expression_ {
-    Symbol symbol;      /**< contains things like funcall names, string names, binary values, enumeration names */
+    Symbol symbol;      /**< contains things like funcall names, string names, binary values,
+                         *   enumeration names */
     Type type;
     Type return_type;   /**< type of value returned by expression */
     struct Op_Subexpression e;
     union expr_union u;
 };
-`
+{% endhighlight %}
 
 ### Linked_List
-
-``
+TODO
+{% highlight C %}
+{% endhighlight %}
 
 ### Query
+TODO
+{% highlight C %}
+{% endhighlight %}
 
-``
-
-### Statement
-
-``
+<!--### Statement
+TODO
+{% highlight C %}
+{% endhighlight %}-->
 
 ### Variable
 
-`struct Variable_ {
+{% highlight C %}
+struct Variable_ {
     Expression  name;    /**< Symbol is inside of 'name' below */
     Type        type;
     Expression  initializer; /**< or 'derived' */
@@ -385,10 +447,10 @@ struct Expression_ {
     Symbol   *  inverse_symbol;     /**< entity symbol */
     Variable    inverse_attribute;  /**< attribute related by inverse relationship */
 };
-`
+{% endhighlight %}
 
 ### Where
 
-``
-
-[Category:Code discussion](Category:Code_discussion.html)
+TODO
+{% highlight C %}
+{% endhighlight %}

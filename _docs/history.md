@@ -1,4 +1,6 @@
 ---
+layout: docs
+permalink: /docs/history/
 title: History
 ---
 

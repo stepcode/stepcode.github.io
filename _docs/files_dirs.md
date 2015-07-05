@@ -1,4 +1,6 @@
 ---
+layout: docs
+permalink: /docs/files_dirs/
 title: Files and directories
 ---
 
@@ -33,21 +35,21 @@ application that wants to read or write STEP data.
 
 #### Tools
 
-The tools are fedex_plus, fedex_python, check_express, and exppp.
+The tools are exp2cxx, exp2py, check_express, and exppp.
 
 -   **check_express** uses libexpress (below) to check an EXPRESS
     schema for errors. Formerly named **express**, it is the simplest
     possible use of libexpress.
--   **fedex_plus** parses an EXPRESS schema using libexpress, analyzes
+-   **exp2cxx** parses an EXPRESS schema using libexpress, analyzes
     the in-memory representation of the EXPRESS, and writes
     schema-specific C++ source code that is the compiled into one of the
     aforementioned schema-specific libraries.
--   **fedex_python** is a work in progress. It is similar to
-    fedex_plus but writes Python code instead.
+-   **exp2py** is a work in progress. It is similar to
+    exp2cxx but writes Python code instead.
 -   **exppp**, the EXPRESS Pretty Printer, formats EXPRESS in a way that
     is easy to read. The executable is currently not built because it is
     rarely used, but the library is still built and is used by
-    fedex_plus and fedex_python.
+    exp2cxx and exp2py.
 
 #### Other libraries
 
@@ -60,7 +62,7 @@ also used at runtime~~, along with a few hashing functions in
     implementations of malloc, calloc, realloc, free, new, and delete
     that warn of improper use and record the file and line number.
 -   **libexppp** formats EXPRESS so that it is easy to read. It is used
-    to format some things that fedex_plus and fedex_python do not
+    to format some things that exp2cxx and exp2py do not
     currently translate into C++ or Python, such as FUNCTIONs and RULEs.
 -   **libexpress** parses an EXPRESS schema in a file and builds a model
     of the schema in memory.

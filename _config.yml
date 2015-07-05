@@ -1,4 +1,5 @@
 highlighter: pygments
+markdown: kramdown
 #url:              http://stepcode.org
 repository: https://github.com/stepcode/stepcode
 #help_url: https://github.com/jekyll/jekyll-help
@@ -6,3 +7,6 @@ repository: https://github.com/stepcode/stepcode
 collections:
   docs:
     output: true
+
+kramdown:
+  toc_levels: "2"

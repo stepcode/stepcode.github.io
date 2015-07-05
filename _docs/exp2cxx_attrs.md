@@ -1,7 +1,7 @@
 ---
 layout: docs
-permalink: 
-title: Attributes in fedex plus
+permalink: /docs/code/exp2cxx_attrs/
+title: Attributes in exp2cxx
 ---
 
 This comes from
@@ -38,6 +38,4 @@ Still add new access function.
 ### overriding attributes
 
 Go through derived attributes. If STEPattribute found with same name,
-tell it to be \* for reading and writing
-
-[Category:Code discussion](Category:Code_discussion.html)
+tell it to be * for reading and writing
