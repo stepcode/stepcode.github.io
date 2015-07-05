@@ -1,7 +1,7 @@
 ---
 layout: docs
-permalink: /docs/usage2/
-title: How to use STEPcode in an application
+permalink: /docs/examples/
+title: Examples
 ---
 
 ## CMake Integration
@@ -14,14 +14,16 @@ title: How to use STEPcode in an application
 
 ## C++ examples
 
--   [Minimal Part 21 C++ example](Minimal_Part_21_C++_example.html)
--   doxygen documentation of [apps using STEPcode](http://stepcode.org/stepcode-use-doxygen/)
+-   [Minimal Part 21 C++ example](/docs/p21_cpp_example/)
+-   Doxygen documentation of [apps using STEPcode](http://stepcode.org/stepcode-use-doxygen/)
 -   [sc/src/express/test](https://github.com/stepcode/stepcode/tree/master/src/express/test/)
-    - tests for the express parser
+    - Tests for the express parser
 -   [sc/test/cpp/](http://github.com/stepcode/stepcode/tree/master/test/cpp/)
-    - tests written in c++; these can be built when ENABLE_TESTING is set to ON, but are excluded from 'make all'
+    - Tests written in c++; these can be built when SC_ENABLE_TESTING is set to ON, but are excluded from 'make all'
 -   [sc/src/test](http://github.com/stepcode/stepcode/tree/master/src/test)
-    - tests written by NIST; all are up-to-date, but [p21read](https://github.com/stepcode/stepcode/blob/master/src/test/p21read/p21read.cc#L138) is the most frequently used. See the README in sc/src/test for more.
+    - Tests written by NIST
+    - [P21read](/docs/p21read/)(also [here](https://github.com/stepcode/stepcode/blob/master/src/test/p21read/p21read.cc#L138)) is the most frequently used
+    - See the README in sc/src/test for more.
 -   TODO: Example using lazy loading code. For now, see [lazy_test.cc](http://github.com/stepcode/stepcode/blob/master/src/cllazyfile/lazy_test.cc) in the repo.
 
 ## C++ applications that are not in the GitHub repository
@@ -43,4 +45,4 @@ Laurent Bauer's [SCView](https://github.com/LaurentBauer/SCView/wiki)
 ## See also
 
 -   [Building STEPcode](/docs/building/)
--   [Testing](/docs/testing)
+-   [Testing](/docs/testing/)

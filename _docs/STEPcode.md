@@ -25,12 +25,8 @@ See also: [History](History.html), [List of external resources](List_of_external
 
 ### Quick Start
 
--   See the [basic usage](/docs/usage) page
+-   See the [basic usage](/docs/usage/) page
 
-### Communication
-
--   **[STEPcode mailing list](https://groups.google.com/forum/#!forum/scl-dev)** on google groups (new users are moderated to discourage spam)
--   **#stepcode** on freenode - use an IRC client or [your browser](http://webchat.freenode.net/?channels=stepcode). There is also a [log](http://ibot.rikers.org/%23stepcode/) thanks to Tim Rikers.
 
 STEP & Other Standards
 ----------------------
@@ -42,13 +38,13 @@ STEPcode can be used with the following standards because they reuse [Part 11](h
 -   AP203, AP214 and AP242 for CAD tested at the
     [CAX-IF](http://www.cax-if.org)
 -   [AP210](http://www.wikistep.org/index.php/Main_Page#AP210_specifics)
--   The Industry Foundation Classes (**IFC**),used for Building
-    Information Modeling (**BIM**)
+-   The Industry Foundation Classes (**IFC**),used for Building Information Modeling (**BIM**)
 -   ISO 15926, used in the Oil & Gas industry
 -   STEP-TAS, used in the thermal analysis of aerospace equipment
--   ISO 13584, *Industrial automation systems and integration - Parts
-    library*
+-   ISO 13584, *Industrial automation systems and integration - Parts library*
 -   [ISO 13399](http://en.wikipedia.org/wiki/ISO_13399)
+
+Some schemas are [included](/docs/included_schemas/) with STEPcode, but those are not the only ones that it will work with.
 
 # Community
 ---------
@@ -67,10 +63,8 @@ More pages:
 
 -   [Getting started](Getting_started.html)
 -   [Building STEPcode](Building_STEPcode.html)
--   [Description of the files and
-    directories](Files_and_directories.html)
--   [How to use STEPcode in an
-    application](How_to_use_STEPcode_in_an_application.html)
+-   [Description of the files and directories](Files_and_directories.html)
+-   [How to use STEPcode in an application](How_to_use_STEPcode_in_an_application.html)
 
 We use [Travis-CI](https://travis-ci.org/stepcode/stepcode) for testing. It automatically tests pull requests, and tests master when it changes. Originally, we used a [CDash dashboard](http://my.cdash.org/index.php?project=StepClassLibrary) to show the status of test runs. Test results are only visible for a month, and it was difficult to navigate.
 
@@ -78,5 +72,13 @@ Links
 -----
 
 -   [WikiSTEP](http://wikistep.org/) - wiki for the STEP standard
--   [STEP on
-    Wikipedia](http://en.wikipedia.org/w/index.php?title=ISO_10303)
+-   [STEP on Wikipedia](http://en.wikipedia.org/w/index.php?title=ISO_10303)
+
+
+# FIXME organize these
+
+[Other free STEP-related software](/docs/other_free_step/)
+
+[Minimal Part 21 C++ example](/docs/p21_cpp_example/)
+
+[P21Read](/docs/p21read/)

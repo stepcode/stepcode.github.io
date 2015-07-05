@@ -1,6 +1,6 @@
 ---
 layout: docs
-permalink: /docs/testing
+permalink: /docs/testing/
 title: Testing in STEPcode
 ---
 

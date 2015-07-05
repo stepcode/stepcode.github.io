@@ -20,7 +20,7 @@ Create a build dir inside the STEPcode dir. From there, run `cmake ..` or `cmake
 
 ## Use
 
-See [detailed usage](/docs/usage2/)
+See [examples](/docs/examples/)
 
 ## Explore
 

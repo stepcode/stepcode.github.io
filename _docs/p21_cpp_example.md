@@ -96,6 +96,6 @@ If you get stuck, consider examining the compile/link commands used for one of t
 `make VERBOSE=1 p21read_sdai_ap214e3`
 
 ## Related Pages
-
--   [How to use STEPcode in an application](How_to_use_STEPcode_in_an_application.html)
+- [Basic Use](/docs/usage/)
+- [Other examples](/docs/examples/)
 

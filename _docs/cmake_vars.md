@@ -4,8 +4,13 @@ title: CMake variables used by STEPcode
 permalink: /docs/cmake_vars/
 ---
 
-You can change these
---------------------
+
+### Contents
+
+* TOC
+{:toc}
+
+## Variables you can safely change
 
 ### SC_BUILD_SCHEMAS
 
@@ -46,15 +51,13 @@ You can change these
 -   Each executable will be linked to the same libs as p21read - this
     will **not** work with lazy loading.
 
-Variables exclusively for CTest
--------------------------------
+## Variables exclusively for CTest
 
 These won't do anything useful unless you're running tests.
 
 ### SC_ENABLE_COVERAGE
 
--   for code coverage tests; requires gcov/lcov -
-    <http://ltp.sourceforge.net/coverage/lcov.php>
+-   for code coverage tests; requires gcov/lcov - [Linux Test Project: LCOV](http://ltp.sourceforge.net/coverage/lcov.php)
 
 `ctest -S lcov.cmake`
 
@@ -66,11 +69,9 @@ These won't do anything useful unless you're running tests.
 `make
 make test`
 
--   also set by CTest - see [How to test with
-    CTest](How_to_test_with_CTest.html)
+-   also set by CTest - see [testing](/docs/testing/)
 
-You probably don't want to change these
----------------------------------------
+## Unlikely to be useful
 
 ### SC_ABI_SOVERSION
 
