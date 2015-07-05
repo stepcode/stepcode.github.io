@@ -19,17 +19,14 @@ STEPcode provides a cross-platform (Linux, OSX, **and** Windows) implementation 
 
 The [BSD license](http://github.com/stepcode/stepcode/blob/master/COPYING) allows commercial use. In addition, STEPcode is used in other open source projects such as [BRL-CAD](http://www.brl-cad.org) and [SCView](http://github.com/LaurentBauer/SCView).  
 
-STEPcode traces its roots to the NIST STEP Class Library (SCL) which was developed between ~1987 and 1998.
-
-See also: [History](History.html), [List of external resources](List_of_external_resources.html), [List of OSS or free STEP programs](List_of_OSS_or_free_STEP_programs.html)
+STEPcode traces its roots to the NIST STEP Class Library (SCL) which was developed between ~1987 and 1998. For more details: [History](History.html)
 
 ### Quick Start
 
 -   See the [basic usage](/docs/usage/) page
 
 
-STEP & Other Standards
-----------------------
+## STEP & Other Standards
 
 STEP can be used for neutral file exchange or as a basis for data sharing or archiving in areas such as drafting, mechanical and assembly design, electromechanical design, machine tool control, PLCS (product lifecycle support), systems engineering, computational fluid dynamics and finite element analysis. Parts of the STEP specification are reused in other standards, so STEPcode use is not limited to ISO 10303.
 
@@ -46,30 +43,28 @@ STEPcode can be used with the following standards because they reuse [Part 11](h
 
 Some schemas are [included](/docs/included_schemas/) with STEPcode, but those are not the only ones that it will work with.
 
-# Community
----------
+## Community
+
 
 The [scl-dev mailing list](http://groups.google.com/forum/?fromgroups#!forum/scl-dev) is hosted on google groups. In spite of the name, this is for both users and developers. The STEPcode project has evolved into a diverse open source community helping improve the accessibility, adoption, and long-term availability of STEP related technologies for CAx developers.
 
 #### [Projects](List_of_projects.html) and [tasks](List_of_tasks.html)
 
-# Code
---------
+## Code
 
 **The source code is on [GitHub](http://github.com/stepcode/stepcode)**
 
 More pages:
 ----
 
--   [Getting started](Getting_started.html)
--   [Building STEPcode](Building_STEPcode.html)
--   [Description of the files and directories](Files_and_directories.html)
--   [How to use STEPcode in an application](How_to_use_STEPcode_in_an_application.html)
+-   [Under the hood](/docs/files_dirs/)
+-   [Examples](/docs/examples/)
 
-We use [Travis-CI](https://travis-ci.org/stepcode/stepcode) for testing. It automatically tests pull requests, and tests master when it changes. Originally, we used a [CDash dashboard](http://my.cdash.org/index.php?project=StepClassLibrary) to show the status of test runs. Test results are only visible for a month, and it was difficult to navigate.
+We use [Travis-CI](https://travis-ci.org/stepcode/stepcode) and Appveyor for testing. Pull requests are automatically tested, as ismaster when it changes.
 
-Links
------
+Originally, we used a [CDash dashboard](http://my.cdash.org/index.php?project=StepClassLibrary) to show the status of test runs. Test results were only visible for a month, and it was difficult to navigate.
+
+## Links
 
 -   [WikiSTEP](http://wikistep.org/) - wiki for the STEP standard
 -   [STEP on Wikipedia](http://en.wikipedia.org/w/index.php?title=ISO_10303)
