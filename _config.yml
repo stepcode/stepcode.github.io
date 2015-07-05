@@ -1,3 +1,8 @@
 highlighter: pygments
 #url:              http://stepcode.org
-#url:              http://localhost:4000
+repository: https://github.com/stepcode/stepcode
+#help_url: https://github.com/jekyll/jekyll-help
+
+collections:
+  docs:
+    output: true

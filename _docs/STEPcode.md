@@ -1,9 +1,10 @@
 ---
-layout: front
-title: STEPcode &bull; Data Exchange with the technologies of ISO 10303
-overview: true
+layout: docs
+title: Welcome
+permalink: /docs/home/
 ---
 
+STEPcode &bull; Data Exchange with the technologies of ISO 10303
 
 # Welcome
 ----
