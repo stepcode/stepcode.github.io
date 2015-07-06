@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Getting Help
+title: Help
 ---
 
 Need help? Try these resources.

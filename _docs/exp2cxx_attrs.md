@@ -4,9 +4,7 @@ permalink: /docs/code/exp2cxx_attrs/
 title: Attributes in exp2cxx
 ---
 
-This comes from
-[classes_misc.c:709](https://github.com/stepcode/stepcode/blob/master/src/fedex_plus/classes_misc.c#L709).
-It should be formatted such that doxygen sees it.
+This comes from [classes_misc.c:709](https://github.com/stepcode/stepcode/blob/master/src/exp2cxx/classes_misc.c#L709), which is now in a different location due to exp2cxx refactoring. It should be formatted such that doxygen sees it.
 
 Attributes are divided into four categories: these are not exclusive as
 far as I can tell! I added defs below DAS

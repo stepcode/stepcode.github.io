@@ -4,12 +4,10 @@ title: Code Overview
 permalink: /docs/code/
 ---
 
-## TODO fill this out
+TODO what is included in STEPcode? describe. add more links, doxygen, etc
 
-doxygen
-files/folders
-build dir
 
+[Under the hood](/docs/under_hood/)
 
 [Developers: code analysis](/docs/code/dev_analysis/)
 

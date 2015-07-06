@@ -24,4 +24,4 @@ See [examples](/docs/examples/)
 
 ## Explore
 
-More details: [description of the files and directories](/docs/files_dirs/)
+You want to look under the hood? [Be our guest!](/docs/under_hood/)

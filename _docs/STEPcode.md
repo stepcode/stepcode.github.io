@@ -19,7 +19,7 @@ STEPcode provides a cross-platform (Linux, OSX, **and** Windows) implementation 
 
 The [BSD license](http://github.com/stepcode/stepcode/blob/master/COPYING) allows commercial use. In addition, STEPcode is used in other open source projects such as [BRL-CAD](http://www.brl-cad.org) and [SCView](http://github.com/LaurentBauer/SCView).  
 
-STEPcode traces its roots to the NIST STEP Class Library (SCL) which was developed between ~1987 and 1998. For more details: [History](History.html)
+STEPcode traces its roots to the NIST STEP Class Library (SCL) which was developed between ~1987 and 1998. For more details: [history](/docs/history/)
 
 ### Quick Start
 
@@ -43,21 +43,10 @@ STEPcode can be used with the following standards because they reuse [Part 11](h
 
 Some schemas are [included](/docs/included_schemas/) with STEPcode, but those are not the only ones that it will work with.
 
-## Community
 
+## More pages
 
-The [scl-dev mailing list](http://groups.google.com/forum/?fromgroups#!forum/scl-dev) is hosted on google groups. In spite of the name, this is for both users and developers. The STEPcode project has evolved into a diverse open source community helping improve the accessibility, adoption, and long-term availability of STEP related technologies for CAx developers.
-
-#### [Projects](List_of_projects.html) and [tasks](List_of_tasks.html)
-
-## Code
-
-**The source code is on [GitHub](http://github.com/stepcode/stepcode)**
-
-More pages:
-----
-
--   [Under the hood](/docs/files_dirs/)
+-   [Under the hood](/docs/under_hood/)
 -   [Examples](/docs/examples/)
 
 We use [Travis-CI](https://travis-ci.org/stepcode/stepcode) and Appveyor for testing. Pull requests are automatically tested, as ismaster when it changes.
