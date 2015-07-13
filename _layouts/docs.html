@@ -11,11 +11,16 @@ layout: default
         <article>
           <div class="improve right hide-on-mobiles">
             <!--
-            FIXME this produces bad URLs
-            have: https://github.com/stepcode/stepcode.github.io/edit/master//repo/_docs/usage.md
-            want: https://github.com/stepcode/stepcode.github.io/edit/master/_docs/usage.md
-            -->
+            NOTE raw 'page.path' produces bad URLs that match markdown path, not html path
+            {{ 'foofoo' | replace:'foo','bar' }} #=> 'barbar'
+            replace uses ruby's gsub, which accepts regex. however, regex is treated as a raw string when in ''
+            I can't figure out how to pass regex into replace. so, pipe through multiple replace's
+            {{ page.path |replace:'/usr/home/mpictor/jekyll/',''|replace: '/repo/',''}}<br>
+
+            original:
             <a href="https://github.com/stepcode/stepcode.github.io/edit/master/{{ page.path }}"><i class="fa fa-pencil"></i> &nbsp;Improve this page</a>
+            -->
+            <a href="https://github.com/stepcode/stepcode.github.io/edit/master/{{ page.path |replace:'/usr/home/mpictor/jekyll/',''|replace: '/repo/',''}}"><i class="fa fa-pencil"></i> &nbsp;Improve this page</a>
           </div>
           <h1>{{ page.title }}</h1>
           {{ content }}
