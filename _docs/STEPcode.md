@@ -17,7 +17,7 @@ STEPcode provides a cross-platform (Linux, OSX, **and** Windows) implementation 
 -   various utilities, test routines, and test schemas
 
 
-The [BSD license](http://github.com/stepcode/stepcode/blob/master/COPYING) allows commercial use. In addition, STEPcode is used in other open source projects such as [BRL-CAD](http://www.brl-cad.org) and [SCView](http://github.com/LaurentBauer/SCView).  
+The [BSD license](http://github.com/stepcode/stepcode/blob/master/COPYING) allows commercial use. In addition, STEPcode is used in other open source projects such as [BRL-CAD](http://www.brl-cad.org), [OpenVSP](http://www.openvsp.org/), and [SCView](http://github.com/LaurentBauer/SCView).  
 
 STEPcode traces its roots to the NIST STEP Class Library (SCL) which was developed between ~1987 and 1998. For more details: [history](/docs/history/)
 
