@@ -11,13 +11,6 @@ Based on [P21read](/docs/p21read/)
 {:toc}
 
 
-## Important Classes
-
--   [Registry](http://stepcode.org/doxygen/class_registry.html) (contains information about types present in the current schema)
--   [InstMgr](http://stepcode.org/doxygen/class_inst_mgr.html) (holds instances that have been created or that have been loaded from a file)
--   [STEPfile](http://stepcode.org/doxygen/class_s_t_e_pfile.html) (takes care of reading and writing Part 21 files, and creates an SDAI_Application_instance for every instance read)
--   [SDAI_Application_instance](http://stepcode.org/doxygen/class_s_d_a_i___application__instance.html) (the base class for every type of instance that STEP deals with)
-
 ## Code
 
 

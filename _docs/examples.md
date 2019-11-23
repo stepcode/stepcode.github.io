@@ -15,7 +15,6 @@ title: Examples
 ## C++ examples
 
 -   [Minimal Part 21 C++ example](/docs/p21_cpp_example/)
--   Doxygen documentation of [apps using STEPcode](http://stepcode.org/stepcode-use-doxygen/)
 -   [sc/src/express/test](https://github.com/stepcode/stepcode/tree/master/src/express/test/)
     - Tests for the express parser
 -   [sc/test/cpp/](http://github.com/stepcode/stepcode/tree/master/test/cpp/)
@@ -28,7 +27,7 @@ title: Examples
 
 ## C++ applications that are not in the GitHub repository
 
-The BRL-CAD [step-g](http://brlcad.svn.sourceforge.net/viewvc/brlcad/brlcad/trunk/src/conv/step/) converter, documented [here](http://stepcode.org/stepcode-use-doxygen/step-g_8cpp.html) (Note - currently, the BRL-CAD version of STEPcode differs slightly from the version on GitHub)
+The BRL-CAD [step-g](http://brlcad.svn.sourceforge.net/viewvc/brlcad/brlcad/trunk/src/conv/step/) converter (Note - currently, the BRL-CAD version of STEPcode differs slightly from the version on GitHub)
 
 Laurent Bauer's [SCView](https://github.com/LaurentBauer/SCView/wiki)
 

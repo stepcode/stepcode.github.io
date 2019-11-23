@@ -58,7 +58,7 @@ typedef struct Where_ * Where;
 ## Statement
 Union including [Alias](#alias), [Assignment](#assignment), [Case_Statement](#casestatement), [Compound_Statement](#compoundstatement), [Conditional](#conditional), [Loop](#loop), [Procedure_Call](#procedurecall), [Return_Statement](#returnstatement)
 
-Doxygen: [Statement](http://stepcode.org/doxygen/struct_statement__.html)
+Doxygen:
 
 {% highlight C %}
 /* these should probably all be expression types */
@@ -158,7 +158,7 @@ struct Return_Statement_ {
 ## Scope
 Union including [Procedure](#procedure), [Function](#function), [Rule](#rule), [Entity](#entity), [Schema](#schema), [Express](#express), [Increment](#increment), [Type](#type)
 
-Doxygen: [Scope](http://stepcode.org/doxygen/struct_scope__.html)
+Doxygen:
 
 {% highlight C %}
 struct Scope_ {
