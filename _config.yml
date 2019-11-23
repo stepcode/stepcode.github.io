@@ -1,4 +1,4 @@
-highlighter: pygments
+highlighter: rouge
 markdown: kramdown
 #url:              http://stepcode.org
 repository: https://github.com/stepcode/stepcode
